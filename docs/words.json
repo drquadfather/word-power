@@ -1,5 +1,5 @@
 {
-  "count": 34,
+  "count": 42,
   "words": [
     {
       "id": "celerity",
@@ -89,6 +89,34 @@
       "added": "2026-08-23"
     },
     {
+      "id": "amerce",
+      "word": "amerce",
+      "title": "Amerce",
+      "partOfSpeech": "verb",
+      "pronunciation": "(uh-MURS)",
+      "definition": "To punish with a fine set at the court's discretion.",
+      "etymology": "From Middle English **amercien**, from Anglo-Norman French *amercier* (to fine), from the phrase *estre a merci* — \"to be at the mercy\" of another. The name is the whole mechanism: an amercement had no fixed tariff, so the offender stood at the mercy of the court for the sum. First documented use: 14th century. The noun is *amercement*; the adjective, *amerciable*.",
+      "example": "A villager caught poaching could be **amerced** at whatever sum the lord's court thought fitting.",
+      "synonyms": [
+        "fine",
+        "penalize",
+        "mulct"
+      ],
+      "antonyms": [
+        "acquit",
+        "absolve"
+      ],
+      "memoryHook": "*A merci* = \"at the mercy.\" To be **amerced** is to be fined whatever the court's mercy decides — the same *merci* as the French for thank you, and as *mercy* itself.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "french-origin",
+        "law"
+      ],
+      "added": "2026-08-23"
+    },
+    {
       "id": "avuncular",
       "word": "avuncular",
       "title": "Avuncular",
@@ -136,7 +164,35 @@
       ],
       "memoryHook": "*Bombus* = the Latin for a buzz, and the genus of bumblebees → to **bombinate** is to buzz like a bee.",
       "related": [
-        "(none in folder)"
+        "cachinnate — another Latin verb built from the sound it names"
+      ],
+      "tags": [
+        "latin-origin",
+        "sound"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "cachinnate",
+      "word": "cachinnate",
+      "title": "Cachinnate",
+      "partOfSpeech": "verb",
+      "pronunciation": "(KAK-uh-nayt)",
+      "definition": "To laugh loudly or immoderately.",
+      "etymology": "From Latin **cachinnare** (to laugh loudly), of imitative origin — the word *is* the sound of the laugh. First documented use: 1824. Old English, Old High German, and Greek each coined their own imitative words for boisterous laughter; *giggle* and *guffaw* were made the same way, from different roots.",
+      "example": "He **cachinnated** at his own punchline until the rest of the table went quiet.",
+      "synonyms": [
+        "guffaw",
+        "roar",
+        "cackle",
+        "chortle"
+      ],
+      "antonyms": [
+        "(none natural)"
+      ],
+      "memoryHook": "Latin *cachinnare* is onomatopoeia — *kah-kah-kah*, the laugh itself. Same trick as **bombinate**, where *bombus* is the buzz.",
+      "related": [
+        "Bombinate — another Latin verb built from the sound it names"
       ],
       "tags": [
         "latin-origin",
@@ -192,7 +248,7 @@
       ],
       "memoryHook": "**Cumber** (to burden) + **world** → someone who only encumbers the world.",
       "related": [
-        "(none in folder)"
+        "nous — the practical sense a cumberworld conspicuously lacks"
       ],
       "tags": [
         "english-origin",
@@ -342,6 +398,38 @@
       "added": "2026-08-23"
     },
     {
+      "id": "fabulist",
+      "word": "fabulist",
+      "title": "Fabulist",
+      "partOfSpeech": "noun",
+      "pronunciation": "(FAB-yuh-list)",
+      "definition": "A creator or writer of fables; a liar.",
+      "etymology": "From Middle French **fabuliste**, from Latin *fabula* (a story, a tale), from *fari* (to speak) — the same root behind *fable*, *fabulous*, and *infant* (one not yet speaking). First documented use: 1593. The slide from sense 1 to sense 2 is the whole word: a fable is a story that never happened, so the teller of fables became the teller of untruths.",
+      "example": "Half the anecdotes in the memoir turned out to be invented, and the reviewers began calling him a **fabulist**.",
+      "synonyms": [
+        "storyteller",
+        "fabler",
+        "liar",
+        "confabulator"
+      ],
+      "antonyms": [
+        "truth-teller",
+        "historian"
+      ],
+      "memoryHook": "A **fabulist** writes *fables* — and a fable is a story that isn't true, which is exactly how the same word came to mean *liar*.",
+      "related": [
+        "nefandous — from the same Latin root *fari* (to speak)",
+        "veracious — the truthfulness a fabulist lacks",
+        "indite — another word for the act of composing",
+        "mendacious — the adjective for what a fabulist does in sense 2"
+      ],
+      "tags": [
+        "french-origin",
+        "writing"
+      ],
+      "added": "2026-08-23"
+    },
+    {
       "id": "frowze",
       "word": "frowze",
       "title": "Frowze",
@@ -477,11 +565,42 @@
       ],
       "memoryHook": "To **indite** is to \"dictate\" words onto the page; its twin *indict* splits off into the courtroom (to accuse), while *indite* stays at the writing desk.",
       "related": [
-        "(none in folder)"
+        "fabulist — one who composes fables",
+        "verso — the page the writing lands on"
       ],
       "tags": [
         "latin-origin",
         "writing"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "lachrymose",
+      "word": "lachrymose",
+      "title": "Lachrymose",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(LAK-ruh-mohs)",
+      "definition": "Tearful or given to weeping; inducing tears, mournful.",
+      "etymology": "From Latin **lacrimosus** (tearful), from *lacrima* (a tear) — the same root as the *lachrymal* glands that produce them. First documented use: 1727, though Oxford dates an earlier sense, \"like tears; liable to exude in drops,\" to the mid-17th century. The *ch* is a later Latinate flourish; the Latin has no *h* in it.",
+      "example": "The last twenty minutes turn **lachrymose** in a way the rest of the film has earned no right to be.",
+      "synonyms": [
+        "tearful",
+        "weepy",
+        "mournful",
+        "maudlin"
+      ],
+      "antonyms": [
+        "cheerful",
+        "mirthful",
+        "stoic"
+      ],
+      "memoryHook": "*Lacrima* = tear → **lachrymose** = full of tears, and the *lachrymal* glands are where they come from.",
+      "related": [
+        "melpomenish — tragedy, the thing that makes an audience lachrymose"
+      ],
+      "tags": [
+        "latin-origin",
+        "emotion"
       ],
       "added": "2026-08-23"
     },
@@ -505,11 +624,44 @@
       ],
       "memoryHook": "Melpomene is the **tragedy** muse; her sister Thalia is comedy → **melpomenish** = tragic.",
       "related": [
-        "Penelopean — another word from Greek mythology"
+        "Penelopean — another word from Greek mythology",
+        "lachrymose — the tears tragedy is meant to draw"
       ],
       "tags": [
         "greek-origin",
         "art"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "mendacious",
+      "word": "mendacious",
+      "title": "Mendacious",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(men-DAY-shuhs)",
+      "definition": "Not telling the truth; lying, especially as a habit.",
+      "etymology": "From Latin **mendax** (*mendac-*, lying), from *menda* (a fault, a defect). First documented use: 1616. The same *mend-* root gives *amend* and *emend* — literally to take the fault out. Latin *mendax* was later coloured by *mentiri* (to speak falsely), which pulled it from \"defective\" toward \"deceitful.\" Compared with *lying*, **mendacious** is the formal, literary word, and describes a character trait more than an act.",
+      "example": "The report was not merely mistaken but **mendacious** — the numbers had been chosen, not found.",
+      "synonyms": [
+        "lying",
+        "untruthful",
+        "deceitful",
+        "dishonest"
+      ],
+      "antonyms": [
+        "veracious",
+        "truthful",
+        "honest"
+      ],
+      "memoryHook": "Latin *menda* = a fault → a **mendacious** account has the fault built in on purpose. Its cousin *amend* takes the fault back out.",
+      "related": [
+        "veracious — the direct opposite, from *verus* (true)",
+        "fabulist — a teller of fables, in the pejorative sense",
+        "perfidious — deceit aimed at betraying trust"
+      ],
+      "tags": [
+        "latin-origin",
+        "truth"
       ],
       "added": "2026-08-23"
     },
@@ -621,11 +773,41 @@
       "memoryHook": "*Ne-* (not) + *fandus* (to be spoken) → **nefandous** = not to be spoken of, unutterably evil.",
       "related": [
         "Perfidious — another word for moral evil",
-        "Turpitude — a noun for depravity"
+        "Turpitude — a noun for depravity",
+        "fabulist — from the same Latin root *fari* (to speak)"
       ],
       "tags": [
         "latin-origin",
         "morality"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "nous",
+      "word": "nous",
+      "title": "Nous",
+      "partOfSpeech": "noun",
+      "pronunciation": "(NOWS)",
+      "definition": "Common sense; practical intelligence. In philosophy, the mind or intellect.",
+      "etymology": "From Greek **nous** (*noos*) — mind, intelligence, intuitive apprehension. First documented use: 1678. It arrived in English as a technical term of philosophy and only later picked up the informal British sense of street-level practical wit, which is now the commoner of the two. Britons rhyme it with *house*; Americans often say *NOOS*.",
+      "example": "She had every credential on paper and not enough **nous** to see the deal was collapsing under her.",
+      "synonyms": [
+        "gumption",
+        "savvy",
+        "acumen",
+        "common sense"
+      ],
+      "antonyms": [
+        "foolishness",
+        "obtuseness"
+      ],
+      "memoryHook": "Greek *nous* = mind. Someone who \"hasn't got the **nous**\" for a job hasn't got the *mind* for it.",
+      "related": [
+        "cumberworld — a useless person is precisely one with no nous"
+      ],
+      "tags": [
+        "greek-origin",
+        "intellect"
       ],
       "added": "2026-08-23"
     },
@@ -681,7 +863,8 @@
       "memoryHook": "*Per-* (through/beyond) + *fides* (faith) → one who has gone **past** faith is **perfidious**.",
       "related": [
         "nefandous — another word for moral evil",
-        "Turpitude — a noun for depravity"
+        "Turpitude — a noun for depravity",
+        "mendacious — habitual lying, a quieter cousin of treachery"
       ],
       "tags": [
         "latin-origin",
@@ -708,7 +891,7 @@
       ],
       "memoryHook": "*Pluvia* is Latin for rain → **pluvial** = rainy. Picture \"pluie,\" French for rain.",
       "related": [
-        "(none in folder)"
+        "rupestrian — another Latin adjective for the physical landscape"
       ],
       "tags": [
         "latin-origin",
@@ -742,6 +925,35 @@
       "tags": [
         "latin-origin",
         "relation"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "rupestrian",
+      "word": "rupestrian",
+      "title": "Rupestrian",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(roo-PES-tree-uhn)",
+      "definition": "Composed of rock; inscribed or painted on rocks.",
+      "etymology": "From New Latin **rupestris** (of rock), from Latin *rupes* (rock, cliff) + *-estris*, the ending seen in *terrestris* (of the earth). *Rupes* traces back to *rumpere* (to break) — a cliff is the earth broken open. First documented use: 1809. The variant *rupestral* means the same thing.",
+      "example": "The canyon walls held **rupestrian** figures painted centuries before anyone farmed the valley.",
+      "synonyms": [
+        "rupestral",
+        "rocky",
+        "lithic",
+        "petroglyphic"
+      ],
+      "antonyms": [
+        "alluvial",
+        "sedimentary"
+      ],
+      "memoryHook": "Latin *rupes* (rock) wearing the *-estrian* ending of **equestrian** and **pedestrian** → **rupestrian** = of the rock.",
+      "related": [
+        "pluvial — another Latin adjective for the physical landscape"
+      ],
+      "tags": [
+        "latin-origin",
+        "nature"
       ],
       "added": "2026-08-23"
     },
@@ -884,7 +1096,9 @@
       ],
       "memoryHook": "*Verus* = true in Latin → **veracious** = truthful. Compare its sibling **verity**.",
       "related": [
-        "verity — the noun form of the same root"
+        "verity — the noun form of the same root",
+        "fabulist — a teller of fables; in its second sense, the opposite",
+        "mendacious — the direct opposite, already listed in its antonyms"
       ],
       "tags": [
         "latin-origin",
@@ -917,6 +1131,34 @@
       "tags": [
         "latin-origin",
         "truth"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "verso",
+      "word": "verso",
+      "title": "Verso",
+      "partOfSpeech": "noun",
+      "pronunciation": "(VUR-soh)",
+      "definition": "The side of a leaf that is to be read second; a left-hand page.",
+      "etymology": "From New Latin **verso** (*folio*), \"the leaf having been turned\" — the ablative of *versus*, past participle of Latin *vertere* (to turn). The same root gives *reverse*, *invert*, *divert*, and *vertigo*. Its counterpart is *recto*, the right-hand page, from *recto folio*, \"the leaf being straight.\" First documented use: 1839.",
+      "example": "The illustration ran across the **verso**, leaving the recto free for the text.",
+      "synonyms": [
+        "reverse",
+        "back",
+        "left-hand page"
+      ],
+      "antonyms": [
+        "recto",
+        "obverse"
+      ],
+      "memoryHook": "*Verso folio* = \"the leaf having been turned.\" Same *vertere* as *reverse* — turn the page and you land on the **verso**.",
+      "related": [
+        "indite — another word from the writer's desk"
+      ],
+      "tags": [
+        "latin-origin",
+        "writing"
       ],
       "added": "2026-08-23"
     },
