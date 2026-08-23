@@ -1,0 +1,981 @@
+{
+  "generated": "2026-08-23T15:42:24.586Z",
+  "count": 34,
+  "words": [
+    {
+      "id": "celerity",
+      "word": "celerity",
+      "title": "Celerity",
+      "partOfSpeech": "noun",
+      "pronunciation": "(suh-LER-i-tee)",
+      "definition": "Swiftness of movement; rapidity of action or motion.",
+      "etymology": "From Latin **celeritas** (swiftness), from *celer* (swift, quick). Entered English in the late 15th century. The adjective form *celeritous* is rare; the more common relative is *accelerate* — both trace to the same root *celer*.",
+      "example": "The board was urged to proceed with **celerity** on the matter rather than letting it drag on.",
+      "synonyms": [
+        "swiftness",
+        "speed",
+        "rapidity",
+        "alacrity",
+        "haste"
+      ],
+      "antonyms": [
+        "slowness",
+        "sluggishness",
+        "tardiness",
+        "lethargy"
+      ],
+      "memoryHook": "**Celerity** shares its Latin root with **accelerate** — so anything moving with celerity is accelerating. The \"celer\" in both words is the same *swift*.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "latin-origin",
+        "motion"
+      ],
+      "added": "2026-08-21"
+    },
+    {
+      "id": "alician",
+      "word": "alician",
+      "title": "Alician",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(uh-LISH-uhn)",
+      "definition": "Surreal, whimsical, or illogical.",
+      "etymology": "From **Alice**, heroine of Lewis Carroll's *Alice's Adventures in Wonderland* (1865) and *Through the Looking-Glass* (1871).",
+      "example": "The meeting took an **Alician** turn when the agenda stopped making sense entirely.",
+      "synonyms": [
+        "surreal",
+        "whimsical",
+        "absurd",
+        "dreamlike"
+      ],
+      "antonyms": [
+        "logical",
+        "sensible",
+        "mundane"
+      ],
+      "memoryHook": "**Alician** = like falling down the rabbit hole — rules keep shifting.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "english-origin",
+        "surreal"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "allopatric",
+      "word": "allopatric",
+      "title": "Allopatric",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(al-uh-PAT-rik)",
+      "definition": "Existing or occurring in geographically distinct areas.",
+      "etymology": "From **allo-** (other) + Greek *patra* (fatherland); coined in the context of speciation biology.",
+      "example": "**Allopatric** species evolve in isolation, each adapting to its own corner of the map.",
+      "synonyms": [
+        "geographically separated"
+      ],
+      "antonyms": [
+        "sympatric"
+      ],
+      "memoryHook": "*Allo-* (other) + *patra* (fatherland) → **allopatric** = dwelling in a different land.",
+      "related": [
+        "Furcate — both terms about natural division and branching"
+      ],
+      "tags": [
+        "greek-origin",
+        "biology"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "avuncular",
+      "word": "avuncular",
+      "title": "Avuncular",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(uh-VUNG-kyuh-luhr)",
+      "definition": "Kind, friendly, and helpful, like an uncle, in a benevolent or indulgent way.",
+      "etymology": "From Latin **avunculus** (maternal uncle), diminutive of *avus* (grandfather).",
+      "example": "The old foreman had an **avuncular** manner, gruff but quick to look out for the new hires.",
+      "synonyms": [
+        "uncle-like",
+        "paternal",
+        "benevolent",
+        "kindly"
+      ],
+      "antonyms": [
+        "stern",
+        "distant"
+      ],
+      "memoryHook": "*Avunculus* = maternal uncle → **avuncular** = uncle-like warmth and good humor.",
+      "related": [
+        "Propinquity — another kinship-flavored word"
+      ],
+      "tags": [
+        "latin-origin",
+        "relation"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "bombinate",
+      "word": "bombinate",
+      "title": "Bombinate",
+      "partOfSpeech": "verb",
+      "pronunciation": "(BOM-buh-nayt)",
+      "definition": "To buzz; to hum.",
+      "etymology": "From Latin **bombinare** / *bombilare* (to buzz), from *bombus* (a humming, buzzing).",
+      "example": "Her head had become a **bombinating** vacuum after hours of close reading.",
+      "synonyms": [
+        "buzz",
+        "hum",
+        "drone"
+      ],
+      "antonyms": [
+        "(none natural)"
+      ],
+      "memoryHook": "*Bombus* = the Latin for a buzz, and the genus of bumblebees → to **bombinate** is to buzz like a bee.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "latin-origin",
+        "sound"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "commensurate",
+      "word": "commensurate",
+      "title": "Commensurate",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(kuh-MEN-suh-ruht)",
+      "definition": "Corresponding in size or degree; in proportion.",
+      "etymology": "From Late Latin **commensuratus**, from *com-* (with) + *mensura* (measure).",
+      "example": "Your salary should be **commensurate** with the weight of the responsibility you carry.",
+      "synonyms": [
+        "proportional",
+        "corresponding",
+        "equivalent"
+      ],
+      "antonyms": [
+        "disproportionate",
+        "unequal"
+      ],
+      "memoryHook": "*Com-* (together) + *mensura* (measure) → things **commensurate** are measured on the same scale.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "latin-origin",
+        "measure"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "cumberworld",
+      "word": "cumberworld",
+      "title": "Cumberworld",
+      "partOfSpeech": "noun",
+      "pronunciation": "(KUHM-buhr-wurld)",
+      "definition": "A useless person.",
+      "etymology": "From **cumber** (to burden, hinder) + *world*. Middle English.",
+      "example": "The old proverb called an idle dependent a **cumberworld** — a burden nobody wanted.",
+      "synonyms": [
+        "good-for-nothing",
+        "ne'er-do-well",
+        "encumbrance"
+      ],
+      "antonyms": [
+        "asset",
+        "workhorse"
+      ],
+      "memoryHook": "**Cumber** (to burden) + **world** → someone who only encumbers the world.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "english-origin",
+        "person"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "desistance",
+      "word": "desistance",
+      "title": "Desistance",
+      "partOfSpeech": "noun",
+      "pronunciation": "(di-SIS-tuhns)",
+      "definition": "The act of ceasing a behavior, particularly one considered harmful or unwanted.",
+      "etymology": "From Old French **desister**, from Latin *desistere* (to leave off), from *de-* + *sistere* (to stand).",
+      "example": "Studies of criminal **desistance** show that stable work often predicts a drop in offending.",
+      "synonyms": [
+        "cessation",
+        "stopping",
+        "abstention"
+      ],
+      "antonyms": [
+        "persistence",
+        "continuation"
+      ],
+      "memoryHook": "*De-* (down/away) + *sistere* (to stand) → to stop standing there; **desistance** = the act of stopping.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "latin-origin",
+        "behavior"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "diachronic",
+      "word": "diachronic",
+      "title": "Diachronic",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(dy-uh-KRON-ik)",
+      "definition": "Relating to changes occurring over time.",
+      "etymology": "From French **diachronique**, from *dia-* (across) + Greek *khronos* (time).",
+      "example": "A **diachronic** study of the language traces how its grammar shifted across centuries.",
+      "synonyms": [
+        "historical",
+        "longitudinal",
+        "temporal"
+      ],
+      "antonyms": [
+        "synchronic"
+      ],
+      "memoryHook": "*Dia-* (across) + *chronos* (time) → **diachronic** = across time. The opposite, *synchronic*, is at one point in time.",
+      "related": [
+        "senescent — change over time applied to aging"
+      ],
+      "tags": [
+        "greek-origin",
+        "time"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "disject",
+      "word": "disject",
+      "title": "Disject",
+      "partOfSpeech": "verb",
+      "pronunciation": "(dis-JEKT)",
+      "definition": "To scatter or disperse.",
+      "etymology": "From Latin **disjicere** (to scatter), from *dis-* (apart) + *jacere* (to throw). First documented use: 1581.",
+      "example": "Can a storm ever be calmer than the stillness it **disjects**?",
+      "synonyms": [
+        "scatter",
+        "disperse",
+        "dissipate"
+      ],
+      "antonyms": [
+        "gather",
+        "collect",
+        "assemble"
+      ],
+      "memoryHook": "*Dis-* (apart) + *jacere* (throw) → **disject** = throw apart, scatter.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "latin-origin",
+        "action"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "eclat",
+      "word": "eclat",
+      "title": "Éclat",
+      "partOfSpeech": "noun",
+      "pronunciation": "(ay-KLAH)",
+      "definition": "Enthusiastic approval; a strikingly brilliant display; notable success.",
+      "etymology": "From French **éclat** (splinter, brilliance), from *éclater* (to burst out) — the same root that gave us *slat* and *eclair*. First documented use: 1676.",
+      "example": "The journal published the hoax with great **éclat**, only to retract it in embarrassment.",
+      "synonyms": [
+        "brilliance",
+        "splendor",
+        "acclaim",
+        "renown"
+      ],
+      "antonyms": [
+        "ignominy",
+        "obscurity"
+      ],
+      "memoryHook": "*Éclat* literally \"splinters\" like light off a jewel — brilliance that shatters attention.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "french-origin",
+        "achievement"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "empyrean",
+      "word": "empyrean",
+      "title": "Empyrean",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(em-py-REE-uhn)",
+      "definition": "Relating to heaven or the sky; the highest heaven.",
+      "etymology": "From Greek **empyros** (in fire), from *en* (in) + *pyr* (fire). In medieval cosmology the empyrean was the highest heaven of pure fire and light.",
+      "example": "The **empyrean** domain where human will and God's will became as one.",
+      "synonyms": [
+        "heavenly",
+        "celestial",
+        "ethereal"
+      ],
+      "antonyms": [
+        "hellish",
+        "earthly"
+      ],
+      "memoryHook": "*Pyro* = fire in Greek → **empyrean** = \"in fire,\" the blazing highest heaven.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "greek-origin",
+        "religion"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "frowze",
+      "word": "frowze",
+      "title": "Frowze",
+      "partOfSpeech": "verb / noun",
+      "pronunciation": "(frowz)",
+      "definition": "To make untidy, tangled, or ruffled; a wig of frizzed hair.",
+      "etymology": "Origin unknown. First documented use: 1563.",
+      "example": "The wind **frowzed** her hair into a halo of tangles before the interview.",
+      "synonyms": [
+        "tousle",
+        "dishevel",
+        "ruffle"
+      ],
+      "antonyms": [
+        "smooth",
+        "neaten"
+      ],
+      "memoryHook": "Sounds like \"frowsy\" (unkempt) → **frowze** = to make frowsy.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "unknown-origin",
+        "appearance"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "furcate",
+      "word": "furcate",
+      "title": "Furcate",
+      "partOfSpeech": "verb / adjective",
+      "pronunciation": "(FUR-kayt)",
+      "definition": "To divide into two or more branches; forked.",
+      "etymology": "From Late Latin **furcatus** (forked), from *furca* (fork).",
+      "example": "The river **furcates** around the island before rejoining downstream.",
+      "synonyms": [
+        "branch",
+        "fork",
+        "bifurcate"
+      ],
+      "antonyms": [
+        "converge",
+        "merge",
+        "unite"
+      ],
+      "memoryHook": "A *furca* is a pitchfork → to **furcate** is to split like a fork's tines.",
+      "related": [
+        "Allopatric — both terms for geographic/natural division"
+      ],
+      "tags": [
+        "latin-origin",
+        "nature"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "imbroglio",
+      "word": "imbroglio",
+      "title": "Imbroglio",
+      "partOfSpeech": "noun",
+      "pronunciation": "(im-BROHL-yo)",
+      "definition": "A difficult, confusing, or embarrassing situation; a confused heap or tangle.",
+      "etymology": "From Italian **imbroglio** (confusion), from *imbrogliare* (to tangle), from *in-* + *broglio* (tangle).",
+      "example": "The contract dispute turned into a legal **imbroglio** no one could untangle.",
+      "synonyms": [
+        "mess",
+        "tangle",
+        "predicament",
+        "entanglement"
+      ],
+      "antonyms": [
+        "order",
+        "clarity"
+      ],
+      "memoryHook": "Italian for \"tangle\" — an **imbroglio** is a knot of complications.",
+      "related": [
+        "Welter — another word for a confused mass"
+      ],
+      "tags": [
+        "italian-origin",
+        "chaos"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "indefatigable",
+      "word": "indefatigable",
+      "title": "Indefatigable",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(in-di-FAT-i-guh-buhl)",
+      "definition": "Incapable of being tired out; persistently energetic and tireless.",
+      "etymology": "From Latin **indefatigabilis**, from *in-* (not) + *defatigare* (to tire out).",
+      "example": "She was an **indefatigable** advocate, still making calls at midnight long after others had quit.",
+      "synonyms": [
+        "tireless",
+        "untiring",
+        "relentless",
+        "energetic"
+      ],
+      "antonyms": [
+        "tired",
+        "weary",
+        "listless"
+      ],
+      "memoryHook": "*In-* (not) + *defatigare* (to tire) → **indefatigable** = cannot be fatigued.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "latin-origin",
+        "energy"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "indite",
+      "word": "indite",
+      "title": "Indite",
+      "partOfSpeech": "verb",
+      "pronunciation": "(in-DYTE)",
+      "definition": "To compose or write; to put down in writing; to give literary or formal expression to.",
+      "etymology": "From Latin **indictare** (to proclaim), from *indicere* (to proclaim, declare). An etymological cognate of *indict*: both share the Latin root, but *indict* shifted meaning via Anglo-French legal usage to \"to formally accuse or charge with a crime,\" while *indite* kept the original sense of writing and composing.",
+      "example": "The lawyer was asked to **indite** a formal response to the complaint.",
+      "synonyms": [
+        "compose",
+        "pen",
+        "write",
+        "draft"
+      ],
+      "antonyms": [
+        "(none natural)"
+      ],
+      "memoryHook": "To **indite** is to \"dictate\" words onto the page; its twin *indict* splits off into the courtroom (to accuse), while *indite* stays at the writing desk.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "latin-origin",
+        "writing"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "melpomenish",
+      "word": "melpomenish",
+      "title": "Melpomenish",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(mel-POM-uh-nish)",
+      "definition": "Tragic; related to tragedy.",
+      "etymology": "From **Melpomene**, the Greek muse of tragedy.",
+      "example": "The third act had a **melpomenish** weight that left the audience silent.",
+      "synonyms": [
+        "tragic",
+        "mournful",
+        "sorrowful"
+      ],
+      "antonyms": [
+        "comic",
+        "joyful"
+      ],
+      "memoryHook": "Melpomene is the **tragedy** muse; her sister Thalia is comedy → **melpomenish** = tragic.",
+      "related": [
+        "Penelopean — another word from Greek mythology"
+      ],
+      "tags": [
+        "greek-origin",
+        "art"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "mimetic",
+      "word": "mimetic",
+      "title": "Mimetic",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(mi-MET-ik)",
+      "definition": "Copying the behavior, appearance, or characteristics of others.",
+      "etymology": "From Greek **mimetikos** (imitation), from *mimesis*, from *mimeisthai* (to imitate). First documented use: 1632.",
+      "example": "Fashion is a **mimetic** loop — designers copy each other and the public copies them.",
+      "synonyms": [
+        "imitative",
+        "imitating",
+        "emulative"
+      ],
+      "antonyms": [
+        "original",
+        "inventive"
+      ],
+      "memoryHook": "Think *mime* — a performer who copies — plus the -*etic* suffix → **mimetic** = mime-like imitation.",
+      "related": [
+        "zugunruhe — another word about inherited behavior"
+      ],
+      "tags": [
+        "greek-origin",
+        "behavior"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "minacious",
+      "word": "minacious",
+      "title": "Minacious",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(mi-NAY-shuhs)",
+      "definition": "Threatening or menacing.",
+      "etymology": "From Latin **minari** (to threaten), from *minae* (threats) — ultimately from the Indo-European root *men-* (project), also the source of *menace*, *mountain*, *eminent*, *promenade*, *demean*, *amenable*, and *mouth*. First documented use: 1660. A synonym is *minatory*.",
+      "example": "The gathering clouds had a **minacious** look that hurried the farmers inside.",
+      "synonyms": [
+        "menacing",
+        "threatening",
+        "ominous",
+        "minatory"
+      ],
+      "antonyms": [
+        "reassuring",
+        "benign"
+      ],
+      "memoryHook": "*Minae* = threats in Latin → **minacious** = threat-heavy. Same root as *menace* and *mountain*.",
+      "related": [
+        "Timorous — the fearful response to a threat"
+      ],
+      "tags": [
+        "latin-origin",
+        "threat"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "multifarious",
+      "word": "multifarious",
+      "title": "Multifarious",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(mul-tuh-FAIR-ee-uhs)",
+      "definition": "Many and of various types; having many varied parts or aspects.",
+      "etymology": "From Latin **multifarius** (manyfold), from *multus* (many) + *-farius*.",
+      "example": "The committee's **multifarious** activities made a single report impossible to write.",
+      "synonyms": [
+        "varied",
+        "diverse",
+        "numerous",
+        "manifold"
+      ],
+      "antonyms": [
+        "uniform",
+        "singular"
+      ],
+      "memoryHook": "*Multi-* (many) + *farious* (fold) → **multifarious** = many-fold, many kinds.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "latin-origin",
+        "diversity"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "nefandous",
+      "word": "nefandous",
+      "title": "Nefandous",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(nuh-FAN-duhs)",
+      "definition": "So wicked as to defy description; abominable, appalling.",
+      "etymology": "From Latin **nefandus** (wicked), from *ne-* (not) + *fandus* (to be spoken), the gerundive of *fari* (to speak). First documented use: 1649.",
+      "example": "The historian called the massacre **nefandous** — a crime too foul for words.",
+      "synonyms": [
+        "abominable",
+        "appalling",
+        "atrocious",
+        "unspeakable"
+      ],
+      "antonyms": [
+        "honorable",
+        "virtuous"
+      ],
+      "memoryHook": "*Ne-* (not) + *fandus* (to be spoken) → **nefandous** = not to be spoken of, unutterably evil.",
+      "related": [
+        "Perfidious — another word for moral evil",
+        "Turpitude — a noun for depravity"
+      ],
+      "tags": [
+        "latin-origin",
+        "morality"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "penelopean",
+      "word": "penelopean",
+      "title": "Penelopean",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(puh-nel-uh-PEE-uhn)",
+      "definition": "Involving repetitive or cyclical efforts, often with little apparent progress; steadfast loyalty and resilience.",
+      "etymology": "From **Penelope**, Odysseus's wife, who held off suitors by weaving a shroud each day and secretly unraveling it each night.",
+      "example": "Rehab felt **Penelopean** — every gain seemed undone by morning, yet she kept at it.",
+      "synonyms": [
+        "Sisyphean",
+        "cyclical",
+        "steadfast",
+        "loyal"
+      ],
+      "antonyms": [
+        "desultory",
+        "faithless"
+      ],
+      "memoryHook": "Penelope **weaves by day and unravels by night** → work that resets, plus the loyalty to keep going.",
+      "related": [
+        "melpomenish — another word from Greek mythology"
+      ],
+      "tags": [
+        "greek-origin",
+        "behavior"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "perfidious",
+      "word": "perfidious",
+      "title": "Perfidious",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(puhr-FID-ee-uhs)",
+      "definition": "Treacherous; deceitful; betraying trust.",
+      "etymology": "From Latin **perfidus** (treacherous), from *per-* (beyond) + *fidus* (faith). First documented use: 1538.",
+      "example": "A **perfidious** ally smiled to your face and sold your plans by night.",
+      "synonyms": [
+        "treacherous",
+        "deceitful",
+        "faithless",
+        "traitorous"
+      ],
+      "antonyms": [
+        "loyal",
+        "faithful",
+        "trustworthy"
+      ],
+      "memoryHook": "*Per-* (through/beyond) + *fides* (faith) → one who has gone **past** faith is **perfidious**.",
+      "related": [
+        "nefandous — another word for moral evil",
+        "Turpitude — a noun for depravity"
+      ],
+      "tags": [
+        "latin-origin",
+        "morality"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "pluvial",
+      "word": "pluvial",
+      "title": "Pluvial",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(PLOO-vee-uhl)",
+      "definition": "Relating to or characterized by rainfall.",
+      "etymology": "From Latin **pluvialis**, from *pluvia* (rain).",
+      "example": "The alternation of **pluvial** and arid periods shaped the region's ancient climate.",
+      "synonyms": [
+        "rainy",
+        "wet"
+      ],
+      "antonyms": [
+        "arid",
+        "dry"
+      ],
+      "memoryHook": "*Pluvia* is Latin for rain → **pluvial** = rainy. Picture \"pluie,\" French for rain.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "latin-origin",
+        "weather"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "propinquity",
+      "word": "propinquity",
+      "title": "Propinquity",
+      "partOfSpeech": "noun",
+      "pronunciation": "(pruh-PIN-kwuh-tee)",
+      "definition": "The state of being close to someone or something; proximity; close kinship.",
+      "etymology": "From Latin **propinquitas**, from *propinquus* (near), from *prope* (near).",
+      "example": "He kept his distance, as though afraid **propinquity** might lead him into temptation.",
+      "synonyms": [
+        "proximity",
+        "closeness",
+        "nearness",
+        "kinship"
+      ],
+      "antonyms": [
+        "distance",
+        "remoteness"
+      ],
+      "memoryHook": "*Prope* = near in Latin → **propinquity** = nearness. \"Propinquity breeds affection.\"",
+      "related": [
+        "avuncular — another kinship-flavored word"
+      ],
+      "tags": [
+        "latin-origin",
+        "relation"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "senescent",
+      "word": "senescent",
+      "title": "Senescent",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(si-NES-uhnt)",
+      "definition": "Growing old; aging; deteriorating with the passage of time.",
+      "etymology": "From Latin **senescere** (to grow old), from *senex* (old).",
+      "example": "The once-vibrant orchard had gone **senescent**, its branches brittle and half bare.",
+      "synonyms": [
+        "aging",
+        "old",
+        "declining"
+      ],
+      "antonyms": [
+        "youthful",
+        "nascent"
+      ],
+      "memoryHook": "*Senex* = old man in Latin → **senescent** = aging. The prefix *sen-* signals old age.",
+      "related": [
+        "Diachronic — change over time, of which aging is one kind"
+      ],
+      "tags": [
+        "latin-origin",
+        "aging"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "surfeit",
+      "word": "surfeit",
+      "title": "Surfeit",
+      "partOfSpeech": "noun / verb",
+      "pronunciation": "(SUR-fit)",
+      "definition": "An excessive amount of something; to cause someone to desire no more.",
+      "etymology": "From Old French **surfaire** (to overdo), from *sur-* (over) + *faire* (to do), from Latin *superfacere*.",
+      "example": "I am **surfeited** with shopping — one more store and I'll crack.",
+      "synonyms": [
+        "excess",
+        "glut",
+        "overload",
+        "satiety"
+      ],
+      "antonyms": [
+        "lack",
+        "scarcity",
+        "dearth"
+      ],
+      "memoryHook": "*Sur-* (over) + *faire* (to do) → to **surfeit** is to do or consume past the point of want.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "french-origin",
+        "excess"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "timorous",
+      "word": "timorous",
+      "title": "Timorous",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(TIM-er-uhs)",
+      "definition": "Showing or suffering from nervousness, fear, or a lack of confidence.",
+      "etymology": "From Old French **temoreus**, from Medieval Latin *timorosus*, from Latin *timor* (fear), from *timere* (to fear).",
+      "example": "He asked the question in a **timorous** voice, expecting the answer he feared.",
+      "synonyms": [
+        "timid",
+        "fearful",
+        "nervous",
+        "apprehensive"
+      ],
+      "antonyms": [
+        "bold",
+        "confident",
+        "fearless"
+      ],
+      "memoryHook": "*Timor* is Latin for fear → **timorous** = full of fear. Think \"timid.\"",
+      "related": [
+        "minacious — the threatening flip side of fearful"
+      ],
+      "tags": [
+        "latin-origin",
+        "emotion"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "turpitude",
+      "word": "turpitude",
+      "title": "Turpitude",
+      "partOfSpeech": "noun",
+      "pronunciation": "(TUR-puh-tood)",
+      "definition": "Depravity; wickedness.",
+      "etymology": "From Latin **turpitudo** (baseness), from *turpis* (vile, base).",
+      "example": "The nominee was rejected over acts of moral **turpitude** from his past.",
+      "synonyms": [
+        "depravity",
+        "wickedness",
+        "vileness"
+      ],
+      "antonyms": [
+        "virtue",
+        "integrity"
+      ],
+      "memoryHook": "*Turpis* = base/vile in Latin → **turpitude** = baseness. Think \"moral turpitude.\"",
+      "related": [
+        "Perfidious — a treacherous form of wickedness",
+        "nefandous — unspeakable wickedness"
+      ],
+      "tags": [
+        "latin-origin",
+        "morality"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "veracious",
+      "word": "veracious",
+      "title": "Veracious",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(vuh-RAY-shuhs)",
+      "definition": "Speaking or representing the truth; truthful.",
+      "etymology": "From Latin **verax** (truthful), from *verus* (true).",
+      "example": "The memoir was praised as a **veracious** account of the war, down to the smallest detail.",
+      "synonyms": [
+        "truthful",
+        "honest",
+        "accurate",
+        "veridical"
+      ],
+      "antonyms": [
+        "false",
+        "deceitful",
+        "mendacious"
+      ],
+      "memoryHook": "*Verus* = true in Latin → **veracious** = truthful. Compare its sibling **verity**.",
+      "related": [
+        "verity — the noun form of the same root"
+      ],
+      "tags": [
+        "latin-origin",
+        "truth"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "verity",
+      "word": "verity",
+      "title": "Verity",
+      "partOfSpeech": "noun",
+      "pronunciation": "(VER-i-tee)",
+      "definition": "The quality of being true; a universally accepted truth.",
+      "etymology": "From Latin **veritas** (truth), from *verus* (true).",
+      "example": "Some **verities** — that power corrupts, that time wounds all heels — never lose their force.",
+      "synonyms": [
+        "truth",
+        "fact",
+        "certainty"
+      ],
+      "antonyms": [
+        "falsehood",
+        "error"
+      ],
+      "memoryHook": "*Verus* = true → **verity** = truth. Compare its adjective sibling **veracious**.",
+      "related": [
+        "Veracious — the adjective from the same root"
+      ],
+      "tags": [
+        "latin-origin",
+        "truth"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "welter",
+      "word": "welter",
+      "title": "Welter",
+      "partOfSpeech": "verb / noun",
+      "pronunciation": "(WEL-ter)",
+      "definition": "To move in a turbulent fashion; a confused mass or state of disorder.",
+      "etymology": "From Middle English **welteren**, from Middle Dutch / Low German *welteren* (to roll, tumble).",
+      "example": "The attack petered out in a **welter** of bloody, confused fighting.",
+      "synonyms": [
+        "tangle",
+        "jumble",
+        "confusion",
+        "turmoil"
+      ],
+      "antonyms": [
+        "order",
+        "calm"
+      ],
+      "memoryHook": "To **welter** is to wallow and roll — chaos that thrashes around.",
+      "related": [
+        "imbroglio — another word for a confused tangle"
+      ],
+      "tags": [
+        "germanic-origin",
+        "chaos"
+      ],
+      "added": "2026-08-23"
+    },
+    {
+      "id": "zugunruhe",
+      "word": "zugunruhe",
+      "title": "Zugunruhe",
+      "partOfSpeech": "noun",
+      "pronunciation": "(TSOOK-oon-roo-uh)",
+      "definition": "Restlessness at the beginning of a migration period.",
+      "etymology": "From German **Zugunruhe**: *Zug* (migration) + *Unruhe* (restlessness). First documented use: 1950.",
+      "example": "Captive birds start to pace and flutter with **zugunruhe** weeks before their wild kin leave.",
+      "synonyms": [
+        "restlessness",
+        "migratory urge"
+      ],
+      "antonyms": [
+        "stillness",
+        "torpor"
+      ],
+      "memoryHook": "*Zug* = \"train\" moving, *Unruhe* = unease → the animal's restless itch to get moving.",
+      "related": [
+        "mimetic — another word about inherited behavior"
+      ],
+      "tags": [
+        "german-origin",
+        "nature"
+      ],
+      "added": "2026-08-23"
+    }
+  ]
+}
