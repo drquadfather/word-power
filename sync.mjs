@@ -122,7 +122,9 @@ words.sort((a, b) =>
 mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(
   OUT,
-  JSON.stringify({ generated: new Date().toISOString(), count: words.length, words }, null, 2)
+  // No timestamp field: output must be deterministic so the auto-sync agent
+  // only commits when word content actually changed.
+  JSON.stringify({ count: words.length, words }, null, 2)
 );
 
 console.log(`Wrote ${words.length} words to ${OUT}`);
