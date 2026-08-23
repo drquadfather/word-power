@@ -20,3 +20,18 @@ Just add notes to the vault as usual, then run:
 
 New words enter the review rotation a few per day (configurable in the
 app's settings).
+
+## Automatic sync
+
+A launchd agent runs `update.sh --settle` whenever the vault folder
+changes, plus hourly (to catch edits inside existing notes). Logs go to
+`~/Library/Logs/wordpower-sync.log`.
+
+`com.peterjones.wordpower-sync.plist` in this repo is a backup copy; the
+live one is installed at `~/Library/LaunchAgents/`. To reinstall on a
+new Mac:
+
+```sh
+cp com.peterjones.wordpower-sync.plist ~/Library/LaunchAgents/
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.peterjones.wordpower-sync.plist
+```

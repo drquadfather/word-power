@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.peterjones.wordpower-sync</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/zsh</string>
+        <string>/Users/peterjones/Code Projects/word-power/update.sh</string>
+        <string>--settle</string>
+    </array>
+
+    <!-- Fire when the vault folder changes (new word note added/removed) -->
+    <key>WatchPaths</key>
+    <array>
+        <string>/Users/peterjones/Documents/Obsidian/pjjOS/PJJ PKM/Word Power</string>
+    </array>
+
+    <!-- Hourly fallback: catches edits inside existing notes, which don't
+         change the folder itself -->
+    <key>StartInterval</key>
+    <integer>3600</integer>
+
+    <!-- Don't re-fire more than once every 2 minutes -->
+    <key>ThrottleInterval</key>
+    <integer>120</integer>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/Users/peterjones/.local/bin:/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin</string>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/Users/peterjones/Library/Logs/wordpower-sync.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/peterjones/Library/Logs/wordpower-sync.log</string>
+</dict>
+</plist>
