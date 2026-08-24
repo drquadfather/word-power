@@ -1,5 +1,5 @@
 {
-  "count": 43,
+  "count": 44,
   "words": [
     {
       "id": "celerity",
@@ -1212,7 +1212,8 @@
       ],
       "memoryHook": "*Zug* = \"train\" moving, *Unruhe* = unease → the animal's restless itch to get moving.",
       "related": [
-        "mimetic — another word about inherited behavior"
+        "mimetic — another word about inherited behavior",
+        "solivagant — the one who acts on the restlessness, alone"
       ],
       "tags": [
         "german-origin",
@@ -1249,6 +1250,36 @@
       "tags": [
         "greek-origin",
         "energy"
+      ],
+      "added": "2026-08-24"
+    },
+    {
+      "id": "solivagant",
+      "word": "solivagant",
+      "title": "Solivagant",
+      "partOfSpeech": "noun / adjective",
+      "pronunciation": "(suh-LIV-uh-guhnt)",
+      "definition": "A solitary wanderer; wandering alone.",
+      "etymology": "From Latin **solivagus** (wandering alone), from *solus* (alone) + *vagus* (wandering). First documented use: 1621. *Vagus* is the productive half of the compound: it also gives *vague*, *vagrant*, *vagabond*, and *extravagant* (literally \"wandering beyond\") — and the *vagus nerve*, so named because it wanders farther from the brain than any other cranial nerve.",
+      "example": "Three days in he had peeled off from the group, happily **solivagant** along the coast road.",
+      "synonyms": [
+        "wanderer",
+        "rambler",
+        "itinerant",
+        "peripatetic"
+      ],
+      "antonyms": [
+        "homebody",
+        "sedentary",
+        "gregarious"
+      ],
+      "memoryHook": "*Solus* (alone) + *vagus* (wandering) → a **solivagant** wanders solo. Same *vagus* as the nerve that wanders the length of the torso.",
+      "related": [
+        "zugunruhe — the restlessness that precedes the wandering"
+      ],
+      "tags": [
+        "latin-origin",
+        "behavior"
       ],
       "added": "2026-08-24"
     }
