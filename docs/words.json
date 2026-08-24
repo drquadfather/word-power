@@ -1,5 +1,5 @@
 {
-  "count": 42,
+  "count": 43,
   "words": [
     {
       "id": "celerity",
@@ -625,7 +625,8 @@
       "memoryHook": "Melpomene is the **tragedy** muse; her sister Thalia is comedy → **melpomenish** = tragic.",
       "related": [
         "Penelopean — another word from Greek mythology",
-        "lachrymose — the tears tragedy is meant to draw"
+        "lachrymose — the tears tragedy is meant to draw",
+        "corybantic — another adjective coined from Greek myth"
       ],
       "tags": [
         "greek-origin",
@@ -832,7 +833,8 @@
       ],
       "memoryHook": "Penelope **weaves by day and unravels by night** → work that resets, plus the loyalty to keep going.",
       "related": [
-        "melpomenish — another word from Greek mythology"
+        "melpomenish — another word from Greek mythology",
+        "corybantic — Greek myth again, and the opposite temper: frenzy against patient repetition"
       ],
       "tags": [
         "greek-origin",
@@ -1217,6 +1219,38 @@
         "nature"
       ],
       "added": "2026-08-23"
+    },
+    {
+      "id": "corybantic",
+      "word": "corybantic",
+      "title": "Corybantic",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(kor-ee-BAN-tik)",
+      "definition": "Wild; frenzied, in the manner of ecstatic ritual dance.",
+      "etymology": "From the **Corybantes** (Greek *Korybantes*), the attendant priests of Cybele, the Phrygian \"Great Mother of the Gods,\" who worshipped her with wildly emotional processions and dancing. First documented use: 1642. The Corybantes were often conflated with the Curetes, who in myth clashed their shields to drown out the infant Zeus's cries — in both stories the noise and the frenzy are the point.",
+      "example": "By the encore the floor had gone **corybantic**, a thousand people moving as one animal.",
+      "synonyms": [
+        "frenzied",
+        "frenetic",
+        "ecstatic",
+        "delirious",
+        "unrestrained"
+      ],
+      "antonyms": [
+        "sedate",
+        "composed",
+        "tranquil"
+      ],
+      "memoryHook": "The **Corybantes** worshipped by dancing themselves into a frenzy → **corybantic** = that kind of wild.",
+      "related": [
+        "melpomenish — another adjective coined from Greek myth",
+        "penelopean — likewise, and its opposite in temper: patient repetition against ecstatic frenzy"
+      ],
+      "tags": [
+        "greek-origin",
+        "energy"
+      ],
+      "added": "2026-08-24"
     }
   ]
 }
