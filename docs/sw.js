@@ -1,6 +1,6 @@
 // Word Power service worker: app shell is cached for instant offline starts;
 // words.json is network-first so vault updates arrive when online.
-const CACHE = "wordpower-v1";
+const CACHE = "wordpower-v2";
 const SHELL = ["./", "index.html", "app.css", "app.js", "manifest.webmanifest",
   "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
 

@@ -12,8 +12,9 @@ const DECAY = -0.5;
 const FACTOR = 19 / 81;
 const RETENTION = 0.9;
 const MAX_INTERVAL_DAYS = 365 * 2;
-// Sub-day learning steps (minutes) before a card graduates to FSRS scheduling.
-const LEARN_STEPS = [1, 10];
+// First intervals (days) for a card's early grades. All scheduling is
+// day-based: sessions are short and infrequent, so sub-day steps make no sense.
+const FIRST_INTERVALS = { 1: 1, 2: 2, 3: 4, 4: 7 };
 const DAY = 24 * 60 * 60 * 1000;
 
 const clamp = (x, lo, hi) => Math.min(hi, Math.max(lo, x));
@@ -24,9 +25,6 @@ function retrievability(elapsedDays, stability) {
 function intervalFor(stability) {
   const days = (stability / FACTOR) * (Math.pow(RETENTION, 1 / DECAY) - 1);
   return clamp(Math.round(days), 1, MAX_INTERVAL_DAYS);
-}
-function initStability(grade) {
-  return Math.max(FSRS_W[grade - 1], 0.1);
 }
 function initDifficulty(grade) {
   return clamp(FSRS_W[4] - Math.exp(FSRS_W[5] * (grade - 1)) + 1, 1, 10);
@@ -60,13 +58,14 @@ function stabilityOnLapse(d, s, r) {
 }
 
 /* Card state shape:
-   { state: 'new'|'learning'|'review'|'relearning',
-     step: number,            // index into LEARN_STEPS while (re)learning
+   { state: 'new'|'learning'|'review',
      s: stability (days), d: difficulty,
-     due: epoch ms, last: epoch ms, reps: n, lapses: n } */
+     due: epoch ms, last: epoch ms, reps: n, lapses: n }
+   ('learning' = missed while new; graduates to FSRS on any passing grade.
+    Legacy 'relearning' cards from the old scheduler are treated as learning.) */
 
 function newCardState() {
-  return { state: "new", step: 0, s: 0, d: 0, due: 0, last: 0, reps: 0, lapses: 0 };
+  return { state: "new", s: 0, d: 0, due: 0, last: 0, reps: 0, lapses: 0 };
 }
 
 // Apply a grade (1=Again 2=Hard 3=Good 4=Easy) and return the updated state.
@@ -74,51 +73,28 @@ function applyGrade(card, grade, now) {
   const c = { ...card };
   c.reps += 1;
 
-  const graduate = (g) => {
-    if (c.state === "new" || c.state === "learning") {
-      c.s = initStability(g);
-      c.d = initDifficulty(g);
-    } else {
-      // relearning: keep post-lapse stability, difficulty already updated
-      c.s = Math.max(c.s, 0.1);
-    }
-    c.state = "review";
-    c.due = now + intervalFor(c.s) * DAY;
-  };
-
-  if (c.state === "new" || c.state === "learning" || c.state === "relearning") {
-    if (grade === 1) {
-      c.step = 0;
-      c.due = now + LEARN_STEPS[0] * 60000;
-      if (c.state === "new") c.state = "learning";
-    } else if (grade === 4) {
-      graduate(4);
-    } else {
-      const next = c.step + (grade === 3 ? 1 : 0);
-      if (next >= LEARN_STEPS.length && grade === 3) {
-        graduate(3);
-      } else {
-        c.step = Math.min(next, LEARN_STEPS.length - 1);
-        c.due = now + LEARN_STEPS[c.step] * 60000;
-        if (c.state === "new") c.state = "learning";
-      }
-    }
+  if (c.state !== "review") {
+    // First exposures use the fixed day ladder; stability is seeded to the
+    // chosen interval so FSRS growth continues smoothly from there.
+    const days = FIRST_INTERVALS[grade];
+    c.s = days;
+    c.d = initDifficulty(grade);
+    c.state = grade === 1 ? "learning" : "review";
+    c.due = now + days * DAY;
   } else {
-    // review card
-    const elapsed = Math.max((now - c.last) / DAY, 0.01);
+    const elapsed = Math.max((now - c.last) / DAY, 0.25);
     const r = retrievability(elapsed, c.s);
     if (grade === 1) {
+      // Lapse: stability takes the FSRS hit, and the word comes back tomorrow.
       c.lapses += 1;
       c.d = nextDifficulty(c.d, 1);
       c.s = stabilityOnLapse(c.d, c.s, r);
-      c.state = "relearning";
-      c.step = 0;
-      c.due = now + LEARN_STEPS[0] * 60000;
+      c.due = now + DAY;
     } else {
       c.d = nextDifficulty(c.d, grade);
       c.s = stabilityOnSuccess(c.d, c.s, r, grade);
       let iv = intervalFor(c.s);
-      if (grade === 2) iv = Math.max(1, Math.min(iv, Math.round(elapsed * 1.2) || 1));
+      if (grade === 2) iv = clamp(Math.round(elapsed * 1.2) || 1, 1, iv);
       c.due = now + iv * DAY;
     }
   }
@@ -132,14 +108,12 @@ function previewIntervals(card, now) {
   const out = {};
   for (const g of [1, 2, 3, 4]) {
     const next = applyGrade(card, g, now);
-    const ms = next.due - now;
-    out[g] = ms < 60 * 60000
-      ? `${Math.max(1, Math.round(ms / 60000))}m`
-      : ms < DAY
-        ? `${Math.round(ms / 3600000)}h`
-        : ms < 30 * DAY
-          ? `${Math.round(ms / DAY)}d`
-          : `${(ms / DAY / 30.44).toFixed(1).replace(/\.0$/, "")}mo`;
+    const days = Math.max(1, Math.round((next.due - now) / DAY));
+    out[g] = days < 30
+      ? `${days}d`
+      : days < 365
+        ? `${(days / 30.44).toFixed(1).replace(/\.0$/, "")}mo`
+        : `${(days / 365).toFixed(1).replace(/\.0$/, "")}y`;
   }
   return out;
 }
@@ -175,7 +149,6 @@ function getCard(id) {
 }
 
 function buildQueue(now) {
-  const learning = [];
   const due = [];
   const news = [];
   const introducedToday = store.dayLog[todayKey(now)] || 0;
@@ -185,15 +158,13 @@ function buildQueue(now) {
     const c = getCard(w.id);
     if (c.state === "new") {
       if (newBudget > 0) { news.push(w.id); newBudget--; }
-    } else if (c.state === "learning" || c.state === "relearning") {
-      learning.push(w.id); // always include in-flight learning cards
     } else if (c.due <= now) {
       due.push(w.id);
     }
   }
-  // Order: due reviews first (oldest due first), then new words interleaved.
+  // Order: due reviews first (oldest due first), then new words.
   due.sort((a, b) => getCard(a).due - getCard(b).due);
-  return { learning, due, news };
+  return { due, news };
 }
 
 /* ================= Session ================= */
@@ -201,12 +172,8 @@ function buildQueue(now) {
 let session = null; // { queue: [ids], idx-less: shift from front; revealed: bool }
 
 function startSession() {
-  const now = Date.now();
-  const q = buildQueue(now);
-  const queue = [...q.learning.filter((id) => getCard(id).due <= now), ...q.due, ...q.news];
-  // Learning cards not yet due go at the back so the session can finish them.
-  const pendingLearning = q.learning.filter((id) => getCard(id).due > now);
-  session = { queue: [...queue, ...pendingLearning], revealed: false };
+  const q = buildQueue(Date.now());
+  session = { queue: [...q.due, ...q.news], revealed: false };
   if (session.queue.length === 0) { session = null; render(home()); return; }
   render(reviewScreen());
 }
@@ -229,36 +196,12 @@ function grade(g) {
   saveStore();
 
   session.queue.shift();
-  // If the card is still in a learning step, requeue it within this session.
-  if (after.state === "learning" || after.state === "relearning") {
-    const pos = Math.min(session.queue.length, Math.max(3, Math.ceil(session.queue.length / 2)));
-    session.queue.splice(pos, 0, id);
-  }
   session.revealed = false;
   advance();
 }
 
 function advance() {
   if (!session) { render(home()); return; }
-  const now = Date.now();
-  // Skip past cards whose learning step hasn't elapsed yet, unless nothing else remains.
-  if (session.queue.length > 0) {
-    const readyIdx = session.queue.findIndex((id) => getCard(id).due <= now || getCard(id).state === "new");
-    if (readyIdx > 0) {
-      const [id] = session.queue.splice(readyIdx, 1);
-      session.queue.unshift(id);
-    } else if (readyIdx === -1) {
-      // All remaining are learning cards cooling down; wait on the soonest.
-      session.queue.sort((a, b) => getCard(a).due - getCard(b).due);
-      const waitMs = getCard(session.queue[0]).due - now;
-      if (waitMs > 0 && waitMs < 15 * 60000) {
-        render(waitingScreen(waitMs));
-        clearTimeout(advance._t);
-        advance._t = setTimeout(() => { if (session) advance(); }, Math.min(waitMs + 250, 60000));
-        return;
-      }
-    }
-  }
   if (session.queue.length === 0) {
     session = null;
     render(doneScreen());
@@ -299,8 +242,7 @@ function topbar(active) {
 function home() {
   const now = Date.now();
   const q = buildQueue(now);
-  const readyLearning = q.learning.filter((id) => getCard(id).due <= now).length;
-  const total = q.due.length + q.news.length + readyLearning;
+  const total = q.due.length + q.news.length;
   const learned = WORDS.filter((w) => {
     const c = getCard(w.id);
     return c.state === "review" && c.s >= 21;
@@ -313,7 +255,7 @@ function home() {
       ? `<div class="due-count">${total}</div>
          <div class="due-label">word${total === 1 ? "" : "s"} to review</div>
          <div class="breakdown">
-           <span><b>${q.due.length + readyLearning}</b> due</span>
+           <span><b>${q.due.length}</b> due</span>
            <span><b>${q.news.length}</b> new</span>
          </div>
          <button class="btn-primary" onclick="startSession()">Start review</button>`
@@ -384,17 +326,6 @@ function reviewScreen() {
   <div class="actions">${actions}</div>`;
 }
 
-function waitingScreen(waitMs) {
-  const mins = Math.max(1, Math.ceil(waitMs / 60000));
-  return `${topbar("home")}
-  <div class="card"><div class="done-wrap">
-    <div class="big">⏳</div>
-    <h2>Almost done</h2>
-    <p>${session.queue.length} card${session.queue.length === 1 ? "" : "s"} cooling down — back in about ${mins} min.<br>You can also finish later; nothing is lost.</p>
-    <button class="btn-primary" onclick="endSession()">Done for now</button>
-  </div></div>`;
-}
-
 function doneScreen() {
   return `${topbar("home")}
   <div class="card"><div class="done-wrap">
@@ -448,7 +379,7 @@ function detail(id) {
     const days = Math.max(0, Math.round((c.due - Date.now()) / DAY));
     sched = `Reviewed ${c.reps}×${c.lapses ? `, ${c.lapses} lapse${c.lapses === 1 ? "" : "s"}` : ""} · next in ${days === 0 ? "less than a day" : days + " day" + (days === 1 ? "" : "s")}.`;
   } else if (c.state !== "new") {
-    sched = "In learning — will come back shortly.";
+    sched = "Still learning — due again tomorrow.";
   }
   return `${topbar("browse")}
   <button class="detail-back" onclick="go('browse')">← All words</button>
@@ -498,7 +429,6 @@ function resetProgress() {
 /* ---------- Navigation ---------- */
 
 function go(where) {
-  clearTimeout(advance._t);
   if (where.startsWith("detail:")) { render(detail(where.slice(7))); return; }
   if (where === "browse") { render(browse()); return; }
   if (where === "settings") { render(settings()); return; }
@@ -508,7 +438,7 @@ function go(where) {
 function reveal() {
   if (session && !session.revealed) { session.revealed = true; render(reviewScreen()); }
 }
-function endSession() { session = null; clearTimeout(advance._t); render(home()); }
+function endSession() { session = null; render(home()); }
 
 // expose handlers used in inline attributes
 Object.assign(window, { go, reveal, grade, startSession, endSession, bumpNew, resetProgress, refreshBrowseList });
