@@ -1,5 +1,5 @@
 {
-  "count": 44,
+  "count": 47,
   "words": [
     {
       "id": "celerity",
@@ -449,7 +449,7 @@
       ],
       "memoryHook": "Sounds like \"frowsy\" (unkempt) → **frowze** = to make frowsy.",
       "related": [
-        "(none in folder)"
+        "frowzy — the adjective of the same unknown-origin family"
       ],
       "tags": [
         "unknown-origin",
@@ -775,7 +775,8 @@
       "related": [
         "Perfidious — another word for moral evil",
         "Turpitude — a noun for depravity",
-        "fabulist — from the same Latin root *fari* (to speak)"
+        "fabulist — from the same Latin root *fari* (to speak)",
+        "parrhesia — its exact inverse: speech that holds nothing back"
       ],
       "tags": [
         "latin-origin",
@@ -951,7 +952,8 @@
       ],
       "memoryHook": "Latin *rupes* (rock) wearing the *-estrian* ending of **equestrian** and **pedestrian** → **rupestrian** = of the rock.",
       "related": [
-        "pluvial — another Latin adjective for the physical landscape"
+        "pluvial — another Latin adjective for the physical landscape",
+        "boscage — thicket rather than rock; the folder's other terrain noun"
       ],
       "tags": [
         "latin-origin",
@@ -1100,7 +1102,8 @@
       "related": [
         "verity — the noun form of the same root",
         "fabulist — a teller of fables; in its second sense, the opposite",
-        "mendacious — the direct opposite, already listed in its antonyms"
+        "mendacious — the direct opposite, already listed in its antonyms",
+        "parrhesia — truth-telling as a public act, and a risky one"
       ],
       "tags": [
         "latin-origin",
@@ -1282,6 +1285,98 @@
         "behavior"
       ],
       "added": "2026-08-24"
+    },
+    {
+      "id": "boscage",
+      "word": "boscage",
+      "title": "Boscage",
+      "partOfSpeech": "noun",
+      "pronunciation": "(BOS-kij)",
+      "definition": "A growth of trees or shrubs; a grove, thicket, or underwood.",
+      "etymology": "From Anglo-French **boscage** (wood, woodland), from *bois*, *bosc* (grove, forest) + *-age*, from Medieval Latin *boscus* (grove) — which is itself probably Germanic, the same stock as English *bush*. First documented use: 15th century. The root is unusually productive: it gives Italian *bosco*, Spanish *bosque*, French *bois*, English *bosky*, and — by way of the Picard diminutive *boschet* — **bouquet**, which entered English in 1716 meaning \"little wood.\" *Ambush* belongs to the family too: to lie in wait in the bushes.",
+      "example": "Beyond the last fence the trail gave out entirely and vanished into dense **boscage**.",
+      "synonyms": [
+        "thicket",
+        "grove",
+        "copse",
+        "coppice",
+        "underwood"
+      ],
+      "antonyms": [
+        "clearing",
+        "glade"
+      ],
+      "memoryHook": "The same *bosc-* (wood) that gives *bouquet* — literally a \"little wood\" of flowers — and *ambush*, hiding in one. **Boscage** is the wood itself.",
+      "related": [
+        "rupestrian — the folder's other word for a specific kind of terrain"
+      ],
+      "tags": [
+        "french-origin",
+        "nature"
+      ],
+      "added": "2026-08-26"
+    },
+    {
+      "id": "frowzy",
+      "word": "frowzy",
+      "title": "Frowzy",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(FROW-zee)",
+      "definition": "Scruffy and neglected in appearance; dingy, musty, and stuffy.",
+      "etymology": "Late 17th century, originally dialect; origin unknown. First documented use: 1681. Etymonline suggests a link to dialectal *frowsty* (having an unpleasant smell), itself of uncertain parentage — possibly Old French *frouste* (ruinous, decayed) or Old English *þroh* (rancid). **Frowsy** is the commoner spelling in American dictionaries; *frowzy* is the variant Oxford leads with. Note the two senses run on different senses of the body: one is what a place *looks* like, the other what it *smells* like.",
+      "example": "The lobby had gone **frowzy** — dim, overwarm, and smelling faintly of the carpet's last thirty years.",
+      "synonyms": [
+        "scruffy",
+        "unkempt",
+        "slovenly",
+        "musty",
+        "dingy"
+      ],
+      "antonyms": [
+        "spruce",
+        "immaculate",
+        "tidy"
+      ],
+      "memoryHook": "It rhymes with *drowsy*, and it describes exactly what a room looks like after a long one. Same murky family as **frowze**, to make untidy.",
+      "related": [
+        "frowze — the verb of the same unknown-origin family; to make frowzy"
+      ],
+      "tags": [
+        "unknown-origin",
+        "appearance"
+      ],
+      "added": "2026-08-26"
+    },
+    {
+      "id": "parrhesia",
+      "word": "parrhesia",
+      "title": "Parrhesia",
+      "partOfSpeech": "noun",
+      "pronunciation": "(pa-REEZH-ee-uh)",
+      "definition": "Boldness or freedom of speech; candid speech that risks something in the telling.",
+      "etymology": "From Greek **parrhesia**, from *pan* (all) + *rhesis* (speech, utterance) — literally \"saying everything.\" It reached English through Medieval Latin. *Rhesis* traces to *eirein* (to say), the same root behind *rhetoric*, which makes the pair neatly opposed: rhetoric is the art of how you say it, parrhesia is saying it anyway. Merriam-Webster carries the word but publishes no First Known Use; it is in English rhetoric handbooks by the late 16th century, where Henry Peacham lists *Parrhesia* among the \"figures of permission\" in *The Garden of Eloquence*.",
+      "example": "What the board wanted was consensus; what the auditor gave them was **parrhesia**.",
+      "synonyms": [
+        "candor",
+        "frankness",
+        "outspokenness",
+        "plain speaking"
+      ],
+      "antonyms": [
+        "reticence",
+        "flattery",
+        "circumlocution"
+      ],
+      "memoryHook": "*Pan* (all) + *rhesis* (speech) → **parrhesia** = saying all of it, holding nothing back — and taking the consequences.",
+      "related": [
+        "nefandous — its exact inverse: what is *not* to be spoken",
+        "veracious — the truth-telling that parrhesia performs out loud"
+      ],
+      "tags": [
+        "greek-origin",
+        "truth"
+      ],
+      "added": "2026-08-26"
     }
   ]
 }
