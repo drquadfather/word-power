@@ -1,5 +1,5 @@
 {
-  "count": 47,
+  "count": 49,
   "words": [
     {
       "id": "celerity",
@@ -137,7 +137,8 @@
       ],
       "memoryHook": "*Avunculus* = maternal uncle → **avuncular** = uncle-like warmth and good humor.",
       "related": [
-        "Propinquity — another kinship-flavored word"
+        "Propinquity — another kinship-flavored word",
+        "matronymic — *avunculus* is the maternal uncle; both words track the mother's line"
       ],
       "tags": [
         "latin-origin",
@@ -164,7 +165,8 @@
       ],
       "memoryHook": "*Bombus* = the Latin for a buzz, and the genus of bumblebees → to **bombinate** is to buzz like a bee.",
       "related": [
-        "cachinnate — another Latin verb built from the sound it names"
+        "cachinnate — another Latin verb built from the sound it names",
+        "obganiate — from *gannire*, a dog's yelp; imitative in the same way"
       ],
       "tags": [
         "latin-origin",
@@ -192,7 +194,8 @@
       ],
       "memoryHook": "Latin *cachinnare* is onomatopoeia — *kah-kah-kah*, the laugh itself. Same trick as **bombinate**, where *bombus* is the buzz.",
       "related": [
-        "Bombinate — another Latin verb built from the sound it names"
+        "Bombinate — another Latin verb built from the sound it names",
+        "obganiate — from *gannire*, a dog's yelp; imitative in the same way"
       ],
       "tags": [
         "latin-origin",
@@ -923,7 +926,8 @@
       ],
       "memoryHook": "*Prope* = near in Latin → **propinquity** = nearness. \"Propinquity breeds affection.\"",
       "related": [
-        "avuncular — another kinship-flavored word"
+        "avuncular — another kinship-flavored word",
+        "matronymic — kinship recorded in a name"
       ],
       "tags": [
         "latin-origin",
@@ -1377,6 +1381,62 @@
         "truth"
       ],
       "added": "2026-08-26"
+    },
+    {
+      "id": "matronymic",
+      "word": "matronymic",
+      "title": "Matronymic",
+      "partOfSpeech": "noun / adjective",
+      "pronunciation": "(ma-truh-NIM-ik)",
+      "definition": "A name derived from the name of a mother or female ancestor; of or relating to such a name.",
+      "etymology": "A hybrid word: Latin *matr-* (mother) grafted onto the *-onymic* of **patronymic**, which is Greek all the way down — *patronymos* (named from the father), from *pater* (father) + *onyma* (name). First documented use: 1794 as a noun, 1874 as an adjective; *patronymic* beat it into English by nearly two centuries (1610s). Purists who dislike the Latin-Greek splice prefer **metronymic**, built cleanly from Greek *meter* (mother) — the two words mean the same thing, and the ugly one won.",
+      "example": "Icelandic naming is overwhelmingly patronymic, but a child registered under a **matronymic** takes the mother's name instead: Guðrún's daughter becomes Guðrúnardóttir.",
+      "synonyms": [
+        "metronymic",
+        "matriname"
+      ],
+      "antonyms": [
+        "patronymic"
+      ],
+      "memoryHook": "*Matr-* (mother) + *onyma* (name) → the mother's name carried forward. Its tidier twin *metronymic* is fully Greek; **matronymic** is the mongrel that stuck.",
+      "related": [
+        "avuncular — from *avunculus*, specifically the *maternal* uncle; both words track the mother's line",
+        "propinquity — the folder's other word for kinship and nearness"
+      ],
+      "tags": [
+        "latin-origin",
+        "relation"
+      ],
+      "added": "2026-08-27"
+    },
+    {
+      "id": "obganiate",
+      "word": "obganiate",
+      "title": "Obganiate",
+      "partOfSpeech": "verb",
+      "pronunciation": "(ob-GAY-nee-ayt)",
+      "definition": "To annoy someone by repeatedly saying the same thing; to repeat oneself tediously.",
+      "etymology": "Irregularly formed on Latin **obgannire** (also *oggannire*), to yelp or growl at, from *ob-* (at, against) + *gannire* (to yelp, snarl, whine — what a dog does). First documented use: 1623. Merriam-Webster has no entry for it at all; the OED carries one, and the date comes from A.Word.A.Day. The English form is a botch — *obgannire* has two *n*'s and the English word only one — which is presumably why the word never caught on despite naming something everybody has endured.",
+      "example": "He had one grievance about the parking and would **obganiate** about it at every meeting until people stopped making eye contact.",
+      "synonyms": [
+        "harp on",
+        "belabor",
+        "nag",
+        "reiterate"
+      ],
+      "antonyms": [
+        "(none natural)"
+      ],
+      "memoryHook": "Latin *gannire* is a dog's yelp; *ob-* means *at*. To **obganiate** is to yelp *at* somebody — the same complaint, over and over, until they'd rather you just barked.",
+      "related": [
+        "cachinnate — another Latin verb built from the sound it names",
+        "Bombinate — the third of the imitative Latin verbs in this folder"
+      ],
+      "tags": [
+        "latin-origin",
+        "behavior"
+      ],
+      "added": "2026-08-27"
     }
   ]
 }
