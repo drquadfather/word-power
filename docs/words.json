@@ -1,5 +1,5 @@
 {
-  "count": 49,
+  "count": 52,
   "words": [
     {
       "id": "celerity",
@@ -747,7 +747,7 @@
       ],
       "memoryHook": "*Multi-* (many) + *farious* (fold) → **multifarious** = many-fold, many kinds.",
       "related": [
-        "(none in folder)"
+        "salmagundi — the noun for a many-and-various collection"
       ],
       "tags": [
         "latin-origin",
@@ -927,7 +927,8 @@
       "memoryHook": "*Prope* = near in Latin → **propinquity** = nearness. \"Propinquity breeds affection.\"",
       "related": [
         "avuncular — another kinship-flavored word",
-        "matronymic — kinship recorded in a name"
+        "matronymic — kinship recorded in a name",
+        "chumocracy — nepotism runs on kinship, chumocracy on friendship"
       ],
       "tags": [
         "latin-origin",
@@ -1074,7 +1075,9 @@
       "memoryHook": "*Turpis* = base/vile in Latin → **turpitude** = baseness. Think \"moral turpitude.\"",
       "related": [
         "Perfidious — a treacherous form of wickedness",
-        "nefandous — unspeakable wickedness"
+        "nefandous — unspeakable wickedness",
+        "chumocracy — the institutional form it often takes",
+        "anomie — depravity breaks the standard; anomie is having none to break"
       ],
       "tags": [
         "latin-origin",
@@ -1192,7 +1195,9 @@
       ],
       "memoryHook": "To **welter** is to wallow and roll — chaos that thrashes around.",
       "related": [
-        "imbroglio — another word for a confused tangle"
+        "imbroglio — another word for a confused tangle",
+        "salmagundi — the same heap of unlike things, arranged and served",
+        "anomie — disorder in a society's rules rather than in a scene"
       ],
       "tags": [
         "germanic-origin",
@@ -1437,6 +1442,95 @@
         "behavior"
       ],
       "added": "2026-08-27"
+    },
+    {
+      "id": "anomie",
+      "word": "anomie",
+      "title": "Anomie",
+      "partOfSpeech": "noun",
+      "pronunciation": "(AN-uh-mee)",
+      "definition": "Social instability from a breakdown of standards and values; the personal alienation that follows.",
+      "etymology": "Borrowed from French **anomie**, from Greek *anomia* (lawlessness), from *a-* (without) + *nomos* (law, custom) — from the Proto-Indo-European root **nem-** (to assign, allot), which also gives *autonomy*, *economy*, and *astronomy*. First documented use: 1933, though Etymonline dates the reborrowed French spelling to 1915; the older anglicized form *anomy*, meaning \"lawlessness, violation of divine law,\" was in English by the 1590s. Émile Durkheim supplied the modern meaning in *Le Suicide* (1897) — not crime, but the condition of a society whose rules have stopped binding, and the vertigo of the people living inside it. The variant spelling *anomy* survives, barely.",
+      "example": "He described the town after the plant closed less as poverty than as **anomie** — nobody could say any longer what a good life there was supposed to look like.",
+      "synonyms": [
+        "alienation",
+        "rootlessness",
+        "normlessness",
+        "disaffection"
+      ],
+      "antonyms": [
+        "cohesion",
+        "solidarity"
+      ],
+      "memoryHook": "*A-* (without) + *nomos* (law) → **anomie** = no rules left to steer by. Not lawbreaking; law*lessness*.",
+      "related": [
+        "welter — disorder you can see; anomie is disorder in the rules themselves",
+        "turpitude — depravity is breaking the standard; anomie is having none to break"
+      ],
+      "tags": [
+        "greek-origin",
+        "chaos"
+      ],
+      "added": "2026-08-28"
+    },
+    {
+      "id": "chumocracy",
+      "word": "chumocracy",
+      "title": "Chumocracy",
+      "partOfSpeech": "noun",
+      "pronunciation": "(chum-AH-kruh-see)",
+      "definition": "A government, organization, or culture in which friends and associates are favored, especially in appointments to authority.",
+      "etymology": "From **chum** (friend) + *-ocracy* (rule), from Greek *kratos* (power, strength). *Chum* is 1680s Oxford university slang, apparently a clipped form of *cham*, itself short for *chamber-mate* or *chamber fellow* — a roommate, in an era fond of lopping words short. First documented use: 1937, and the coinage was sunny: a Delaware newspaper column reported a fellowship order hoping to \"establish Chumocracy through the breadth and length of the land.\" It was reborn as an insult in the British press in 1992, aimed at John Major's cabinet, and again in the 2020s over pandemic contracts steered to ministers' friends.",
+      "example": "Three of the four appointees had shared a staircase at university, which told you all you needed to know about the **chumocracy** running the place.",
+      "synonyms": [
+        "cronyism",
+        "old boys' network",
+        "favoritism",
+        "nepotism"
+      ],
+      "antonyms": [
+        "meritocracy"
+      ],
+      "memoryHook": "*Chum* (roommate) + *-cracy* (rule) → **chumocracy** = government by the people you shared a room with. Nepotism is the relatives; chumocracy is the friends.",
+      "related": [
+        "propinquity — nearness and kinship: what nepotism runs on, where chumocracy runs on friendship",
+        "turpitude — the moral register a chumocracy usually earns"
+      ],
+      "tags": [
+        "english-origin",
+        "morality"
+      ],
+      "added": "2026-08-28"
+    },
+    {
+      "id": "salmagundi",
+      "word": "salmagundi",
+      "title": "Salmagundi",
+      "partOfSpeech": "noun",
+      "pronunciation": "(sal-muh-GUN-dee)",
+      "definition": "A miscellaneous mixture or collection; originally a composed salad of chopped meat, anchovies, eggs, and onions.",
+      "etymology": "From French **salmigondis** (16th century), earlier *salmigondin*, of uncertain origin — possibly Latin *sal* (salt) + *condire* (to season, flavor), and probably tangled with Old French *salemine* (a hodgepodge of meats or fish cooked in wine), which Middle English had already borrowed as *salomene* by the early 14th century. First documented use: c. 1674. The dish came first; the figurative \"mixture of various ingredients\" followed by 1761. Washington Irving then used *Salmagundi* as the title of his satirical magazine of 1807–08, which is how the word lodged itself in American English. English mouths never quite settled it — the dialect forms *salmon-gundy* and *solomon-gundy* both survived.",
+      "example": "The estate sale was a **salmagundi** of ship models, tax records, and a single unexplained taxidermied heron.",
+      "synonyms": [
+        "hodgepodge",
+        "potpourri",
+        "medley",
+        "miscellany",
+        "olio"
+      ],
+      "antonyms": [
+        "uniformity"
+      ],
+      "memoryHook": "Probably *sal* (salt) + *condire* (to season) → a salted, seasoned jumble on a plate. Any pile of unlike things is now a **salmagundi**.",
+      "related": [
+        "multifarious — the adjective for what a salmagundi is",
+        "welter — a mass with no order; salmagundi is the same heap, arranged and served"
+      ],
+      "tags": [
+        "french-origin",
+        "diversity"
+      ],
+      "added": "2026-08-28"
     }
   ]
 }
