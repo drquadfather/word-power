@@ -1,5 +1,5 @@
 {
-  "count": 56,
+  "count": 57,
   "words": [
     {
       "id": "celerity",
@@ -138,7 +138,8 @@
       "memoryHook": "*Avunculus* = maternal uncle → **avuncular** = uncle-like warmth and good humor.",
       "related": [
         "propinquity — another kinship-flavored word",
-        "matronymic — *avunculus* is the maternal uncle; both words track the mother's line"
+        "matronymic — *avunculus* is the maternal uncle; both words track the mother's line",
+        "froideur — the opposite manner: reserve where avuncular warmth would be"
       ],
       "tags": [
         "latin-origin",
@@ -364,7 +365,7 @@
       ],
       "memoryHook": "*Éclat* literally \"splinters\" like light off a jewel — brilliance that shatters attention.",
       "related": [
-        "(none in folder)"
+        "froideur — another French noun taken into English untranslated, and its social opposite: chill rather than dazzle"
       ],
       "tags": [
         "french-origin",
@@ -1563,6 +1564,38 @@
       "tags": [
         "english-origin",
         "emotion"
+      ],
+      "added": "2026-08-31"
+    },
+    {
+      "id": "froideur",
+      "word": "froideur",
+      "title": "Froideur",
+      "partOfSpeech": "noun",
+      "pronunciation": "(frwah-DUR)",
+      "definition": "Coolness or reserve between people; extreme reserve of manner.",
+      "etymology": "Borrowed whole from French **froideur** (chill, coldness), from Old French *freidur*, *froidour*, from *froid* (cold), from Latin *frigidus* — the same root behind *frigid* and *refrigerate*. First documented use: 1645. English already had *coldness*, and took the French word anyway for the narrower thing it names: not hostility but the chill between people who are still being scrupulously polite. Merriam-Webster allows the *r* to drop, so *fwah-DUR* is as correct as *frwah-DUR*, and speakers who keep the French vowel say *frwah-DEUR*.",
+      "example": "One unanswered email turned a decade of easy collaboration into six months of impeccably polite **froideur**.",
+      "synonyms": [
+        "coolness",
+        "aloofness",
+        "reserve",
+        "frostiness",
+        "standoffishness"
+      ],
+      "antonyms": [
+        "warmth",
+        "cordiality",
+        "effusiveness"
+      ],
+      "memoryHook": "French *froid* = cold, as in *frigid* → **froideur** = the drop in temperature when two people are being perfectly civil to each other.",
+      "related": [
+        "eclat — another French noun taken into English untranslated, and its social opposite: dazzle rather than chill",
+        "avuncular — the warm manner froideur is the absence of"
+      ],
+      "tags": [
+        "french-origin",
+        "relation"
       ],
       "added": "2026-08-31"
     },
