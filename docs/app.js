@@ -235,7 +235,7 @@ function topbar(active) {
     `<button class="${active === id ? "active" : ""}" onclick="go('${id}')">${label}</button>`;
   return `<div class="topbar">
     <h1>Word<span>Power</span></h1>
-    <div class="nav">${tab("home", "Review")}${tab("browse", "Words")}${tab("settings", "⚙")}</div>
+    <div class="nav">${tab("home", "Review")}${tab("browse", "Words")}${tab("quiz", "Quiz")}${tab("settings", "⚙")}</div>
   </div>`;
 }
 
@@ -426,12 +426,267 @@ function resetProgress() {
   }
 }
 
+/* ================= Quiz ================= */
+
+/* A round shows five words and seven definitions — the five real ones plus two
+   decoys belonging to words that aren't on screen, so the last pair can't be had
+   by elimination. Tap a word, then tap a definition to pair them; tap either
+   half again to break the pair. */
+
+const QUIZ_PAIRS = 5;
+const QUIZ_ROUNDS = 3;
+const QUIZ_DECOYS = 2;
+
+let quiz = null;
+/* { rounds: [{ words: [id], defs: [id] }], r: roundIndex,
+     picks: { defId: wordId }, sel: wordId|null, checked: bool,
+     score: [{ id, ok }] } */
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// Only words already in rotation are quizzable — an unseen word has no answer
+// to recall, just a guess.
+function quizPool() {
+  return WORDS.filter((w) => w.definition && getCard(w.id).state !== "new").map((w) => w.id);
+}
+
+// Weighted sample without replacement: words closest to being forgotten come up
+// most often, with enough slack that the same handful doesn't repeat every time.
+function pickQuizWords(pool, n, now) {
+  const weight = (id) => {
+    const c = getCard(id);
+    const r = c.s > 0 ? retrievability(Math.max((now - c.last) / DAY, 0), c.s) : 0.5;
+    return 1 - r + 0.15;
+  };
+  const rest = [...pool];
+  const out = [];
+  while (out.length < n && rest.length) {
+    let t = Math.random() * rest.reduce((sum, id) => sum + weight(id), 0);
+    let i = 0;
+    while (i < rest.length - 1 && (t -= weight(rest[i])) > 0) i++;
+    out.push(rest.splice(i, 1)[0]);
+  }
+  return out;
+}
+
+// Decoys come from words used nowhere else in this quiz, preferring the round's
+// dominant part of speech so "it's the only adjective" gives nothing away.
+function pickDecoys(words, used) {
+  const tally = {};
+  for (const id of words) {
+    const p = wordById[id].partOfSpeech || "";
+    tally[p] = (tally[p] || 0) + 1;
+  }
+  const dominant = Object.keys(tally).sort((a, b) => tally[b] - tally[a])[0];
+  const avail = WORDS.filter((w) => w.definition && !used.has(w.id));
+  const same = shuffle(avail.filter((w) => w.partOfSpeech === dominant));
+  const other = shuffle(avail.filter((w) => w.partOfSpeech !== dominant));
+  return [...same, ...other].slice(0, QUIZ_DECOYS).map((w) => w.id);
+}
+
+function quizRoundCount() {
+  return clamp(Math.floor(quizPool().length / QUIZ_PAIRS), 0, QUIZ_ROUNDS);
+}
+
+function buildQuiz(now) {
+  const nRounds = quizRoundCount();
+  if (nRounds === 0) return null;
+
+  const picked = pickQuizWords(quizPool(), nRounds * QUIZ_PAIRS, now);
+  // Cluster by part of speech before chunking, so each round is internally
+  // consistent rather than a mix that answers itself.
+  picked.sort((a, b) =>
+    (wordById[a].partOfSpeech || "").localeCompare(wordById[b].partOfSpeech || "")
+  );
+
+  const used = new Set(picked);
+  const rounds = [];
+  for (let i = 0; i < nRounds; i++) {
+    const words = picked.slice(i * QUIZ_PAIRS, (i + 1) * QUIZ_PAIRS);
+    const decoys = pickDecoys(words, used);
+    decoys.forEach((id) => used.add(id));
+    rounds.push({ words: shuffle(words), defs: shuffle([...words, ...decoys]) });
+  }
+  return { rounds, r: 0, picks: {}, sel: null, checked: false, score: [] };
+}
+
+/* ---------- Quiz interaction ---------- */
+
+function startQuiz() {
+  quiz = buildQuiz(Date.now());
+  if (!quiz) { render(quizHome()); return; }
+  window.scrollTo(0, 0);
+  renderQuiz();
+}
+
+function quizPick(id) {
+  if (!quiz || quiz.checked) return;
+  const pairedWith = Object.keys(quiz.picks).find((d) => quiz.picks[d] === id);
+  if (pairedWith) { delete quiz.picks[pairedWith]; quiz.sel = null; }
+  else quiz.sel = quiz.sel === id ? null : id;
+  renderQuiz();
+}
+
+function quizPlace(defId) {
+  if (!quiz || quiz.checked) return;
+  if (quiz.picks[defId]) { delete quiz.picks[defId]; quiz.sel = null; renderQuiz(); return; }
+  if (!quiz.sel) return;
+  quiz.picks[defId] = quiz.sel;
+  quiz.sel = null;
+  renderQuiz();
+}
+
+// Asymmetric scoring. A miss is strong evidence the word has slipped, so it is
+// pulled forward into the next review — but stability and difficulty are left
+// alone. A hit is weak evidence: recognition among five is far easier than
+// recall, so it changes nothing about the schedule.
+function quizMiss(id) {
+  const c = store.cards[id];
+  if (!c || c.state === "new") return;
+  const now = Date.now();
+  if (c.due > now) store.cards[id] = { ...c, due: now };
+}
+
+function quizCheck() {
+  if (!quiz || quiz.checked) return;
+  for (const id of quiz.rounds[quiz.r].words) {
+    const ok = quiz.picks[id] === id;
+    quiz.score.push({ id, ok });
+    if (!ok) quizMiss(id);
+  }
+  saveStore();
+  quiz.checked = true;
+  quiz.sel = null;
+  window.scrollTo(0, 0);
+  renderQuiz();
+}
+
+function quizNext() {
+  if (!quiz) return;
+  if (quiz.r + 1 >= quiz.rounds.length) { render(quizResults()); return; }
+  quiz.r += 1;
+  quiz.picks = {};
+  quiz.sel = null;
+  quiz.checked = false;
+  window.scrollTo(0, 0);
+  renderQuiz();
+}
+
+function endQuiz() { quiz = null; render(quizHome()); }
+
+/* ---------- Quiz rendering ---------- */
+
+// Re-render in place: no fade (it would replay on every tap) and the scroll
+// position is held so the definition list doesn't jump under your thumb.
+function renderQuiz() {
+  const y = window.scrollY;
+  app.innerHTML = quizScreen();
+  window.scrollTo(0, y);
+}
+
+function quizHome() {
+  const n = quizRoundCount();
+  return `${topbar("quiz")}
+  <div class="hero">
+    ${n > 0
+      ? `<div class="due-count">${n * QUIZ_PAIRS}</div>
+         <div class="due-label">words · ${n} round${n === 1 ? "" : "s"} of ${QUIZ_PAIRS}</div>
+         <div class="quiz-blurb">Match each word to its definition. Two definitions in every round belong to neither — elimination won't save you.</div>
+         <button class="btn-primary" onclick="startQuiz()">Start quiz</button>`
+      : `<div class="due-count">—</div>
+         <div class="all-done">The quiz needs at least ${QUIZ_PAIRS} words you've already started. Run a review or two first.</div>`}
+  </div>
+  <div class="home-foot">A missed word comes forward into your next review. A correct one leaves its schedule untouched.</div>`;
+}
+
+function quizScreen() {
+  const round = quiz.rounds[quiz.r];
+  const placed = Object.keys(quiz.picks).length;
+
+  const chip = (id) => {
+    const paired = Object.keys(quiz.picks).some((d) => quiz.picks[d] === id);
+    const cls = ["qword",
+      quiz.sel === id ? "picked" : "",
+      paired && !quiz.checked ? "done" : "",
+      quiz.checked ? (quiz.picks[id] === id ? "ok" : "bad") : "",
+    ].filter(Boolean).join(" ");
+    return `<button class="${cls}" onclick="quizPick('${id}')">${esc(wordById[id].word)}</button>`;
+  };
+
+  const row = (defId) => {
+    const w = wordById[defId];
+    const assigned = quiz.picks[defId];
+    const isReal = round.words.includes(defId);
+    const said = assigned ? ` · <em>you said</em> ${esc(wordById[assigned].word)}` : "";
+    let cls = "qdef";
+    let tag = "";
+    if (quiz.checked) {
+      if (isReal && assigned === defId) {
+        cls += " ok";
+        tag = `<span class="qtag ok">✓ ${esc(w.word)}</span>`;
+      } else if (isReal) {
+        cls += " bad";
+        tag = `<span class="qtag bad">✗ ${esc(w.word)}${said}</span>`;
+      } else if (assigned) {
+        cls += " bad";
+        tag = `<span class="qtag bad">✗ <em>not in this round</em>${said}</span>`;
+      } else {
+        cls += " idle";
+        tag = `<span class="qtag idle"><em>not in this round</em></span>`;
+      }
+    } else if (assigned) {
+      cls += " taken";
+      tag = `<span class="qtag">${esc(wordById[assigned].word)}</span>`;
+    }
+    return `<button class="${cls}" onclick="quizPlace('${defId}')">${tag}<span class="qtext">${md(w.definition)}</span></button>`;
+  };
+
+  const actions = quiz.checked
+    ? `<button class="btn-reveal" onclick="quizNext()">${quiz.r + 1 >= quiz.rounds.length ? "See results" : "Next round"}</button>`
+    : `<button class="btn-reveal" onclick="quizCheck()"${placed < round.words.length ? " disabled" : ""}>Check ${placed}/${round.words.length}</button>`;
+
+  return `
+  <div class="review-head">
+    <button onclick="endQuiz()">✕ End</button>
+    <div class="counts"><span>Round ${quiz.r + 1} of ${quiz.rounds.length}</span></div>
+  </div>
+  <div class="quiz-words">${round.words.map(chip).join("")}</div>
+  <div class="quiz-defs">${round.defs.map(row).join("")}</div>
+  <div class="actions">${actions}</div>`;
+}
+
+function quizResults() {
+  const right = quiz.score.filter((s) => s.ok).length;
+  const total = quiz.score.length;
+  const missed = quiz.score.filter((s) => !s.ok).map((s) => s.id);
+  quiz = null;
+  return `${topbar("quiz")}
+  <div class="hero">
+    <div class="due-count">${right}/${total}</div>
+    <div class="due-label">matched</div>
+    <div class="quiz-blurb">${missed.length
+      ? `${missed.length} word${missed.length === 1 ? " is" : "s are"} now waiting in your next review.`
+      : "Clean sweep — nothing pulled forward."}</div>
+    <button class="btn-primary" onclick="go('quiz')">Done</button>
+  </div>
+  ${missed.length ? `<ul class="word-list quiz-missed">${browseList(missed.map((id) => wordById[id]))}</ul>` : ""}`;
+}
+
 /* ---------- Navigation ---------- */
 
 function go(where) {
   if (where.startsWith("detail:")) { render(detail(where.slice(7))); return; }
+  quiz = null;
   if (where === "browse") { render(browse()); return; }
   if (where === "settings") { render(settings()); return; }
+  if (where === "quiz") { session = null; render(quizHome()); return; }
   session = null;
   render(home());
 }
@@ -442,6 +697,7 @@ function endSession() { session = null; render(home()); }
 
 // expose handlers used in inline attributes
 Object.assign(window, { go, reveal, grade, startSession, endSession, bumpNew, resetProgress, refreshBrowseList });
+Object.assign(window, { startQuiz, quizPick, quizPlace, quizCheck, quizNext, endQuiz });
 Object.defineProperty(window, "browseFilter", {
   get: () => browseFilter,
   set: (v) => { browseFilter = v; },

@@ -73,11 +73,16 @@ button {
 .topbar h1 span { color: var(--accent); }
 .topbar .nav { display: flex; gap: 4px; }
 .topbar .nav button {
-  padding: 7px 12px;
+  padding: 7px 11px;
   border-radius: 999px;
   color: var(--ink-soft);
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.86rem;
+  white-space: nowrap;
+}
+@media (max-width: 380px) {
+  .topbar h1 { font-size: 1rem; }
+  .topbar .nav button { padding: 7px 9px; font-size: 0.82rem; }
 }
 .topbar .nav button.active { background: var(--card); color: var(--ink); box-shadow: var(--shadow); }
 
@@ -248,6 +253,8 @@ button {
   box-shadow: var(--shadow);
 }
 .btn-reveal:active { transform: scale(0.98); }
+.btn-reveal[disabled] { opacity: 0.4; }
+.btn-reveal[disabled]:active { transform: none; }
 
 .grades { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
 .grade {
@@ -316,6 +323,98 @@ button {
 }
 .detail-back { color: var(--accent); font-weight: 600; padding: 6px 0 10px; }
 .sched-note { margin-top: 18px; font-size: 0.8rem; color: var(--ink-soft); }
+
+/* ---------- Quiz ---------- */
+.quiz-blurb {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  margin-bottom: 20px;
+}
+
+/* The word row stays put while the definitions scroll beneath it, so the pair
+   you are making is always both visible at once. */
+.quiz-words {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  justify-content: center;
+  padding: 6px 0 12px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 12px;
+}
+.qword {
+  font-family: "Iowan Old Style", "Palatino", Georgia, serif;
+  font-weight: 700;
+  font-size: 1rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 7px 15px;
+  box-shadow: var(--shadow);
+  transition: transform 0.12s ease, opacity 0.12s ease;
+}
+.qword:active { transform: scale(0.95); }
+.qword.picked {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}
+.qword.done { opacity: 0.35; }
+.qword.ok { border-color: var(--good); color: var(--good); }
+.qword.bad { border-color: var(--again); color: var(--again); }
+
+.quiz-defs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 12px;
+}
+.qdef {
+  width: 100%;
+  text-align: left;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  padding: 11px 14px;
+}
+.qdef:active { transform: scale(0.99); }
+.qdef .qtext {
+  display: block;
+  font-size: 0.92rem;
+  line-height: 1.4;
+}
+.qdef.taken { border-color: var(--accent); }
+.qdef.taken .qtext { color: var(--ink-soft); }
+.qdef.ok { border-color: var(--good); }
+.qdef.bad { border-color: var(--again); }
+.qdef.idle { opacity: 0.5; }
+.qtag {
+  display: block;
+  font-family: "Iowan Old Style", "Palatino", Georgia, serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--accent);
+  margin-bottom: 3px;
+}
+.qtag.ok { color: var(--good); }
+.qtag.bad { color: var(--again); }
+.qtag.idle { color: var(--ink-soft); }
+/* The "not in this round" label is a note about the row, not a word — set it
+   apart from the serif word names it sits beside. */
+.qtag em {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
+  opacity: 0.85;
+}
+.quiz-missed { margin-top: 14px; }
 
 /* ---------- Settings ---------- */
 .settings-card {
