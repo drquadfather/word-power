@@ -1,5 +1,5 @@
 {
-  "count": 52,
+  "count": 56,
   "words": [
     {
       "id": "celerity",
@@ -55,7 +55,7 @@
       ],
       "memoryHook": "**Alician** = like falling down the rabbit hole — rules keep shifting.",
       "related": [
-        "(none in folder)"
+        "frabjous — Carroll's own coinage from the Looking-Glass poems"
       ],
       "tags": [
         "english-origin",
@@ -80,7 +80,7 @@
       ],
       "memoryHook": "*Allo-* (other) + *patra* (fatherland) → **allopatric** = dwelling in a different land.",
       "related": [
-        "Furcate — both terms about natural division and branching"
+        "furcate — both terms about natural division and branching"
       ],
       "tags": [
         "greek-origin",
@@ -137,7 +137,7 @@
       ],
       "memoryHook": "*Avunculus* = maternal uncle → **avuncular** = uncle-like warmth and good humor.",
       "related": [
-        "Propinquity — another kinship-flavored word",
+        "propinquity — another kinship-flavored word",
         "matronymic — *avunculus* is the maternal uncle; both words track the mother's line"
       ],
       "tags": [
@@ -481,7 +481,7 @@
       ],
       "memoryHook": "A *furca* is a pitchfork → to **furcate** is to split like a fork's tines.",
       "related": [
-        "Allopatric — both terms for geographic/natural division"
+        "allopatric — both terms for geographic/natural division"
       ],
       "tags": [
         "latin-origin",
@@ -510,7 +510,7 @@
       ],
       "memoryHook": "Italian for \"tangle\" — an **imbroglio** is a knot of complications.",
       "related": [
-        "Welter — another word for a confused mass"
+        "welter — another word for a confused mass"
       ],
       "tags": [
         "italian-origin",
@@ -569,7 +569,8 @@
       "memoryHook": "To **indite** is to \"dictate\" words onto the page; its twin *indict* splits off into the courtroom (to accuse), while *indite* stays at the writing desk.",
       "related": [
         "fabulist — one who composes fables",
-        "verso — the page the writing lands on"
+        "verso — the page the writing lands on",
+        "prolegomenon — a formal essay indited to introduce a longer work"
       ],
       "tags": [
         "latin-origin",
@@ -627,7 +628,7 @@
       ],
       "memoryHook": "Melpomene is the **tragedy** muse; her sister Thalia is comedy → **melpomenish** = tragic.",
       "related": [
-        "Penelopean — another word from Greek mythology",
+        "penelopean — another word from Greek mythology",
         "lachrymose — the tears tragedy is meant to draw",
         "corybantic — another adjective coined from Greek myth"
       ],
@@ -718,7 +719,7 @@
       ],
       "memoryHook": "*Minae* = threats in Latin → **minacious** = threat-heavy. Same root as *menace* and *mountain*.",
       "related": [
-        "Timorous — the fearful response to a threat"
+        "timorous — the fearful response to a threat"
       ],
       "tags": [
         "latin-origin",
@@ -776,8 +777,8 @@
       ],
       "memoryHook": "*Ne-* (not) + *fandus* (to be spoken) → **nefandous** = not to be spoken of, unutterably evil.",
       "related": [
-        "Perfidious — another word for moral evil",
-        "Turpitude — a noun for depravity",
+        "perfidious — another word for moral evil",
+        "turpitude — a noun for depravity",
         "fabulist — from the same Latin root *fari* (to speak)",
         "parrhesia — its exact inverse: speech that holds nothing back"
       ],
@@ -869,7 +870,7 @@
       "memoryHook": "*Per-* (through/beyond) + *fides* (faith) → one who has gone **past** faith is **perfidious**.",
       "related": [
         "nefandous — another word for moral evil",
-        "Turpitude — a noun for depravity",
+        "turpitude — a noun for depravity",
         "mendacious — habitual lying, a quieter cousin of treachery"
       ],
       "tags": [
@@ -986,7 +987,8 @@
       ],
       "memoryHook": "*Senex* = old man in Latin → **senescent** = aging. The prefix *sen-* signals old age.",
       "related": [
-        "Diachronic — change over time, of which aging is one kind"
+        "diachronic — change over time, of which aging is one kind",
+        "fugacious — the opposite tempo: gone quickly rather than declining slowly"
       ],
       "tags": [
         "latin-origin",
@@ -1074,7 +1076,7 @@
       ],
       "memoryHook": "*Turpis* = base/vile in Latin → **turpitude** = baseness. Think \"moral turpitude.\"",
       "related": [
-        "Perfidious — a treacherous form of wickedness",
+        "perfidious — a treacherous form of wickedness",
         "nefandous — unspeakable wickedness",
         "chumocracy — the institutional form it often takes",
         "anomie — depravity breaks the standard; anomie is having none to break"
@@ -1138,7 +1140,7 @@
       ],
       "memoryHook": "*Verus* = true → **verity** = truth. Compare its adjective sibling **veracious**.",
       "related": [
-        "Veracious — the adjective from the same root"
+        "veracious — the adjective from the same root"
       ],
       "tags": [
         "latin-origin",
@@ -1166,7 +1168,8 @@
       ],
       "memoryHook": "*Verso folio* = \"the leaf having been turned.\" Same *vertere* as *reverse* — turn the page and you land on the **verso**.",
       "related": [
-        "indite — another word from the writer's desk"
+        "indite — another word from the writer's desk",
+        "prolegomenon — another term from the anatomy of the book"
       ],
       "tags": [
         "latin-origin",
@@ -1531,6 +1534,131 @@
         "diversity"
       ],
       "added": "2026-08-28"
+    },
+    {
+      "id": "frabjous",
+      "word": "frabjous",
+      "title": "Frabjous",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(FRAB-juhs)",
+      "definition": "Delightful; joyous, splendid.",
+      "etymology": "Coined by **Lewis Carroll** for \"Jabberwocky\" in *Through the Looking-Glass* (published 1871, dated 1872): \"O **frabjous** day! Callooh! Callay!\" Probably a blend of *fabulous*, *fair*, and *joyous*; Merriam-Webster hedges it as \"perhaps alteration of *fabulous*.\" First documented use: 1872. Carroll glossed several of the poem's coinages through Humpty Dumpty — *slithy*, *mimsy*, *brillig* — but never this one, so the derivation is guesswork by everyone who has tried it since.",
+      "example": "Three days of rain, and then a **frabjous** Saturday that made the whole week worth it.",
+      "synonyms": [
+        "delightful",
+        "joyous",
+        "splendid",
+        "wonderful",
+        "superb"
+      ],
+      "antonyms": [
+        "dismal",
+        "wretched",
+        "dreary"
+      ],
+      "memoryHook": "*Fabulous* + *joyous*, run together by Lewis Carroll → **frabjous**. For a day too good for either word on its own.",
+      "related": [
+        "alician — from the same author and the same Looking-Glass world"
+      ],
+      "tags": [
+        "english-origin",
+        "emotion"
+      ],
+      "added": "2026-08-31"
+    },
+    {
+      "id": "fugacious",
+      "word": "fugacious",
+      "title": "Fugacious",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(fyoo-GAY-shuhs)",
+      "definition": "Literary. Tending to disappear; fleeting, evanescent.",
+      "etymology": "From Latin **fugax**, *fugac-* (apt to flee, fleeting), from *fugere* (to flee), plus *-ious*. First documented use: 1635. The same *fugere* runs under *fugitive*, *refuge*, *subterfuge*, and the musical *fugue*, in which each voice flees the one chasing it. Botanists borrowed the word early for parts of a flower that drop almost as soon as they open.",
+      "example": "Cherry blossom is loved precisely because it is **fugacious** — a week of it, and the street is bare again.",
+      "synonyms": [
+        "fleeting",
+        "evanescent",
+        "transient",
+        "ephemeral",
+        "momentary"
+      ],
+      "antonyms": [
+        "enduring",
+        "permanent",
+        "lasting"
+      ],
+      "memoryHook": "*Fugere* = to flee → **fugacious** things run away from you. A *fugitive* flees the law; a fugacious moment flees the person having it.",
+      "related": [
+        "gloaming — the fugacious hour at the end of the day",
+        "senescent — what is fugacious vanishes; what is senescent takes its time"
+      ],
+      "tags": [
+        "latin-origin",
+        "time"
+      ],
+      "added": "2026-08-31"
+    },
+    {
+      "id": "gloaming",
+      "word": "gloaming",
+      "title": "Gloaming",
+      "partOfSpeech": "noun",
+      "pronunciation": "(GLOH-ming)",
+      "definition": "Literary. Twilight; dusk.",
+      "etymology": "From Old English **glōmung** (twilight, the fall of evening), from *glōm* (twilight), kin to *glōwan* (to glow) — the gloaming is named for the light that is left, not the dark that is coming. First documented use: before the 12th century. The word then fell out of general English, surviving in Scots and Yorkshire dialect, and re-entered literary English after about 1785 through Robert Burns and the Scottish writers who followed him, which is why it still reads as faintly Scottish. The back-formed noun *gloam* is much later (Keats, 1821). No relation to *gloom*, despite the resemblance.",
+      "example": "They kept walking well into the **gloaming**, until the trail was more memory than sight.",
+      "synonyms": [
+        "twilight",
+        "dusk",
+        "nightfall",
+        "evenfall"
+      ],
+      "antonyms": [
+        "dawn",
+        "daybreak",
+        "sunrise"
+      ],
+      "memoryHook": "*Glōm* (twilight) is kin to *glow* → the **gloaming** is the hour of the afterglow, when the light is leaving but not yet gone.",
+      "related": [
+        "fugacious — the gloaming is the most fugacious hour of the day"
+      ],
+      "tags": [
+        "english-origin",
+        "time"
+      ],
+      "added": "2026-08-31"
+    },
+    {
+      "id": "prolegomenon",
+      "word": "prolegomenon",
+      "title": "Prolegomenon",
+      "partOfSpeech": "noun",
+      "pronunciation": "(proh-li-GOM-uh-non)",
+      "definition": "Prefatory remarks; a formal introductory essay interpreting an extended work.",
+      "etymology": "From Greek **prolegomenon**, \"that which is said beforehand\" — the neuter passive participle of *prolegein* (to say beforehand), from *pro-* (before) + *legein* (to say). First documented use: 1600. The plural *prolegomena* is the commoner form and is often treated as a singular, largely on the strength of Kant's *Prolegomena to Any Future Metaphysics* (1783). The same *legein* sits under *prologue*, *lexicon*, and *dialect*.",
+      "example": "What he called a preface ran to ninety pages and was in truth a **prolegomenon** to the entire series.",
+      "synonyms": [
+        "preface",
+        "prologue",
+        "introduction",
+        "foreword",
+        "preamble"
+      ],
+      "antonyms": [
+        "epilogue",
+        "afterword",
+        "postscript"
+      ],
+      "memoryHook": "*Pro-* (before) + *legein* (to say) → **prolegomenon** = the saying-before. A prologue with footnotes.",
+      "related": [
+        "indite — the act of composing the thing a prolegomenon introduces",
+        "verso — another term from the anatomy of the book"
+      ],
+      "tags": [
+        "greek-origin",
+        "writing"
+      ],
+      "added": "2026-08-31"
     }
   ]
 }
