@@ -1,5 +1,5 @@
 {
-  "count": 57,
+  "count": 63,
   "words": [
     {
       "id": "celerity",
@@ -55,7 +55,8 @@
       ],
       "memoryHook": "**Alician** = like falling down the rabbit hole — rules keep shifting.",
       "related": [
-        "frabjous — Carroll's own coinage from the Looking-Glass poems"
+        "frabjous — Carroll's own coinage from the Looking-Glass poems",
+        "pickwickian — the other adjective here minted from a Victorian novelist's character"
       ],
       "tags": [
         "english-origin",
@@ -139,7 +140,8 @@
       "related": [
         "propinquity — another kinship-flavored word",
         "matronymic — *avunculus* is the maternal uncle; both words track the mother's line",
-        "froideur — the opposite manner: reserve where avuncular warmth would be"
+        "froideur — the opposite manner: reserve where avuncular warmth would be",
+        "pickwickian — the same benevolent warmth, named after a character instead of an uncle"
       ],
       "tags": [
         "latin-origin",
@@ -224,7 +226,7 @@
       ],
       "memoryHook": "*Com-* (together) + *mensura* (measure) → things **commensurate** are measured on the same scale.",
       "related": [
-        "(none in folder)"
+        "syzygy — in its second sense, a pair of corresponding things"
       ],
       "tags": [
         "latin-origin",
@@ -252,7 +254,8 @@
       ],
       "memoryHook": "**Cumber** (to burden) + **world** → someone who only encumbers the world.",
       "related": [
-        "nous — the practical sense a cumberworld conspicuously lacks"
+        "nous — the practical sense a cumberworld conspicuously lacks",
+        "stickybeak — another blunt English compound naming a kind of person"
       ],
       "tags": [
         "english-origin",
@@ -393,7 +396,8 @@
       ],
       "memoryHook": "*Pyro* = fire in Greek → **empyrean** = \"in fire,\" the blazing highest heaven.",
       "related": [
-        "(none in folder)"
+        "nubilous — the opposite sky: the overcast below the empyrean fire",
+        "syzygy — another word from the vocabulary of the heavens"
       ],
       "tags": [
         "greek-origin",
@@ -899,7 +903,8 @@
       ],
       "memoryHook": "*Pluvia* is Latin for rain → **pluvial** = rainy. Picture \"pluie,\" French for rain.",
       "related": [
-        "rupestrian — another Latin adjective for the physical landscape"
+        "rupestrian — another Latin adjective for the physical landscape",
+        "nubilous — its counterpart in the same Latin weather vocabulary: cloud to its rain"
       ],
       "tags": [
         "latin-origin",
@@ -1383,7 +1388,8 @@
       "memoryHook": "*Pan* (all) + *rhesis* (speech) → **parrhesia** = saying all of it, holding nothing back — and taking the consequences.",
       "related": [
         "nefandous — its exact inverse: what is *not* to be spoken",
-        "veracious — the truth-telling that parrhesia performs out loud"
+        "veracious — the truth-telling that parrhesia performs out loud",
+        "cavil — its opposite in spirit: objection that risks nothing"
       ],
       "tags": [
         "greek-origin",
@@ -1439,7 +1445,8 @@
       "memoryHook": "Latin *gannire* is a dog's yelp; *ob-* means *at*. To **obganiate** is to yelp *at* somebody — the same complaint, over and over, until they'd rather you just barked.",
       "related": [
         "cachinnate — another Latin verb built from the sound it names",
-        "bombinate — the third of the imitative Latin verbs in this folder"
+        "bombinate — the third of the imitative Latin verbs in this folder",
+        "cavil — the other way to make a conversation unbearable: objection rather than repetition"
       ],
       "tags": [
         "latin-origin",
@@ -1623,7 +1630,8 @@
       "memoryHook": "*Fugere* = to flee → **fugacious** things run away from you. A *fugitive* flees the law; a fugacious moment flees the person having it.",
       "related": [
         "gloaming — the fugacious hour at the end of the day",
-        "senescent — what is fugacious vanishes; what is senescent takes its time"
+        "senescent — what is fugacious vanishes; what is senescent takes its time",
+        "moth-wing — the homely English compound for the same idea"
       ],
       "tags": [
         "latin-origin",
@@ -1662,6 +1670,38 @@
       "added": "2026-08-31"
     },
     {
+      "id": "nubilous",
+      "word": "nubilous",
+      "title": "Nubilous",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(NOO-buh-luhs)",
+      "definition": "Cloudy, misty; figuratively, obscure or unclear.",
+      "etymology": "From Latin **nubilus** (cloudy, overcast), from *nubes* (cloud). First documented use: circa 1530 — Merriam-Webster carries the word but publishes no First Known Use for it, so the date comes from Oxford by way of Dictionary.com. Not a relative of *nubile*, which comes from *nubere* (to marry); the old theory that *nubere* meant \"to veil oneself,\" as a bride does, and so belonged with *nubes*, is called semantically attractive but unproven. Nor is it *nebulous*, which descends from *nebula* (mist) — a different Latin word for much the same sky. Americans usually say *NOO-*; *NYOO-* is the older variant.",
+      "example": "The contract's liability clause was as **nubilous** as the November sky outside the window.",
+      "synonyms": [
+        "cloudy",
+        "overcast",
+        "misty",
+        "obscure",
+        "vague"
+      ],
+      "antonyms": [
+        "clear",
+        "cloudless",
+        "lucid"
+      ],
+      "memoryHook": "*Nubes* = cloud in Latin → **nubilous** = clouded, whether the sky or the argument. Just don't confuse it with *nubile*, which is a different Latin word entirely.",
+      "related": [
+        "pluvial — its counterpart in the same Latin weather vocabulary: rain to its cloud",
+        "empyrean — the opposite sky: fire and light above the clouds"
+      ],
+      "tags": [
+        "latin-origin",
+        "weather"
+      ],
+      "added": "2026-08-31"
+    },
+    {
       "id": "prolegomenon",
       "word": "prolegomenon",
       "title": "Prolegomenon",
@@ -1692,6 +1732,157 @@
         "writing"
       ],
       "added": "2026-08-31"
+    },
+    {
+      "id": "cavil",
+      "word": "cavil",
+      "title": "Cavil",
+      "partOfSpeech": "verb",
+      "pronunciation": "(KAV-uhl)",
+      "definition": "To raise trivial and frivolous objections.",
+      "etymology": "From Middle French **caviller**, from Latin *cavillari* (to jeer, to mock, to argue scoffingly), from *cavilla* (jeering, banter). First documented use: 1542. The Latin belongs to the same family as *calumnia*, which gives English *calumny* — the shared idea is talk offered in bad faith, though calumny slanders where cavilling merely nitpicks. The noun *cavil*, a frivolous objection, and the agent noun *caviller* both follow the verb.",
+      "example": "He had no argument against the proposal, so he **cavilled** at the font on the cover page.",
+      "synonyms": [
+        "quibble",
+        "carp",
+        "nitpick",
+        "niggle"
+      ],
+      "antonyms": [
+        "assent",
+        "concede",
+        "approve"
+      ],
+      "memoryHook": "Latin *cavilla* = jeering → to **cavil** is to jeer at the details. Cousin to *calumny*: one slanders, the other just nitpicks.",
+      "related": [
+        "obganiate — the other way to make a conversation unbearable: repetition rather than objection",
+        "parrhesia — its opposite in spirit: speech that risks something, not speech that dodges the point"
+      ],
+      "tags": [
+        "french-origin",
+        "behavior"
+      ],
+      "added": "2026-09-03"
+    },
+    {
+      "id": "moth-wing",
+      "word": "moth-wing",
+      "title": "Moth-Wing",
+      "partOfSpeech": "adjective / noun",
+      "pronunciation": "(MAWTH-wing)",
+      "definition": "Fragile or fleeting; something fragile or fleeting.",
+      "etymology": "From **moth**, Old English *moththe*, + **wing**, from Old Norse *vængir*, plural of *vængr*. Earliest documented use: 1823. The second half is the more surprising one: English already had a native word for wing — Old English *fethra*, the ancestor of *feather* — and abandoned it for the Norse import, a rare case of a borrowed word displacing homegrown vocabulary for a basic piece of anatomy. Harriet Monroe used the compound in *Poetry* in 1926 for \"a real moth-wing talent, authentic and alive, however fragile,\" which is still the sense: not weak, but easily lost.",
+      "example": "The reunion had a **moth-wing** quality, lovely and plainly not built to last.",
+      "synonyms": [
+        "fragile",
+        "delicate",
+        "fleeting",
+        "gossamer"
+      ],
+      "antonyms": [
+        "durable",
+        "enduring",
+        "robust"
+      ],
+      "memoryHook": "Touch a moth's wing and the dust comes off on your fingers → **moth-wing** = beautiful, and ruined by handling.",
+      "related": [
+        "fugacious — the Latinate way to say the same thing: gone before you can hold it",
+        "stickybeak — from the same week of animal-part compounds, and built the same way: an animal's anatomy borrowed as metaphor"
+      ],
+      "tags": [
+        "english-origin",
+        "time"
+      ],
+      "added": "2026-09-03"
+    },
+    {
+      "id": "pickwickian",
+      "word": "pickwickian",
+      "title": "Pickwickian",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(pik-WIK-ee-uhn)",
+      "definition": "Jovial, simple, and generous like Mr. Pickwick; of words, not meant literally.",
+      "etymology": "From **Samuel Pickwick**, hero of Charles Dickens's *The Posthumous Papers of the Pickwick Club*, serialized 1836–37. First documented use: 1836. The second sense comes straight out of chapter one: Mr. Blotton calls Pickwick a humbug, the club erupts, and the quarrel is settled when Blotton explains he had used the word \"in a Pickwickian sense\" only — after which both men declare their highest regard for each other. *Pickwickian syndrome*, the 1950s name for obesity-related hypoventilation, is a misattribution of sorts: the symptoms belong not to Pickwick but to Joe, the fat boy who keeps falling asleep. Medicine now prefers *obesity-hypoventilation syndrome*.",
+      "example": "He called the report \"ambitious,\" which anyone who knew him understood in a strictly **Pickwickian** sense.",
+      "synonyms": [
+        "jovial",
+        "benevolent",
+        "genial",
+        "non-literal"
+      ],
+      "antonyms": [
+        "mean-spirited",
+        "literal"
+      ],
+      "memoryHook": "Mr. Pickwick was too kind to insult anyone — so an insult meant **Pickwickianly** is an insult withdrawn in the same breath.",
+      "related": [
+        "alician — the other adjective in this folder minted from a Victorian novelist's character",
+        "avuncular — the benevolent uncle-ish warmth that is Pickwick's first sense"
+      ],
+      "tags": [
+        "english-origin",
+        "behavior"
+      ],
+      "added": "2026-09-03"
+    },
+    {
+      "id": "stickybeak",
+      "word": "stickybeak",
+      "title": "Stickybeak",
+      "partOfSpeech": "noun / verb",
+      "pronunciation": "(STIK-ee-beek)",
+      "definition": "Australian and New Zealand. An overly inquisitive person; to pry or snoop.",
+      "etymology": "From **stick**, from Old English *stician* (to pierce, to thrust), + **beak**, long-standing slang for the human nose. Earliest documented use: 1914. English had the idiom before it had the word — you stick your nose in where it doesn't belong — and Australian and New Zealand English simply made a noun of it, choosing the more vivid *beak* over *nose*. Merriam-Webster labels it Australian; the two hard *k* sounds are most of its charm.",
+      "example": "The neighbor had a **stickybeak** at the moving van before the first box was off it.",
+      "synonyms": [
+        "busybody",
+        "snoop",
+        "nosy parker",
+        "quidnunc"
+      ],
+      "antonyms": [
+        "(none natural)"
+      ],
+      "memoryHook": "*Beak* = nose in slang → a **stickybeak** is someone forever sticking theirs where it isn't wanted.",
+      "related": [
+        "cumberworld — another blunt English compound that names a kind of person you'd rather avoid",
+        "moth-wing — from the same week of animal-part compounds, and built the same way: an animal's anatomy borrowed as metaphor"
+      ],
+      "tags": [
+        "english-origin",
+        "person"
+      ],
+      "added": "2026-09-03"
+    },
+    {
+      "id": "syzygy",
+      "word": "syzygy",
+      "title": "Syzygy",
+      "partOfSpeech": "noun",
+      "pronunciation": "(SIZ-uh-jee)",
+      "definition": "A conjunction or opposition, especially of the moon with the sun; a pair of connected things.",
+      "etymology": "From Late Latin **syzygia**, from Greek *syzygia* (union, a yoking), from *syzygos* (yoked together), from *syn-* (together) + *zygon* (yoke). First documented use: 1650s in the astronomical sense, though Merriam-Webster dates its own broader definition — the near-alignment of three bodies in a gravitational system — to circa 1847, and the word was picked up by algebra (1851) and zoology (1873) after that. *Zygon* also gives *zygote* and *zygoma*, and its Indo-European root surfaces natively in English *yoke* and, through Latin *jungere*, in *join* and *junction*. Six letters, three of them *y*, and not an ordinary vowel among them.",
+      "example": "Spring tides come at **syzygy**, when sun and moon pull along the same line.",
+      "synonyms": [
+        "conjunction",
+        "alignment",
+        "pairing",
+        "yoking"
+      ],
+      "antonyms": [
+        "quadrature",
+        "divergence"
+      ],
+      "memoryHook": "*Syn-* (together) + *zygon* (yoke) → **syzygy** = things yoked into a line. Same *zyg-* as *zygote*, two cells yoked into one.",
+      "related": [
+        "empyrean — the celestial vocabulary syzygy belongs to",
+        "commensurate — its second sense: things that correspond, measure to measure"
+      ],
+      "tags": [
+        "greek-origin",
+        "nature"
+      ],
+      "added": "2026-09-03"
     }
   ]
 }
