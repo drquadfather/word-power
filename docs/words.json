@@ -1,5 +1,5 @@
 {
-  "count": 70,
+  "count": 72,
   "words": [
     {
       "id": "celerity",
@@ -371,7 +371,8 @@
       ],
       "memoryHook": "*Éclat* literally \"splinters\" like light off a jewel — brilliance that shatters attention.",
       "related": [
-        "froideur — another French noun taken into English untranslated, and its social opposite: chill rather than dazzle"
+        "froideur — another French noun taken into English untranslated, and its social opposite: chill rather than dazzle",
+        "vaunt — the boast that goes fishing for éclat"
       ],
       "tags": [
         "french-origin",
@@ -1398,7 +1399,8 @@
       "related": [
         "nefandous — its exact inverse: what is *not* to be spoken",
         "veracious — the truth-telling that parrhesia performs out loud",
-        "cavil — its opposite in spirit: objection that risks nothing"
+        "cavil — its opposite in spirit: objection that risks nothing",
+        "vaunt — its opposite: speech that claims everything and risks nothing"
       ],
       "tags": [
         "greek-origin",
@@ -1671,7 +1673,8 @@
       "memoryHook": "*Glōm* (twilight) is kin to *glow* → the **gloaming** is the hour of the afterglow, when the light is leaving but not yet gone.",
       "related": [
         "fugacious — the gloaming is the most fugacious hour of the day",
-        "subfusc — the adjective for exactly this light"
+        "subfusc — the adjective for exactly this light",
+        "apricity — another word for a quality of light rather than a state of weather"
       ],
       "tags": [
         "english-origin",
@@ -1703,7 +1706,8 @@
       "memoryHook": "*Nubes* = cloud in Latin → **nubilous** = clouded, whether the sky or the argument. Just don't confuse it with *nubile*, which is a different Latin word entirely.",
       "related": [
         "pluvial — its counterpart in the same Latin weather vocabulary: rain to its cloud",
-        "empyrean — the opposite sky: fire and light above the clouds"
+        "empyrean — the opposite sky: fire and light above the clouds",
+        "apricity — the sun this cloud is blocking"
       ],
       "tags": [
         "latin-origin",
@@ -1895,6 +1899,34 @@
         "nature"
       ],
       "added": "2026-09-03"
+    },
+    {
+      "id": "apricity",
+      "word": "apricity",
+      "title": "Apricity",
+      "partOfSpeech": "noun",
+      "pronunciation": "(uh-PRIS-i-tee)",
+      "definition": "Rare. The warmth of the sun in winter.",
+      "etymology": "From Latin **apricitas** (sunniness), from *apricus* (exposed to the sun, basking) — not \"ripe,\" despite what some dictionary cards say; that gloss is a leftover from the apricot tangle below. First documented use: 1623, and effectively last as well: the OED's only citation is Henry Cockeram's *English Dictionarie* of that year, defining it as \"the warmeness of the Sunne in Winter.\" Merriam-Webster has no entry at all. It is a word that has lived almost entirely inside dictionaries, and every modern use of it is a revival.",
+      "example": "The porch was cold in the shade and generous in the sun, all the **apricity** a February morning has to give.",
+      "synonyms": [
+        "sunniness",
+        "winter sunshine",
+        "warmth"
+      ],
+      "antonyms": [
+        "(none natural)"
+      ],
+      "memoryHook": "Latin *apricus* = out in the sun → **apricity** is what you feel standing in a January sunbeam with your coat still on.",
+      "related": [
+        "nubilous — the opposite Latin sky: cloud where apricity needs sun",
+        "gloaming — another word for a particular quality of light rather than a condition of weather"
+      ],
+      "tags": [
+        "latin-origin",
+        "weather"
+      ],
+      "added": "2026-09-05"
     },
     {
       "id": "chiaroscuro",
@@ -2105,6 +2137,37 @@
       "tags": [
         "latin-origin",
         "appearance"
+      ],
+      "added": "2026-09-05"
+    },
+    {
+      "id": "vaunt",
+      "word": "vaunt",
+      "title": "Vaunt",
+      "partOfSpeech": "verb / noun",
+      "pronunciation": "(VAWNT)",
+      "definition": "To boast about or praise excessively; a boast.",
+      "etymology": "From Middle English **vaunten**, from Anglo-French *vanter*, from Late Latin *vanitare*, from Latin *vanus* (empty, illusory, full of foolish pride). First documented use: 15th century for the verb, 14th for the noun, which Oxford reads as a shortening of the obsolete *avaunt*. The judgment is baked into the root: *vanus* also gives *vain*, *vanity*, *vanish*, and *evanescent* — the shared idea is that there is nothing inside. The word now survives mostly in the passive participle, and \"much-vaunted\" is almost never a compliment; it means the claim came first and the substance never arrived.",
+      "example": "The much-**vaunted** rollout arrived nine months late and did less than the version it replaced.",
+      "synonyms": [
+        "boast",
+        "brag",
+        "crow",
+        "tout"
+      ],
+      "antonyms": [
+        "disparage",
+        "belittle",
+        "understate"
+      ],
+      "memoryHook": "*Vanus* = empty, the same root as *vain* and *vanish* → to **vaunt** is to fill the air with something that isn't there.",
+      "related": [
+        "eclat — the acclaim a vaunt is fishing for, and rarely earns",
+        "parrhesia — its opposite: speech that risks something instead of claiming everything"
+      ],
+      "tags": [
+        "french-origin",
+        "behavior"
       ],
       "added": "2026-09-05"
     }
