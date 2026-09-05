@@ -1,5 +1,5 @@
 {
-  "count": 63,
+  "count": 70,
   "words": [
     {
       "id": "celerity",
@@ -255,7 +255,10 @@
       "memoryHook": "**Cumber** (to burden) + **world** → someone who only encumbers the world.",
       "related": [
         "nous — the practical sense a cumberworld conspicuously lacks",
-        "stickybeak — another blunt English compound naming a kind of person"
+        "stickybeak — another blunt English compound naming a kind of person",
+        "cully — one easily tricked, as blunt a label as this one",
+        "fugleman — the opposite kind of man: the one held up as the model",
+        "cowhearted — another blunt English compound aimed at a person"
       ],
       "tags": [
         "english-origin",
@@ -515,7 +518,8 @@
       ],
       "memoryHook": "Italian for \"tangle\" — an **imbroglio** is a knot of complications.",
       "related": [
-        "welter — another word for a confused mass"
+        "welter — another word for a confused mass",
+        "chiaroscuro — the other Italian noun English took whole"
       ],
       "tags": [
         "italian-origin",
@@ -575,7 +579,8 @@
       "related": [
         "fabulist — one who composes fables",
         "verso — the page the writing lands on",
-        "prolegomenon — a formal essay indited to introduce a longer work"
+        "prolegomenon — a formal essay indited to introduce a longer work",
+        "griffonage — what the writing desk produces on a bad day"
       ],
       "tags": [
         "latin-origin",
@@ -667,7 +672,8 @@
       "related": [
         "veracious — the direct opposite, from *verus* (true)",
         "fabulist — a teller of fables, in the pejorative sense",
-        "perfidious — deceit aimed at betraying trust"
+        "perfidious — deceit aimed at betraying trust",
+        "cully — the person a mendacious one goes looking for"
       ],
       "tags": [
         "latin-origin",
@@ -724,7 +730,8 @@
       ],
       "memoryHook": "*Minae* = threats in Latin → **minacious** = threat-heavy. Same root as *menace* and *mountain*.",
       "related": [
-        "timorous — the fearful response to a threat"
+        "timorous — the fearful response to a threat",
+        "portentous — the omen before the threat declares itself"
       ],
       "tags": [
         "latin-origin",
@@ -1054,7 +1061,8 @@
       ],
       "memoryHook": "*Timor* is Latin for fear → **timorous** = full of fear. Think \"timid.\"",
       "related": [
-        "minacious — the threatening flip side of fearful"
+        "minacious — the threatening flip side of fearful",
+        "cowhearted — the same fear in homely English"
       ],
       "tags": [
         "latin-origin",
@@ -1234,7 +1242,8 @@
       "memoryHook": "*Zug* = \"train\" moving, *Unruhe* = unease → the animal's restless itch to get moving.",
       "related": [
         "mimetic — another word about inherited behavior",
-        "solivagant — the one who acts on the restlessness, alone"
+        "solivagant — the one who acts on the restlessness, alone",
+        "fugleman — the other German import in this folder"
       ],
       "tags": [
         "german-origin",
@@ -1661,7 +1670,8 @@
       ],
       "memoryHook": "*Glōm* (twilight) is kin to *glow* → the **gloaming** is the hour of the afterglow, when the light is leaving but not yet gone.",
       "related": [
-        "fugacious — the gloaming is the most fugacious hour of the day"
+        "fugacious — the gloaming is the most fugacious hour of the day",
+        "subfusc — the adjective for exactly this light"
       ],
       "tags": [
         "english-origin",
@@ -1787,7 +1797,8 @@
       "memoryHook": "Touch a moth's wing and the dust comes off on your fingers → **moth-wing** = beautiful, and ruined by handling.",
       "related": [
         "fugacious — the Latinate way to say the same thing: gone before you can hold it",
-        "stickybeak — from the same week of animal-part compounds, and built the same way: an animal's anatomy borrowed as metaphor"
+        "stickybeak — from the same week of animal-part compounds, and built the same way: an animal's anatomy borrowed as metaphor",
+        "griffonage — the third of the animal-part words in this folder"
       ],
       "tags": [
         "english-origin",
@@ -1846,7 +1857,8 @@
       "memoryHook": "*Beak* = nose in slang → a **stickybeak** is someone forever sticking theirs where it isn't wanted.",
       "related": [
         "cumberworld — another blunt English compound that names a kind of person you'd rather avoid",
-        "moth-wing — from the same week of animal-part compounds, and built the same way: an animal's anatomy borrowed as metaphor"
+        "moth-wing — from the same week of animal-part compounds, and built the same way: an animal's anatomy borrowed as metaphor",
+        "griffonage — another word built on an animal's anatomy, this one French"
       ],
       "tags": [
         "english-origin",
@@ -1883,6 +1895,218 @@
         "nature"
       ],
       "added": "2026-09-03"
+    },
+    {
+      "id": "chiaroscuro",
+      "word": "chiaroscuro",
+      "title": "Chiaroscuro",
+      "partOfSpeech": "noun",
+      "pronunciation": "(kee-ahr-uh-SKYOOR-oh)",
+      "definition": "The treatment of light and shade in art; the interplay of light and shadow, or of contrasting qualities.",
+      "etymology": "From Italian **chiaro** (clear, light), from Latin *clarus*, + **oscuro** (dark, obscure), from Latin *obscurus*. First documented use: 1686. The word is its own definition — the two halves sit side by side without a connective, which is exactly what the technique does. English kept the Italian because the painters who perfected it were Italian; the figurative sense, a character or a mood built out of light and dark in the same person, came later and is now the commoner one outside museums.",
+      "example": "The interview had a **chiaroscuro** quality: every generous answer shadowed by something he wouldn't say.",
+      "synonyms": [
+        "contrast",
+        "shading",
+        "light and shade",
+        "modeling"
+      ],
+      "antonyms": [
+        "flatness",
+        "monotone"
+      ],
+      "memoryHook": "*Chiaro* (light) + *oscuro* (dark), bolted together with nothing in between → **chiaroscuro** = the two of them at once.",
+      "related": [
+        "imbroglio — the other Italian noun English took whole rather than translate",
+        "subfusc — the dark half of the same palette, in Latin instead of Italian"
+      ],
+      "tags": [
+        "italian-origin",
+        "art"
+      ],
+      "added": "2026-09-05"
+    },
+    {
+      "id": "cowhearted",
+      "word": "cowhearted",
+      "title": "Cowhearted",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(KOW-har-tid)",
+      "definition": "Cowardly.",
+      "etymology": "From **cow**, Old English *cū*, + **heart**, Old English *heorte*. Earliest documented use: 1660. The good part is what it is *not* related to: *coward* has no cow in it at all, coming instead from Latin *cauda* (tail), by way of Old French — an animal with its tail between its legs, or a man turning tail. *Cowhearted* really is cow plus hearted, but it only means what it means because *coward* was sitting next to it sounding similar. In short, coward is all tail and no cow, and the cattle have been libelled by association.",
+      "example": "It was not a hard call, only an unpopular one, and the board was too **cowhearted** to make it.",
+      "synonyms": [
+        "cowardly",
+        "timid",
+        "craven",
+        "lily-livered"
+      ],
+      "antonyms": [
+        "valiant",
+        "stouthearted",
+        "intrepid"
+      ],
+      "memoryHook": "*Coward* comes from *cauda*, a tail — no cow anywhere in it. **Cowhearted** is the one that actually has the cow, and it borrowed its meaning from its noisy neighbor.",
+      "related": [
+        "timorous — the same fear, in Latin dress",
+        "cumberworld — another blunt English compound aimed at a person"
+      ],
+      "tags": [
+        "english-origin",
+        "emotion"
+      ],
+      "added": "2026-09-05"
+    },
+    {
+      "id": "cully",
+      "word": "cully",
+      "title": "Cully",
+      "partOfSpeech": "noun / verb",
+      "pronunciation": "(KUHL-ee)",
+      "definition": "One easily tricked; to trick or deceive. In slang, a companion or mate.",
+      "etymology": "Origin uncertain. Merriam-Webster offers \"perhaps an alteration of **cullion**,\" a rascal or contemptible fellow, from Old French *coillon*. Others compare Irish *cuallaí* (companion), which would account for the friendlier slang sense that has no obvious connection to being fleeced. First documented use: 1664 for the noun, 1676 for the verb. It belongs to the thieves' cant of Restoration London, where it also named a prostitute's client — the two surviving senses, dupe and mate, are what is left of a word that once meant \"the man being worked.\"",
+      "example": "He played the affable **cully** for a week before anyone realized who was running the table.",
+      "synonyms": [
+        "dupe",
+        "gull",
+        "mark",
+        "pigeon"
+      ],
+      "antonyms": [
+        "sharper",
+        "swindler"
+      ],
+      "memoryHook": "A **cully** is the one being had — or, in the other sense, the mate having a drink with you. The word never quite decided which.",
+      "related": [
+        "mendacious — the other side of the transaction: someone has to be lying for a cully to exist",
+        "cumberworld — another blunt old English word for a person you would not want to be"
+      ],
+      "tags": [
+        "unknown-origin",
+        "person"
+      ],
+      "added": "2026-09-05"
+    },
+    {
+      "id": "fugleman",
+      "word": "fugleman",
+      "title": "Fugleman",
+      "partOfSpeech": "noun",
+      "pronunciation": "(FYOO-guhl-muhn)",
+      "definition": "A soldier posted in front of a line at drill as a model; one who heads a group, a leader.",
+      "etymology": "From German **Flügelmann** (file leader), literally \"wing man,\" from *Flügel* (wing) + *Mann* (man) — the *Flügel* being the flank of a formation, not a bird's. First documented use: 1804. English took the word during the Napoleonic drill era and anglicized the spelling to match the sound. The figurative sense arrived quickly and drifted: a fugleman is now less often the man everybody copies than the man working the room on someone else's behalf.",
+      "example": "Every committee has a chair and a **fugleman**, and they are rarely the same person.",
+      "synonyms": [
+        "leader",
+        "exemplar",
+        "ringleader",
+        "point man"
+      ],
+      "antonyms": [
+        "follower",
+        "rank and file"
+      ],
+      "memoryHook": "German *Flügel* = wing, as in the flank of a formation → the **fugleman** stands out front on the wing, and everyone behind him copies what he does.",
+      "related": [
+        "zugunruhe — the other German import in this folder",
+        "cumberworld — the exact opposite kind of man: the one nobody would use as a model"
+      ],
+      "tags": [
+        "german-origin",
+        "person"
+      ],
+      "added": "2026-09-05"
+    },
+    {
+      "id": "griffonage",
+      "word": "griffonage",
+      "title": "Griffonage",
+      "partOfSpeech": "noun",
+      "pronunciation": "(grif-uh-NAHZH)",
+      "definition": "Careless or illegible handwriting; scrawl.",
+      "etymology": "From French **griffonner** (to scribble, to scrawl), from *griffe* (claw). Earliest documented use: 1832. English calls an indecipherable hand *chicken scratch*; French reached for the same idea and built the word on a claw. The *griffe* here is also the *griffin*'s — both go back to a Greek word for hooked or curved.",
+      "example": "Three lines of **griffonage** at the bottom of the chart, and no one could tell whether the dose was 5 or 50.",
+      "synonyms": [
+        "scrawl",
+        "scribble",
+        "chicken scratch"
+      ],
+      "antonyms": [
+        "calligraphy",
+        "copperplate"
+      ],
+      "memoryHook": "French *griffe* = claw → **griffonage** is writing that looks like it was done with one.",
+      "related": [
+        "indite — the writing desk at its most careful; griffonage is what happens when it isn't",
+        "stickybeak — another word built on an animal's anatomy",
+        "moth-wing — the third of the animal-part compounds in this folder"
+      ],
+      "tags": [
+        "french-origin",
+        "writing"
+      ],
+      "added": "2026-09-05"
+    },
+    {
+      "id": "portentous",
+      "word": "portentous",
+      "title": "Portentous",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(por-TEN-tuhs)",
+      "definition": "Constituting an omen; ominous. Also, self-consciously solemn or pompous.",
+      "etymology": "From Latin **portentosus**, from *portentum* (an omen, a sign), from *portendere* (to foretell), built from *por-* (forward) + *tendere* (to stretch) — an omen is something stretched out ahead of you. First documented use: 15th century. Sense 4 is the newcomer and the disputed one: Merriam-Webster only added \"self-consciously solemn or important\" in 1934, and careful writers still object that the pompous sense muscles out the ominous one. It is not related to *pretentious*, which it is constantly confused with; and *portentious*, which sounds like the two of them merged, is not a word.",
+      "example": "He paused before answering, in the **portentous** manner of a man who has nothing to say.",
+      "synonyms": [
+        "ominous",
+        "foreboding",
+        "prodigious",
+        "pompous"
+      ],
+      "antonyms": [
+        "auspicious",
+        "unremarkable",
+        "modest"
+      ],
+      "memoryHook": "*Portendere* = to stretch forward → a **portentous** thing reaches ahead of itself. So does the man who pauses meaningfully before saying nothing.",
+      "related": [
+        "minacious — a portent that has made up its mind to be a threat"
+      ],
+      "tags": [
+        "latin-origin",
+        "threat"
+      ],
+      "added": "2026-09-05"
+    },
+    {
+      "id": "subfusc",
+      "word": "subfusc",
+      "title": "Subfusc",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(suhb-FUHSK)",
+      "definition": "Chiefly British. Drab, dusky; having little brightness or appeal.",
+      "etymology": "From Latin **subfuscus** (brownish, dusky), from *sub-* (somewhat, slightly) + *fuscus* (dark brown). First documented use: 1710. The *sub-* is the useful part: not dark, only somewhat dark — the color of a room at the end of the afternoon. *Fuscus* is also the root of *obfuscate*, to darken a thing deliberately. Oxford turned the adjective into a noun for the black-and-white dress code its students still wear to exams, which is how most people meet the word now.",
+      "example": "The lobby had been redone in a **subfusc** palette that made everyone in it look slightly unwell.",
+      "synonyms": [
+        "drab",
+        "dusky",
+        "somber",
+        "dingy"
+      ],
+      "antonyms": [
+        "vivid",
+        "brilliant",
+        "luminous"
+      ],
+      "memoryHook": "*Sub-* (somewhat) + *fuscus* (dark) → **subfusc** = not black, just dimmed. The same *fusc-* that lets you *obfuscate*.",
+      "related": [
+        "chiaroscuro — the dark half of the same palette, in Italian instead of Latin",
+        "gloaming — the hour that is subfusc by definition"
+      ],
+      "tags": [
+        "latin-origin",
+        "appearance"
+      ],
+      "added": "2026-09-05"
     }
   ]
 }
