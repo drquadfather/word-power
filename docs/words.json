@@ -1,5 +1,5 @@
 {
-  "count": 72,
+  "count": 74,
   "words": [
     {
       "id": "celerity",
@@ -1063,7 +1063,8 @@
       "memoryHook": "*Timor* is Latin for fear → **timorous** = full of fear. Think \"timid.\"",
       "related": [
         "minacious — the threatening flip side of fearful",
-        "cowhearted — the same fear in homely English"
+        "cowhearted — the same fear in homely English",
+        "pusillanimous — the same fear, with contempt built into the word"
       ],
       "tags": [
         "latin-origin",
@@ -1400,7 +1401,8 @@
         "nefandous — its exact inverse: what is *not* to be spoken",
         "veracious — the truth-telling that parrhesia performs out loud",
         "cavil — its opposite in spirit: objection that risks nothing",
-        "vaunt — its opposite: speech that claims everything and risks nothing"
+        "vaunt — its opposite: speech that claims everything and risks nothing",
+        "paraenesis — its Greek sibling in rhetoric: paraenesis steadies the willing, parrhesia risks the hard truth"
       ],
       "tags": [
         "greek-origin",
@@ -1739,7 +1741,8 @@
       "memoryHook": "*Pro-* (before) + *legein* (to say) → **prolegomenon** = the saying-before. A prologue with footnotes.",
       "related": [
         "indite — the act of composing the thing a prolegomenon introduces",
-        "verso — another term from the anatomy of the book"
+        "verso — another term from the anatomy of the book",
+        "paraenesis — another Greek name for a kind of composition rather than a subject"
       ],
       "tags": [
         "greek-origin",
@@ -1981,7 +1984,8 @@
       "memoryHook": "*Coward* comes from *cauda*, a tail — no cow anywhere in it. **Cowhearted** is the one that actually has the cow, and it borrowed its meaning from its noisy neighbor.",
       "related": [
         "timorous — the same fear, in Latin dress",
-        "cumberworld — another blunt English compound aimed at a person"
+        "cumberworld — another blunt English compound aimed at a person",
+        "pusillanimous — the Latin verdict on what this word describes"
       ],
       "tags": [
         "english-origin",
@@ -2170,6 +2174,67 @@
         "behavior"
       ],
       "added": "2026-09-05"
+    },
+    {
+      "id": "paraenesis",
+      "word": "paraenesis",
+      "title": "Paraenesis",
+      "partOfSpeech": "noun",
+      "pronunciation": "(puh-REE-nuh-sis)",
+      "definition": "An exhortatory composition; advice, counsel.",
+      "etymology": "From Late Latin **paraenesis**, from Greek *parainesis*, from *parainein* (to advise, exhort), from *para-* (alongside) + *ainein* (to speak of, to praise), from *ainos* (tale, saying) — counsel offered from beside someone rather than above them. Merriam-Webster carries the word in its unabridged dictionary but publishes no First Known Use, and no source consulted here dates it, so the note gives none.",
+      "example": "The last third of the letter is pure **paraenesis**: no new doctrine, just a steady reminder of what they had already agreed to do.",
+      "synonyms": [
+        "exhortation",
+        "counsel",
+        "admonition",
+        "encouragement"
+      ],
+      "antonyms": [
+        "dissuasion",
+        "discouragement"
+      ],
+      "memoryHook": "*Para-* (alongside) + *ainein* (to speak) → **paraenesis** = the word spoken beside you. Not an argument to convince you, a nudge to keep you going.",
+      "related": [
+        "parrhesia — its Greek sibling in rhetoric: parrhesia risks the hard truth, paraenesis steadies the willing",
+        "prolegomenon — another Greek name for a kind of composition rather than a subject"
+      ],
+      "tags": [
+        "greek-origin",
+        "writing"
+      ],
+      "added": "2026-09-07"
+    },
+    {
+      "id": "pusillanimous",
+      "word": "pusillanimous",
+      "title": "Pusillanimous",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(pyoo-suh-LAN-uh-muhs)",
+      "definition": "Lacking courage and resolution; marked by contemptible timidity.",
+      "etymology": "From Late Latin **pusillanimis**, from *pusillus* (very small — a diminutive of *pusus*, boy, from the same stock as *puer*, child) + *animus* (spirit): literally small-souled. First documented use: 15th century. Its exact opposite is built on the same frame — *magnanimous*, from *magnus* (great) + *animus* — so the two words are a matched pair, one great-souled and one shrunken. The contempt is part of the definition, not an overtone: *timorous* describes fear, *pusillanimous* passes judgment on it.",
+      "example": "The board's response was **pusillanimous** — three paragraphs of concern and no decision.",
+      "synonyms": [
+        "cowardly",
+        "craven",
+        "spineless",
+        "fainthearted"
+      ],
+      "antonyms": [
+        "magnanimous",
+        "intrepid",
+        "resolute"
+      ],
+      "memoryHook": "*Pusillus* (tiny) + *animus* (soul) → **pusillanimous** = small-souled. Swap *pusillus* for *magnus* and you get its mirror image, *magnanimous*.",
+      "related": [
+        "timorous — the same fear without the verdict attached",
+        "cowhearted — the homely English compound for what this Latin one condemns"
+      ],
+      "tags": [
+        "latin-origin",
+        "emotion"
+      ],
+      "added": "2026-09-07"
     }
   ]
 }
