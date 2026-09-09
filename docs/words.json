@@ -1,5 +1,5 @@
 {
-  "count": 74,
+  "count": 77,
   "words": [
     {
       "id": "celerity",
@@ -550,7 +550,8 @@
       ],
       "memoryHook": "*In-* (not) + *defatigare* (to tire) → **indefatigable** = cannot be fatigued.",
       "related": [
-        "(none in folder)"
+        "(none in folder)",
+        "stuporous — its opposite in stamina rather than in speed"
       ],
       "tags": [
         "latin-origin",
@@ -1245,7 +1246,8 @@
       "related": [
         "mimetic — another word about inherited behavior",
         "solivagant — the one who acts on the restlessness, alone",
-        "fugleman — the other German import in this folder"
+        "fugleman — the other German import in this folder",
+        "torschlusspanik — the other German compound here for a restlessness English never named"
       ],
       "tags": [
         "german-origin",
@@ -1277,7 +1279,8 @@
       "memoryHook": "The **Corybantes** worshipped by dancing themselves into a frenzy → **corybantic** = that kind of wild.",
       "related": [
         "melpomenish — another adjective coined from Greek myth",
-        "penelopean — likewise, and its opposite in temper: patient repetition against ecstatic frenzy"
+        "penelopean — likewise, and its opposite in temper: patient repetition against ecstatic frenzy",
+        "stuporous — the far end of the same dial: torpor where this is frenzy"
       ],
       "tags": [
         "greek-origin",
@@ -1402,7 +1405,8 @@
         "veracious — the truth-telling that parrhesia performs out loud",
         "cavil — its opposite in spirit: objection that risks nothing",
         "vaunt — its opposite: speech that claims everything and risks nothing",
-        "paraenesis — its Greek sibling in rhetoric: paraenesis steadies the willing, parrhesia risks the hard truth"
+        "paraenesis — its Greek sibling in rhetoric: paraenesis steadies the willing, parrhesia risks the hard truth",
+        "psychagogic — the other Greek term for what words do to a listener, by attraction rather than by risk"
       ],
       "tags": [
         "greek-origin",
@@ -1644,7 +1648,8 @@
       "related": [
         "gloaming — the fugacious hour at the end of the day",
         "senescent — what is fugacious vanishes; what is senescent takes its time",
-        "moth-wing — the homely English compound for the same idea"
+        "moth-wing — the homely English compound for the same idea",
+        "torschlusspanik — the panic that fugacious time provokes"
       ],
       "tags": [
         "latin-origin",
@@ -2197,7 +2202,8 @@
       "memoryHook": "*Para-* (alongside) + *ainein* (to speak) → **paraenesis** = the word spoken beside you. Not an argument to convince you, a nudge to keep you going.",
       "related": [
         "parrhesia — its Greek sibling in rhetoric: parrhesia risks the hard truth, paraenesis steadies the willing",
-        "prolegomenon — another Greek name for a kind of composition rather than a subject"
+        "prolegomenon — another Greek name for a kind of composition rather than a subject",
+        "psychagogic — the quality of speech that makes paraenesis work"
       ],
       "tags": [
         "greek-origin",
@@ -2235,6 +2241,96 @@
         "emotion"
       ],
       "added": "2026-09-07"
+    },
+    {
+      "id": "psychagogic",
+      "word": "psychagogic",
+      "title": "Psychagogic",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(sy-kuh-GOJ-ik)",
+      "definition": "Attractive, persuasive, inspiring; relating to the guidance of the soul.",
+      "etymology": "From Greek **psychagogikos**, from *psychagogia* (a leading of the soul), from *psyche* (soul) + *agogos* (leading), from *agein* (to lead). The *-agogue* half is the familiar one: a *demagogue* leads the people, a *pedagogue* leads the child, a *synagogue* leads them together. Merriam-Webster carries the adjective in its unabridged dictionary but gives no First Known Use.",
+      "example": "The sermon was **psychagogic** in the old sense — it did not argue anyone into anything, it simply led.",
+      "synonyms": [
+        "persuasive",
+        "compelling",
+        "inspiring",
+        "winning"
+      ],
+      "antonyms": [
+        "off-putting",
+        "uninspiring"
+      ],
+      "memoryHook": "*Psyche* (soul) + *agein* (to lead) → **psychagogic** = soul-leading. Same *-agogue* as *demagogue*, aimed at one person instead of a crowd.",
+      "related": [
+        "paraenesis — what psychagogic speech does in practice: steady a person already walking",
+        "parrhesia — the other Greek term for what words do to a listener, by risk rather than by attraction"
+      ],
+      "tags": [
+        "greek-origin",
+        "behavior"
+      ],
+      "added": "2026-09-08"
+    },
+    {
+      "id": "stuporous",
+      "word": "stuporous",
+      "title": "Stuporous",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(STOO-puh-ruhs)",
+      "definition": "Dazed, sluggish, or barely responsive.",
+      "etymology": "From Latin **stupere** (to be stunned, dazed), which also produced *stupendous*, *stupefy*, and *stupid*. First documented use: 1712. The root's range is the interesting part: the same verb yields the word for something so astonishing it stops you and the word for someone who was never going anywhere. In medicine *stupor* is not loose description but a graded level of consciousness — below lethargy, above coma, rousable only by vigorous stimulus — so the adjective carries more precision in a chart than it does in prose. A few speakers say *STYOO-*.",
+      "example": "By the fourth hour of the meeting the room had gone **stuporous**, everyone upright and nobody present.",
+      "synonyms": [
+        "dazed",
+        "torpid",
+        "lethargic",
+        "insensible"
+      ],
+      "antonyms": [
+        "alert",
+        "responsive",
+        "vivacious"
+      ],
+      "memoryHook": "*Stupere* = to be stunned → **stuporous** is what stunned looks like an hour later. Same root as *stupendous*: one stops you in wonder, the other just stops you.",
+      "related": [
+        "corybantic — the far end of the same dial: frenzy where this is torpor",
+        "indefatigable — its opposite in stamina rather than in speed"
+      ],
+      "tags": [
+        "latin-origin",
+        "energy"
+      ],
+      "added": "2026-09-08"
+    },
+    {
+      "id": "torschlusspanik",
+      "word": "torschlusspanik",
+      "title": "Torschlusspanik",
+      "partOfSpeech": "noun",
+      "pronunciation": "(TOR-shloos-pah-nik)",
+      "definition": "The fear that time to act is running out.",
+      "etymology": "From German **Torschlusspanik**, built from *Tor* (gate) + *Schluss* (closing) + *Panik* (panic): gate-shut panic. The picture behind it is medieval — a walled town whose gates were barred at nightfall, and the traveler running for them in the last of the light. No English dictionary consulted publishes a first-use date for it, which is what you would expect of a word English has borrowed without ever quite naturalizing. German assembles a compound where English needs a sentence, which is exactly why the loan was worth making.",
+      "example": "He signed up for the marathon at forty-eight, which he admitted was less ambition than **Torschlusspanik**.",
+      "synonyms": [
+        "deadline dread",
+        "urgency",
+        "panic"
+      ],
+      "antonyms": [
+        "equanimity",
+        "patience"
+      ],
+      "memoryHook": "*Tor* (gate) + *Schluss* (closing) + *Panik* → **Torschlusspanik** = the sprint for the gate before it shuts for the night.",
+      "related": [
+        "zugunruhe — the other German compound here for a restlessness English never named",
+        "fugacious — the quality of time that makes Torschlusspanik reasonable"
+      ],
+      "tags": [
+        "german-origin",
+        "emotion"
+      ],
+      "added": "2026-09-08"
     }
   ]
 }
