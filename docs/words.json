@@ -1,5 +1,5 @@
 {
-  "count": 77,
+  "count": 80,
   "words": [
     {
       "id": "celerity",
@@ -313,7 +313,8 @@
       ],
       "memoryHook": "*Dia-* (across) + *chronos* (time) → **diachronic** = across time. The opposite, *synchronic*, is at one point in time.",
       "related": [
-        "senescent — change over time applied to aging"
+        "senescent — change over time applied to aging",
+        "ipseity — selfhood, whose standing problem is holding across time"
       ],
       "tags": [
         "greek-origin",
@@ -823,7 +824,8 @@
       ],
       "memoryHook": "Greek *nous* = mind. Someone who \"hasn't got the **nous**\" for a job hasn't got the *mind* for it.",
       "related": [
-        "cumberworld — a useless person is precisely one with no nous"
+        "cumberworld — a useless person is precisely one with no nous",
+        "ipseity — the self the mind belongs to"
       ],
       "tags": [
         "greek-origin",
@@ -1003,7 +1005,8 @@
       "memoryHook": "*Senex* = old man in Latin → **senescent** = aging. The prefix *sen-* signals old age.",
       "related": [
         "diachronic — change over time, of which aging is one kind",
-        "fugacious — the opposite tempo: gone quickly rather than declining slowly"
+        "fugacious — the opposite tempo: gone quickly rather than declining slowly",
+        "arborescent — its sibling in formation: the same Latin *-escent*, \"in the process of becoming\""
       ],
       "tags": [
         "latin-origin",
@@ -1340,7 +1343,8 @@
       ],
       "memoryHook": "The same *bosc-* (wood) that gives *bouquet* — literally a \"little wood\" of flowers — and *ambush*, hiding in one. **Boscage** is the wood itself.",
       "related": [
-        "rupestrian — the folder's other word for a specific kind of terrain"
+        "rupestrian — the folder's other word for a specific kind of terrain",
+        "arborescent — the growth habit a boscage is made of"
       ],
       "tags": [
         "french-origin",
@@ -1371,7 +1375,8 @@
       ],
       "memoryHook": "It rhymes with *drowsy*, and it describes exactly what a room looks like after a long one. Same murky family as **frowze**, to make untidy.",
       "related": [
-        "frowze — the verb of the same unknown-origin family; to make frowzy"
+        "frowze — the verb of the same unknown-origin family; to make frowzy",
+        "nidorous — the other end of the same complaint: burnt rather than musty"
       ],
       "tags": [
         "unknown-origin",
@@ -2331,6 +2336,94 @@
         "emotion"
       ],
       "added": "2026-09-08"
+    },
+    {
+      "id": "arborescent",
+      "word": "arborescent",
+      "title": "Arborescent",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(ar-buh-RES-uhnt)",
+      "definition": "Botany. Resembling a tree in growth, structure, or appearance.",
+      "etymology": "From Latin **arborescent-**, the present participle of *arborescere* (to grow into a tree), an inchoative verb built on *arbor* (tree). First documented use: 1675, which matches Oxford's \"late 17th century.\" The *-escent* is the part worth knowing: Latin's inchoative suffix means *in the process of becoming*, not merely resembling — the same machinery behind *senescent* (growing old), *convalescent* (growing well), *effervescent* (starting to boil). An arborescent succulent is not a tree; it is a plant on its way to behaving like one. The word has since been borrowed outward for anything that branches — river deltas, mineral dendrites, data structures.",
+      "example": "The old lavender had gone **arborescent**, woody at the base and reaching for the eaves.",
+      "synonyms": [
+        "treelike",
+        "dendritic",
+        "branching"
+      ],
+      "antonyms": [
+        "herbaceous",
+        "prostrate"
+      ],
+      "memoryHook": "*Arbor* (tree) + *-escere* (becoming) → **arborescent** = in the act of turning into a tree. Same *-escent* as *senescent*, in the act of turning old.",
+      "related": [
+        "boscage — what a stand of arborescent growth adds up to",
+        "senescent — its sibling in formation: the same Latin *-escent*, \"in the process of becoming\""
+      ],
+      "tags": [
+        "latin-origin",
+        "nature"
+      ],
+      "added": "2026-09-10"
+    },
+    {
+      "id": "ipseity",
+      "word": "ipseity",
+      "title": "Ipseity",
+      "partOfSpeech": "noun",
+      "pronunciation": "(ip-SEE-uh-tee)",
+      "definition": "Individual identity; selfhood.",
+      "etymology": "From Latin **ipse** (self, himself) plus *-ity*, the suffix that makes abstract nouns. First documented use: 1650s; Merriam-Webster carries the word in its unabridged dictionary but publishes no First Known Use, so the date comes from Etymonline. It arrived as a philosopher's term and stayed one. Its near neighbors are Duns Scotus's *haecceity*, the \"thisness\" that makes any individual thing that one, and *quiddity*, the \"whatness\" that makes it the kind of thing it is; ipseity is the version reserved for selves.",
+      "example": "Twenty years of it had not touched his **ipseity** — the job had changed everything about him except who he was.",
+      "synonyms": [
+        "selfhood",
+        "identity",
+        "individuality",
+        "personhood"
+      ],
+      "antonyms": [
+        "anonymity",
+        "impersonality"
+      ],
+      "memoryHook": "Latin *ipse* = self, as in *ipso facto*, \"by the fact itself\" → **ipseity** = the fact of being oneself.",
+      "related": [
+        "nous — the mind that does the thinking; ipseity is the self it belongs to",
+        "diachronic — identity across time is the standing problem about ipseity"
+      ],
+      "tags": [
+        "latin-origin",
+        "person"
+      ],
+      "added": "2026-09-10"
+    },
+    {
+      "id": "nidorous",
+      "word": "nidorous",
+      "title": "Nidorous",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(NY-duh-ruhs)",
+      "definition": "Smelling strongly of cooking, burning, or decaying animal matter.",
+      "etymology": "From Latin **nidor**, the strong smell or steam given off by cooking or burning meat — and, despite the resemblance, no relation to *odor*, which comes from *odor* and *olere* (to give off a smell). Earliest documented use: 1626. The Latin was specific in a way English never bothered to be: not a smell in general but that smell, the one that gets into curtains.",
+      "example": "The stairwell was **nidorous** at seven every evening, and you could tell what floor you were passing by what was burning on it.",
+      "synonyms": [
+        "reeking",
+        "rank",
+        "fetid",
+        "smoky"
+      ],
+      "antonyms": [
+        "fragrant",
+        "odorless"
+      ],
+      "memoryHook": "Latin *nidor* = the smell of meat on the fire → **nidorous** is the smell that follows you out of the kitchen. It only looks like *odor*; the two are unrelated.",
+      "related": [
+        "frowzy — the other end of the same complaint: musty and stale rather than burnt"
+      ],
+      "tags": [
+        "latin-origin",
+        "smell"
+      ],
+      "added": "2026-09-10"
     }
   ]
 }
