@@ -1,5 +1,5 @@
 {
-  "count": 80,
+  "count": 82,
   "words": [
     {
       "id": "celerity",
@@ -81,7 +81,8 @@
       ],
       "memoryHook": "*Allo-* (other) + *patra* (fatherland) → **allopatric** = dwelling in a different land.",
       "related": [
-        "furcate — both terms about natural division and branching"
+        "furcate — both terms about natural division and branching",
+        "cultivar — the other side of the same question: difference made by gardener rather than geography"
       ],
       "tags": [
         "greek-origin",
@@ -551,7 +552,6 @@
       ],
       "memoryHook": "*In-* (not) + *defatigare* (to tire) → **indefatigable** = cannot be fatigued.",
       "related": [
-        "(none in folder)",
         "stuporous — its opposite in stamina rather than in speed"
       ],
       "tags": [
@@ -1036,7 +1036,7 @@
       ],
       "memoryHook": "*Sur-* (over) + *faire* (to do) → to **surfeit** is to do or consume past the point of want.",
       "related": [
-        "(none in folder)"
+        "macilent — the opposite condition: too little where surfeit has too much"
       ],
       "tags": [
         "french-origin",
@@ -1376,7 +1376,8 @@
       "memoryHook": "It rhymes with *drowsy*, and it describes exactly what a room looks like after a long one. Same murky family as **frowze**, to make untidy.",
       "related": [
         "frowze — the verb of the same unknown-origin family; to make frowzy",
-        "nidorous — the other end of the same complaint: burnt rather than musty"
+        "nidorous — the other end of the same complaint: burnt rather than musty",
+        "macilent — the folder's other unkind adjective for how a person looks"
       ],
       "tags": [
         "unknown-origin",
@@ -2358,11 +2359,41 @@
       "memoryHook": "*Arbor* (tree) + *-escere* (becoming) → **arborescent** = in the act of turning into a tree. Same *-escent* as *senescent*, in the act of turning old.",
       "related": [
         "boscage — what a stand of arborescent growth adds up to",
-        "senescent — its sibling in formation: the same Latin *-escent*, \"in the process of becoming\""
+        "senescent — its sibling in formation: the same Latin *-escent*, \"in the process of becoming\"",
+        "cultivar — the botanist's vocabulary this belongs to"
       ],
       "tags": [
         "latin-origin",
         "nature"
+      ],
+      "added": "2026-09-10"
+    },
+    {
+      "id": "cultivar",
+      "word": "cultivar",
+      "title": "Cultivar",
+      "partOfSpeech": "noun",
+      "pronunciation": "(KUHL-ti-var)",
+      "definition": "A plant variety originating and persisting under cultivation.",
+      "etymology": "A contraction of **cultivated variety**, coined in 1923 by the American horticulturist **Liberty Hyde Bailey** (1858–1954) in his journal *Gentes Herbarum*. First documented use: 1923. The distinction it was invented to protect is a real one and still gets lost: a botanical *variety* arises and breeds true in the wild, while a cultivar exists because people made and maintained it — most named apples and roses cannot reproduce themselves truthfully from seed and survive only by grafting or cutting. Hence the different notation, single quotes rather than italics: Malus domestica 'Honeycrisp'.",
+      "example": "Every tree in the orchard was the same **cultivar**, which is another way of saying every tree in the orchard was the same tree.",
+      "synonyms": [
+        "variety",
+        "strain",
+        "breed"
+      ],
+      "antonyms": [
+        "wild type",
+        "landrace"
+      ],
+      "memoryHook": "*Cultivated* + *variety*, squeezed together by a horticulturist who needed one word → **cultivar** = a plant that exists because someone kept it going.",
+      "related": [
+        "allopatric — the other side of the same question: how populations come to differ, by geography rather than by gardener",
+        "arborescent — the botanist's vocabulary this belongs to"
+      ],
+      "tags": [
+        "english-origin",
+        "biology"
       ],
       "added": "2026-09-10"
     },
@@ -2393,6 +2424,37 @@
       "tags": [
         "latin-origin",
         "person"
+      ],
+      "added": "2026-09-10"
+    },
+    {
+      "id": "macilent",
+      "word": "macilent",
+      "title": "Macilent",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(MAS-uh-luhnt)",
+      "definition": "Lean or emaciated; lacking in substance.",
+      "etymology": "From Latin **macilentus** (lean), built on *macer* (thin) — the same root as *macies* (leanness), which gives English *emaciate*, and as the Old French *maigre* behind *meager*. Earliest documented use: before 1425, which makes it older than most of its synonyms and no more used for it. The Indo-European root behind *macer* is **mak-*, \"long and thin,\" so the physical sense came first and the figurative one — a macilent argument, a macilent excuse — followed the same path *meager* did.",
+      "example": "The report was **macilent** in every sense: forty pages, and nothing in it you could act on.",
+      "synonyms": [
+        "gaunt",
+        "emaciated",
+        "meager",
+        "spare"
+      ],
+      "antonyms": [
+        "corpulent",
+        "substantial",
+        "ample"
+      ],
+      "memoryHook": "*Macer* = thin in Latin → **macilent**, and the same root thinned down into *meager* and *emaciate*. Three words for one idea; English kept the other two.",
+      "related": [
+        "surfeit — the opposite condition: too much where macilent has too little",
+        "frowzy — the folder's other unkind adjective for how a person looks"
+      ],
+      "tags": [
+        "latin-origin",
+        "appearance"
       ],
       "added": "2026-09-10"
     },
