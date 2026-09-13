@@ -1,5 +1,5 @@
 {
-  "count": 82,
+  "count": 88,
   "words": [
     {
       "id": "celerity",
@@ -522,7 +522,8 @@
       "memoryHook": "Italian for \"tangle\" — an **imbroglio** is a knot of complications.",
       "related": [
         "welter — another word for a confused mass",
-        "chiaroscuro — the other Italian noun English took whole"
+        "chiaroscuro — the other Italian noun English took whole",
+        "nodus — the knot at the center of the tangle"
       ],
       "tags": [
         "italian-origin",
@@ -552,7 +553,8 @@
       ],
       "memoryHook": "*In-* (not) + *defatigare* (to tire) → **indefatigable** = cannot be fatigued.",
       "related": [
-        "stuporous — its opposite in stamina rather than in speed"
+        "stuporous — its opposite in stamina rather than in speed",
+        "surmount — what indefatigable effort eventually does to an obstacle"
       ],
       "tags": [
         "latin-origin",
@@ -1036,7 +1038,8 @@
       ],
       "memoryHook": "*Sur-* (over) + *faire* (to do) → to **surfeit** is to do or consume past the point of want.",
       "related": [
-        "macilent — the opposite condition: too little where surfeit has too much"
+        "macilent — the opposite condition: too little where surfeit has too much",
+        "fulsome — the adjective for the same excess, and a far trickier word to use"
       ],
       "tags": [
         "french-origin",
@@ -1220,7 +1223,8 @@
       "related": [
         "imbroglio — another word for a confused tangle",
         "salmagundi — the same heap of unlike things, arranged and served",
-        "anomie — disorder in a society's rules rather than in a scene"
+        "anomie — disorder in a society's rules rather than in a scene",
+        "nodus — confusion by knot rather than by mass"
       ],
       "tags": [
         "germanic-origin",
@@ -1344,7 +1348,8 @@
       "memoryHook": "The same *bosc-* (wood) that gives *bouquet* — literally a \"little wood\" of flowers — and *ambush*, hiding in one. **Boscage** is the wood itself.",
       "related": [
         "rupestrian — the folder's other word for a specific kind of terrain",
-        "arborescent — the growth habit a boscage is made of"
+        "arborescent — the growth habit a boscage is made of",
+        "nemorous — the adjective for country a boscage covers"
       ],
       "tags": [
         "french-origin",
@@ -1469,7 +1474,8 @@
       "related": [
         "cachinnate — another Latin verb built from the sound it names",
         "bombinate — the third of the imitative Latin verbs in this folder",
-        "cavil — the other way to make a conversation unbearable: objection rather than repetition"
+        "cavil — the other way to make a conversation unbearable: objection rather than repetition",
+        "breviloquent — its exact opposite virtue: using few words"
       ],
       "tags": [
         "latin-origin",
@@ -1558,7 +1564,8 @@
       "memoryHook": "Probably *sal* (salt) + *condire* (to season) → a salted, seasoned jumble on a plate. Any pile of unlike things is now a **salmagundi**.",
       "related": [
         "multifarious — the adjective for what a salmagundi is",
-        "welter — a mass with no order; salmagundi is the same heap, arranged and served"
+        "welter — a mass with no order; salmagundi is the same heap, arranged and served",
+        "bricolage — the other French noun here for a thing made of whatever was on hand"
       ],
       "tags": [
         "french-origin",
@@ -1934,7 +1941,8 @@
       "memoryHook": "Latin *apricus* = out in the sun → **apricity** is what you feel standing in a January sunbeam with your coat still on.",
       "related": [
         "nubilous — the opposite Latin sky: cloud where apricity needs sun",
-        "gloaming — another word for a particular quality of light rather than a condition of weather"
+        "gloaming — another word for a particular quality of light rather than a condition of weather",
+        "nemorous — the folder's other Cockeram word, rare in the same dictionary-bound way"
       ],
       "tags": [
         "latin-origin",
@@ -1964,7 +1972,8 @@
       "memoryHook": "*Chiaro* (light) + *oscuro* (dark), bolted together with nothing in between → **chiaroscuro** = the two of them at once.",
       "related": [
         "imbroglio — the other Italian noun English took whole rather than translate",
-        "subfusc — the dark half of the same palette, in Latin instead of Italian"
+        "subfusc — the dark half of the same palette, in Latin instead of Italian",
+        "bricolage — another borrowed term of art English took whole rather than translate"
       ],
       "tags": [
         "italian-origin",
@@ -2178,7 +2187,8 @@
       "memoryHook": "*Vanus* = empty, the same root as *vain* and *vanish* → to **vaunt** is to fill the air with something that isn't there.",
       "related": [
         "eclat — the acclaim a vaunt is fishing for, and rarely earns",
-        "parrhesia — its opposite: speech that risks something instead of claiming everything"
+        "parrhesia — its opposite: speech that risks something instead of claiming everything",
+        "fulsome — the same excess aimed outward, at a guest of honor rather than oneself"
       ],
       "tags": [
         "french-origin",
@@ -2240,7 +2250,8 @@
       "memoryHook": "*Pusillus* (tiny) + *animus* (soul) → **pusillanimous** = small-souled. Swap *pusillus* for *magnus* and you get its mirror image, *magnanimous*.",
       "related": [
         "timorous — the same fear without the verdict attached",
-        "cowhearted — the homely English compound for what this Latin one condemns"
+        "cowhearted — the homely English compound for what this Latin one condemns",
+        "surmount — the thing the pusillanimous decline to attempt"
       ],
       "tags": [
         "latin-origin",
@@ -2486,6 +2497,188 @@
         "smell"
       ],
       "added": "2026-09-10"
+    },
+    {
+      "id": "breviloquent",
+      "word": "breviloquent",
+      "title": "Breviloquent",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(bre-VIL-uh-kwuhnt)",
+      "definition": "Using few words.",
+      "etymology": "From Latin **brevis** (short) + *loqui* (to speak). Earliest documented use: 1865. The *loqui* half is everywhere once you see it — *eloquent*, *loquacious*, *colloquy*, *soliloquy*, *ventriloquist*, the last of them a belly-speaker. The joke tells itself: a word meaning \"using few words\" runs to four syllables and twelve letters, and English already had the shorter *terse*, *curt*, and *laconic*. Its near-synonym is *pauciloquent*; its opposite, if you need it, is *longiloquent*.",
+      "example": "His **breviloquent** reply — \"No, and here's why\" — took ninety seconds and ended the meeting.",
+      "synonyms": [
+        "terse",
+        "laconic",
+        "concise",
+        "curt"
+      ],
+      "antonyms": [
+        "verbose",
+        "garrulous",
+        "long-winded"
+      ],
+      "memoryHook": "*Brevis* (short) + *loqui* (speak) → **breviloquent** = short-spoken. A twelve-letter word that recommends the opposite of itself.",
+      "related": [
+        "obganiate — its exact opposite vice: saying the same thing until everyone suffers"
+      ],
+      "tags": [
+        "latin-origin",
+        "behavior"
+      ],
+      "added": "2026-09-13"
+    },
+    {
+      "id": "bricolage",
+      "word": "bricolage",
+      "title": "Bricolage",
+      "partOfSpeech": "noun",
+      "pronunciation": "(bree-koh-LAHZH)",
+      "definition": "Construction or creation from whatever materials are at hand; something made that way.",
+      "etymology": "From French **bricolage**, from *bricoler* (to putter about, to do odd jobs) — in French an ordinary word for home handiwork, the sort of thing a hardware store advertises. First documented use in English: 1960. It became a term of art through **Claude Lévi-Strauss**, who set the *bricoleur* against the engineer: the engineer specifies the tool the job requires, while the bricoleur works from a finite pile of whatever has accumulated and makes the job fit the pile. The word carries that argument with it, which is why it means more in criticism than \"improvised assembly\" would. Anglophones usually say *bree-koh-LAHZH*; the British respelling runs *brik-uh-LAHZH*.",
+      "example": "The album is a **bricolage** — two abandoned demos, a field recording of his father, and whatever the room did to the drums.",
+      "synonyms": [
+        "assemblage",
+        "collage",
+        "patchwork",
+        "improvisation"
+      ],
+      "antonyms": [
+        "design",
+        "blueprint"
+      ],
+      "memoryHook": "French *bricoler* = to putter about the house → **bricolage** = what the putterer builds out of what was already in the garage.",
+      "related": [
+        "salmagundi — the other French noun here for a thing made of whatever was on hand",
+        "chiaroscuro — another borrowed term of art English took whole rather than translate"
+      ],
+      "tags": [
+        "french-origin",
+        "art"
+      ],
+      "added": "2026-09-13"
+    },
+    {
+      "id": "fulsome",
+      "word": "fulsome",
+      "title": "Fulsome",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(FUL-suhm)",
+      "definition": "Abundant, copious; also, excessive to the point of offense, especially in praise.",
+      "etymology": "From Middle English **fulsom**, also *foulsome* — \"abundant, well-fed, plump, arousing disgust\" — from *ful* (full) + *-som*, the ordinary English suffix in *wholesome* and *winsome*. First documented use: 14th century, in the \"abundant\" sense.",
+      "example": "The introduction was so **fulsome** that the speaker looked embarrassed before he reached the lectern.",
+      "synonyms": [
+        "copious",
+        "effusive",
+        "unctuous",
+        "overdone"
+      ],
+      "antonyms": [
+        "sparing",
+        "restrained",
+        "meager"
+      ],
+      "memoryHook": "*Full* + *-some* → **fulsome** started as \"plentiful\" and soured into \"too much.\" Both meanings survive, which is why the word is best admired and not used.",
+      "related": [
+        "surfeit — the noun for what fulsome describes: past the point of enough",
+        "vaunt — the same excess aimed at oneself rather than at a guest of honor"
+      ],
+      "tags": [
+        "english-origin",
+        "excess"
+      ],
+      "added": "2026-09-13"
+    },
+    {
+      "id": "nemorous",
+      "word": "nemorous",
+      "title": "Nemorous",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(NEM-uh-ruhs)",
+      "definition": "Rare. Woody, wooded.",
+      "etymology": "From classical Latin **nemorosus** (wooded, full of groves), from *nemus*, genitive *nemoris* — a grove, and specifically the kind of wood set apart as sacred. First documented use: early 17th century, and Oxford's earliest citation is Henry Cockeram, the lexicographer of the 1623 *English Dictionarie* — the same book that is the sole source for *apricity*. Two of the rarest words in this folder trace to one man's word list. The Latin survives in the Italian town of Nemi, beside the lake where Diana Nemorensis, Diana of the Wood, had the grove that opens Frazer's *The Golden Bough*.",
+      "example": "The road climbed out of the fields and turned **nemorous**, close and green on both sides for the next four miles.",
+      "synonyms": [
+        "wooded",
+        "sylvan",
+        "forested",
+        "arboreous"
+      ],
+      "antonyms": [
+        "treeless",
+        "barren",
+        "open"
+      ],
+      "memoryHook": "Latin *nemus* = a grove → **nemorous** country is grove after grove. Same wood that gave Diana *Nemorensis* her name.",
+      "related": [
+        "apricity — the folder's other Cockeram word, rare in the same dictionary-bound way",
+        "boscage — the thicket itself, where nemorous is the adjective for the country it covers"
+      ],
+      "tags": [
+        "latin-origin",
+        "nature"
+      ],
+      "added": "2026-09-13"
+    },
+    {
+      "id": "nodus",
+      "word": "nodus",
+      "title": "Nodus",
+      "partOfSpeech": "noun",
+      "pronunciation": "(NOH-duhs)",
+      "definition": "A complication or difficulty; a center or central point.",
+      "etymology": "From Latin **nodus**, a knot. First documented use: circa 1738. Plural *nodi*. The same knot gives English *node*, *nodule*, and *nodal* — and, by the back door, *denouement*: French *dénouer* is to untie, *des-* (un-) plus *nouer* (to knot), from *nodus*. So a story's nodus is the knot tied in the second act and its denouement is the untying, which is a tidier piece of literary vocabulary than most people realize they are using.",
+      "example": "The **nodus** was not the money at all; it was that no one wanted to say out loud who had promised it.",
+      "synonyms": [
+        "complication",
+        "difficulty",
+        "crux",
+        "knot"
+      ],
+      "antonyms": [
+        "solution",
+        "denouement"
+      ],
+      "memoryHook": "*Nodus* = knot → the **nodus** of a plot is the knot; the *denouement* — literally an untying — is what undoes it.",
+      "related": [
+        "imbroglio — the tangle a nodus produces once other people are in it",
+        "welter — confusion by mass rather than by knot"
+      ],
+      "tags": [
+        "latin-origin",
+        "chaos"
+      ],
+      "added": "2026-09-13"
+    },
+    {
+      "id": "surmount",
+      "word": "surmount",
+      "title": "Surmount",
+      "partOfSpeech": "verb",
+      "pronunciation": "(suhr-MOWNT)",
+      "definition": "To prevail over, overcome; to climb or stand at the top of.",
+      "etymology": "From Middle English, from Anglo-French **surmunter**, from *sur-* (over) + *munter* (to mount), which goes back to Latin *mons*, *montis* (mountain). First documented use: 14th century — in the now-obsolete fourth sense, \"to surpass,\" which is the one English gave up. The literal picture is still there under the figurative one: to surmount a difficulty is to get over the mountain of it. Sense 3 is the quiet one, used of things rather than people — a spire surmounted by a weathervane, a gate surmounted by a crest.",
+      "example": "The budget was the smaller problem; what they never **surmounted** was that no two of them agreed on what the thing was for.",
+      "synonyms": [
+        "overcome",
+        "conquer",
+        "scale",
+        "crown"
+      ],
+      "antonyms": [
+        "succumb",
+        "yield"
+      ],
+      "memoryHook": "*Sur-* (over) + *monter* (to climb), on Latin *mons* → to **surmount** is to get over the mountain, whether it is a mountain or a committee.",
+      "related": [
+        "indefatigable — the quality that surmounts things eventually",
+        "pusillanimous — the failure to try, which is why the thing goes unsurmounted"
+      ],
+      "tags": [
+        "french-origin",
+        "achievement"
+      ],
+      "added": "2026-09-13"
     }
   ]
 }
