@@ -1,5 +1,5 @@
 {
-  "count": 88,
+  "count": 92,
   "words": [
     {
       "id": "celerity",
@@ -110,7 +110,7 @@
       ],
       "memoryHook": "*A merci* = \"at the mercy.\" To be **amerced** is to be fined whatever the court's mercy decides — the same *merci* as the French for thank you, and as *mercy* itself.",
       "related": [
-        "(none in folder)"
+        "villein — the man who stood at the lord's mercy for the sum"
       ],
       "tags": [
         "french-origin",
@@ -374,7 +374,8 @@
       "memoryHook": "*Éclat* literally \"splinters\" like light off a jewel — brilliance that shatters attention.",
       "related": [
         "froideur — another French noun taken into English untranslated, and its social opposite: chill rather than dazzle",
-        "vaunt — the boast that goes fishing for éclat"
+        "vaunt — the boast that goes fishing for éclat",
+        "brummagem — the counterfeit of éclat: glitter without brilliance"
       ],
       "tags": [
         "french-origin",
@@ -463,7 +464,8 @@
       ],
       "memoryHook": "Sounds like \"frowsy\" (unkempt) → **frowze** = to make frowsy.",
       "related": [
-        "frowzy — the adjective of the same unknown-origin family"
+        "frowzy — the adjective of the same unknown-origin family",
+        "frowsty — the third of the unknown-origin cluster, for stale air"
       ],
       "tags": [
         "unknown-origin",
@@ -1102,7 +1104,8 @@
         "perfidious — a treacherous form of wickedness",
         "nefandous — unspeakable wickedness",
         "chumocracy — the institutional form it often takes",
-        "anomie — depravity breaks the standard; anomie is having none to break"
+        "anomie — depravity breaks the standard; anomie is having none to break",
+        "villein — where this moral category started: a word for a farm worker"
       ],
       "tags": [
         "latin-origin",
@@ -1364,7 +1367,7 @@
       "partOfSpeech": "adjective",
       "pronunciation": "(FROW-zee)",
       "definition": "Scruffy and neglected in appearance; dingy, musty, and stuffy.",
-      "etymology": "Late 17th century, originally dialect; origin unknown. First documented use: 1681. Etymonline suggests a link to dialectal *frowsty* (having an unpleasant smell), itself of uncertain parentage — possibly Old French *frouste* (ruinous, decayed) or Old English *þroh* (rancid). **Frowsy** is the commoner spelling in American dictionaries; *frowzy* is the variant Oxford leads with. Note the two senses run on different senses of the body: one is what a place *looks* like, the other what it *smells* like.",
+      "etymology": "Late 17th century, originally dialect; origin unknown. First documented use: 1681. The direction of the family matters and is easy to get backwards: Merriam-Webster derives the later *frowsty* (1865) from this word, not the reverse, so *frowzy* is the elder of that pair and *frowze* (1563) is older than both. Past that the trail goes cold — Etymonline floats Old French *frouste* (ruinous, decayed) and Old English *þroh* (rancid) as possible sources for the cluster without settling on either. **Frowsy** is the commoner spelling in American dictionaries; *frowzy* is the variant Oxford leads with. Note the two senses run on different senses of the body: one is what a place *looks* like, the other what it *smells* like.",
       "example": "The lobby had gone **frowzy** — dim, overwarm, and smelling faintly of the carpet's last thirty years.",
       "synonyms": [
         "scruffy",
@@ -1382,7 +1385,8 @@
       "related": [
         "frowze — the verb of the same unknown-origin family; to make frowzy",
         "nidorous — the other end of the same complaint: burnt rather than musty",
-        "macilent — the folder's other unkind adjective for how a person looks"
+        "macilent — the folder's other unkind adjective for how a person looks",
+        "frowsty — the youngest of the family, altered from this word"
       ],
       "tags": [
         "unknown-origin",
@@ -2188,7 +2192,8 @@
       "related": [
         "eclat — the acclaim a vaunt is fishing for, and rarely earns",
         "parrhesia — its opposite: speech that risks something instead of claiming everything",
-        "fulsome — the same excess aimed outward, at a guest of honor rather than oneself"
+        "fulsome — the same excess aimed outward, at a guest of honor rather than oneself",
+        "brummagem — the same emptiness in an object rather than a boast"
       ],
       "tags": [
         "french-origin",
@@ -2461,7 +2466,8 @@
       "memoryHook": "*Macer* = thin in Latin → **macilent**, and the same root thinned down into *meager* and *emaciate*. Three words for one idea; English kept the other two.",
       "related": [
         "surfeit — the opposite condition: too much where macilent has too little",
-        "frowzy — the folder's other unkind adjective for how a person looks"
+        "frowzy — the folder's other unkind adjective for how a person looks",
+        "exiguity — the noun for the quantity macilent describes"
       ],
       "tags": [
         "latin-origin",
@@ -2490,7 +2496,8 @@
       ],
       "memoryHook": "Latin *nidor* = the smell of meat on the fire → **nidorous** is the smell that follows you out of the kitchen. It only looks like *odor*; the two are unrelated.",
       "related": [
-        "frowzy — the other end of the same complaint: musty and stale rather than burnt"
+        "frowzy — the other end of the same complaint: musty and stale rather than burnt",
+        "frowsty — stale and shut-up air rather than burnt"
       ],
       "tags": [
         "latin-origin",
@@ -2581,7 +2588,8 @@
       "memoryHook": "*Full* + *-some* → **fulsome** started as \"plentiful\" and soured into \"too much.\" Both meanings survive, which is why the word is best admired and not used.",
       "related": [
         "surfeit — the noun for what fulsome describes: past the point of enough",
-        "vaunt — the same excess aimed at oneself rather than at a guest of honor"
+        "vaunt — the same excess aimed at oneself rather than at a guest of honor",
+        "exiguity — its opposite pole: short of enough rather than past it"
       ],
       "tags": [
         "english-origin",
@@ -2679,6 +2687,129 @@
         "achievement"
       ],
       "added": "2026-09-13"
+    },
+    {
+      "id": "brummagem",
+      "word": "brummagem",
+      "title": "Brummagem",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(BRUHM-i-juhm)",
+      "definition": "Cheap, showy, or counterfeit; spurious, tawdry.",
+      "etymology": "An alteration of **Birmingham** — *Brummagem* being the local dialect form of the city's name, which survives in *Brummie* for its people. First documented use: 1679. The slur has two layers, laid down a century apart: seventeenth-century Birmingham was notorious for striking counterfeit coin, which gave the word its sense of \"forged,\" and nineteenth-century Birmingham turned out cheap gilt jewelry and trinkets by the ton, which gave it \"tawdry.\" A whole city's manufacturing reputation compressed into an adjective, and not a flattering one.",
+      "example": "The awards themselves were **brummagem** — gilt plastic, a misspelled engraving — which everyone noticed and nobody said.",
+      "synonyms": [
+        "tawdry",
+        "spurious",
+        "gaudy",
+        "counterfeit"
+      ],
+      "antonyms": [
+        "genuine",
+        "sterling"
+      ],
+      "memoryHook": "*Brummagem* is Birmingham said locally → the city that minted fake coins and sold gilt trinkets lent its own name to everything **brummagem**.",
+      "related": [
+        "eclat — real brilliance, against which brummagem is the glitter that isn't",
+        "vaunt — the verbal version of the same emptiness: show without substance"
+      ],
+      "tags": [
+        "english-origin",
+        "appearance"
+      ],
+      "added": "2026-09-15"
+    },
+    {
+      "id": "exiguity",
+      "word": "exiguity",
+      "title": "Exiguity",
+      "partOfSpeech": "noun",
+      "pronunciation": "(eg-zi-GYOO-uh-tee)",
+      "definition": "The quality or state of being exiguous; scantiness.",
+      "etymology": "From Latin **exiguitas**, from *exiguus* (scanty, meager), from *exigere* — to weigh out strictly, to demand — built from *ex-* (out) + *agere* (to drive, to do). First documented use: 1604. *Exigere* is unusually productive: weighing something out precisely gives *exact* and *exactly*, while weighing it out *too* precisely gives *exiguus* and so *exiguous*. Precision and stinginess from one verb. *Exigent* and *exigency*, the demands that press on you, come from the demanding sense of the same word.",
+      "example": "The **exiguity** of the budget was the point; nobody funds a pilot they expect to succeed.",
+      "synonyms": [
+        "scantiness",
+        "meagerness",
+        "paucity",
+        "slenderness"
+      ],
+      "antonyms": [
+        "abundance",
+        "plenty",
+        "amplitude"
+      ],
+      "memoryHook": "*Exigere* = to weigh out strictly → weigh it out precisely and you get **exact**; weigh it out too closely and you get **exiguity**, the state of barely enough.",
+      "related": [
+        "macilent — the adjective for a body or an argument in this condition",
+        "fulsome — its opposite pole: past enough rather than short of it"
+      ],
+      "tags": [
+        "latin-origin",
+        "measure"
+      ],
+      "added": "2026-09-15"
+    },
+    {
+      "id": "frowsty",
+      "word": "frowsty",
+      "title": "Frowsty",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(FROW-stee)",
+      "definition": "Chiefly British. Having a stale, warm, stuffy atmosphere; musty.",
+      "etymology": "Chiefly British, and by Merriam-Webster's account an **alteration of *frowsy*** — the spelling English also keeps as *frowzy* — which is itself of unknown origin. First documented use: 1865, which puts it nearly two centuries after *frowzy* (1681) and three after *frowze* (1563). So the family runs in that order, and *frowsty* is the youngest of the three, not the dialect ancestor it is sometimes taken for. What it has that the others lack is the specific smell of a shut room in warm weather: not dirt, but air nobody has changed.",
+      "example": "The upstairs bedroom had gone **frowsty** over the summer, and opening one window was not going to fix it.",
+      "synonyms": [
+        "musty",
+        "stuffy",
+        "close",
+        "fusty"
+      ],
+      "antonyms": [
+        "airy",
+        "fresh",
+        "ventilated"
+      ],
+      "memoryHook": "Same family as **frowzy** and **frowze**, and the youngest of them → **frowsty** is what a closed room smells like in August.",
+      "related": [
+        "frowzy — the elder of the family, and the word frowsty was altered from",
+        "frowze — the verb at the root of the same unknown-origin cluster",
+        "nidorous — the other end of the folder's bad-air vocabulary: burnt rather than stale"
+      ],
+      "tags": [
+        "unknown-origin",
+        "appearance"
+      ],
+      "added": "2026-09-15"
+    },
+    {
+      "id": "villein",
+      "word": "villein",
+      "title": "Villein",
+      "partOfSpeech": "noun",
+      "pronunciation": "(VIL-uhn)",
+      "definition": "A peasant legally bound to a feudal lord, owing labor or dues in return for the use of land.",
+      "etymology": "From Old French **vilein** (peasant), from Latin *villanus* (farm worker), from *villa* (country estate, farm). Earliest documented use: before 1325. **Villein** and **villain** are the same word. It named a man who worked someone else's land, and the people who owned the land used it as an insult until the insult became the meaning — so the modern *villain*, the deliberate wrongdoer, is a fossil of what the landed classes thought of farm labor. English kept the older spelling for the legal status and the newer one for the moral judgment, which is a tidy division of a single ugly history. The *villa* at the bottom of it now means a holiday house.",
+      "example": "On paper he was a **villein** and could not leave the manor; in practice he held more acres than the knight two valleys over.",
+      "synonyms": [
+        "serf",
+        "peasant",
+        "bondman",
+        "churl"
+      ],
+      "antonyms": [
+        "freeman",
+        "lord"
+      ],
+      "memoryHook": "The **villein** worked the plot; the *villain* plotted. Same word — the second is just what his betters called him.",
+      "related": [
+        "amerce — the fine a villein stood at the lord's mercy for",
+        "turpitude — where the other spelling of this word ended up: baseness as a moral category"
+      ],
+      "tags": [
+        "french-origin",
+        "person"
+      ],
+      "added": "2026-09-15"
     }
   ]
 }
