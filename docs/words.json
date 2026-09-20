@@ -1,5 +1,5 @@
 {
-  "count": 92,
+  "count": 96,
   "words": [
     {
       "id": "celerity",
@@ -2810,6 +2810,130 @@
         "person"
       ],
       "added": "2026-09-15"
+    },
+    {
+      "id": "maculate",
+      "word": "maculate",
+      "title": "Maculate",
+      "partOfSpeech": "adjective / verb",
+      "pronunciation": "(MAK-yuh-layt)",
+      "definition": "Marked with spots or stains; to mark with a spot or spots.",
+      "etymology": "From Latin **maculatus**, past participle of *maculare* (to stain, spot, or disgrace), from *macula* (a spot, stain, or blemish). First documented use: 15th century. The word survives today mostly in its own negation — *immaculate*, \"without stain,\" the term the Catholic Church made famous in the doctrine of the Immaculate Conception — so the positive form sounds almost invented by contrast, even though it is the older and more literal word. *Macula* also names the macula of the eye, the small pigmented spot near the retina's center.",
+      "example": "The old manuscript's margins were **maculate** with three centuries of candle soot and thumbprints.",
+      "synonyms": [
+        "spotted",
+        "stained",
+        "blotched",
+        "sullied",
+        "tainted"
+      ],
+      "antonyms": [
+        "immaculate",
+        "unblemished",
+        "pristine"
+      ],
+      "memoryHook": "*Macula* = a spot in Latin → something **maculate** is spotted or stained; strip the *im-* and *immaculate* is simply \"not maculate.\"",
+      "related": [
+        "frowzy — frowzy's own antonym is *immaculate*, maculate's negated cousin: one word names a soiled look, the other the spotless one it's measured against."
+      ],
+      "tags": [
+        "latin-origin",
+        "appearance"
+      ],
+      "added": "2026-09-19"
+    },
+    {
+      "id": "mugwump",
+      "word": "mugwump",
+      "title": "Mugwump",
+      "partOfSpeech": "noun",
+      "pronunciation": "(MUHG-wuhmp)",
+      "definition": "A person who remains aloof or independent, especially from party politics.",
+      "etymology": "From the Massachusett (Algonquian) **mugquomp** or *muggumquomp*, \"war leader\" or \"great chief\" — borrowed into 19th-century English slang for a self-important person, a \"big shot,\" well before it had any political meaning. First documented use in its political sense: 1884, when the *New York Sun* used it to mock Republicans who bolted the party to back Democrat Grover Cleveland over the corruption-tainted James G. Blaine. The insult stuck as a badge of honor: the joke of the day was that a mugwump sits on the fence with his *mug* on one side and his *wump* on the other. The word has since broadened to any political independent who won't toe a party line.",
+      "example": "He'd voted for candidates from three different parties over the years — a lifelong **mugwump** who judged every race on its own terms.",
+      "synonyms": [
+        "independent",
+        "maverick",
+        "free agent",
+        "fence-sitter"
+      ],
+      "antonyms": [
+        "partisan",
+        "loyalist",
+        "party-liner"
+      ],
+      "memoryHook": "The old joke explains itself: a **mugwump** sits with his *mug* on one side of the fence and his *wump* on the other — the perfect picture for someone who won't commit to a party.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "algonquian-origin",
+        "person"
+      ],
+      "added": "2026-09-19"
+    },
+    {
+      "id": "nugatory",
+      "word": "nugatory",
+      "title": "Nugatory",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(NOO-guh-tor-ee)",
+      "definition": "Of little or no consequence; trifling; also, having no force or effect.",
+      "etymology": "From Latin **nugatorius** (trifling, worthless), from *nugari* (to trifle, to talk nonsense), from *nugae* (jokes, trifles, nonsense). First documented use: 1603. *Nugae* never propagated widely into English on its own — *nugatory* is close to the only surviving descendant, which is part of why a four-hundred-year-old word still sounds faintly foreign.",
+      "example": "Once the merger fell through, the noncompete clause he'd fought so hard over became entirely **nugatory**.",
+      "synonyms": [
+        "trifling",
+        "inconsequential",
+        "futile",
+        "worthless",
+        "void"
+      ],
+      "antonyms": [
+        "consequential",
+        "weighty",
+        "substantial",
+        "binding"
+      ],
+      "memoryHook": "Latin *nugae* = trifles → a **nugatory** clause is pure nonsense, worth nothing at all.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "latin-origin",
+        "measure"
+      ],
+      "added": "2026-09-19"
+    },
+    {
+      "id": "punctilious",
+      "word": "punctilious",
+      "title": "Punctilious",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(puhngk-TIL-ee-uhs)",
+      "definition": "Marked by strict attention to the details of codes or conventions; precise and scrupulous.",
+      "etymology": "From French **pointilleux**, from *pointille* (a small point), from Italian *puntiglio* (a fine point of honor or etiquette), ultimately from Latin *punctum* (a point), from *pungere* (to prick). First documented use: 1617. *Punctilio* — the noun for a minor point of correct conduct — entered English independently around the same time and shaped the adjective's sense directly: to be punctilious is to observe every punctilio.",
+      "example": "The new attaché was **punctilious** about protocol, correcting even the seating chart down to the last place card.",
+      "synonyms": [
+        "meticulous",
+        "scrupulous",
+        "fastidious",
+        "exacting",
+        "precise"
+      ],
+      "antonyms": [
+        "careless",
+        "slapdash",
+        "negligent"
+      ],
+      "memoryHook": "Latin *punctum* = a point → someone **punctilious** attends to every single point, however small.",
+      "related": [
+        "cavil — the same obsession with fine points turned to a different purpose: one observes them scrupulously, the other manufactures objections out of them."
+      ],
+      "tags": [
+        "french-origin",
+        "behavior"
+      ],
+      "added": "2026-09-19"
     }
   ]
 }
