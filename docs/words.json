@@ -1,5 +1,5 @@
 {
-  "count": 96,
+  "count": 100,
   "words": [
     {
       "id": "celerity",
@@ -25,7 +25,7 @@
       ],
       "memoryHook": "**Celerity** shares its Latin root with **accelerate** — so anything moving with celerity is accelerating. The \"celer\" in both words is the same *swift*.",
       "related": [
-        "(none in folder)"
+        "velocious — the rarer adjective for exactly the same idea, from a different Latin word for swift"
       ],
       "tags": [
         "latin-origin",
@@ -1010,7 +1010,8 @@
       "related": [
         "diachronic — change over time, of which aging is one kind",
         "fugacious — the opposite tempo: gone quickly rather than declining slowly",
-        "arborescent — its sibling in formation: the same Latin *-escent*, \"in the process of becoming\""
+        "arborescent — its sibling in formation: the same Latin *-escent*, \"in the process of becoming\"",
+        "decedent — the endpoint of the process this word describes"
       ],
       "tags": [
         "latin-origin",
@@ -1386,7 +1387,8 @@
         "frowze — the verb of the same unknown-origin family; to make frowzy",
         "nidorous — the other end of the same complaint: burnt rather than musty",
         "macilent — the folder's other unkind adjective for how a person looks",
-        "frowsty — the youngest of the family, altered from this word"
+        "frowsty — the youngest of the family, altered from this word",
+        "maculate — this word's own antonym, *immaculate*, is maculate's negated cousin"
       ],
       "tags": [
         "unknown-origin",
@@ -1731,7 +1733,8 @@
       "related": [
         "pluvial — its counterpart in the same Latin weather vocabulary: rain to its cloud",
         "empyrean — the opposite sky: fire and light above the clouds",
-        "apricity — the sun this cloud is blocking"
+        "apricity — the sun this cloud is blocking",
+        "flocculent — the same woolly texture, described from a different Latin root"
       ],
       "tags": [
         "latin-origin",
@@ -1795,7 +1798,8 @@
       "memoryHook": "Latin *cavilla* = jeering → to **cavil** is to jeer at the details. Cousin to *calumny*: one slanders, the other just nitpicks.",
       "related": [
         "obganiate — the other way to make a conversation unbearable: repetition rather than objection",
-        "parrhesia — its opposite in spirit: speech that risks something, not speech that dodges the point"
+        "parrhesia — its opposite in spirit: speech that risks something, not speech that dodges the point",
+        "punctilious — the same close attention to fine points, turned to a different purpose: scrupulous care rather than trivial objection"
       ],
       "tags": [
         "french-origin",
@@ -2710,7 +2714,8 @@
       "memoryHook": "*Brummagem* is Birmingham said locally → the city that minted fake coins and sold gilt trinkets lent its own name to everything **brummagem**.",
       "related": [
         "eclat — real brilliance, against which brummagem is the glitter that isn't",
-        "vaunt — the verbal version of the same emptiness: show without substance"
+        "vaunt — the verbal version of the same emptiness: show without substance",
+        "nobby — the genuine quality brummagem only imitates"
       ],
       "tags": [
         "english-origin",
@@ -2812,6 +2817,60 @@
       "added": "2026-09-15"
     },
     {
+      "id": "decedent",
+      "word": "decedent",
+      "title": "Decedent",
+      "partOfSpeech": "noun",
+      "pronunciation": "(di-SEE-duhnt)",
+      "definition": "A person who has died.",
+      "etymology": "From Latin **decedens**, present participle of *decedere* (to depart, to withdraw, to die), from *de-* (away) + *cedere* (to go, to yield). First documented use: 1599. The word is almost entirely a legal one — wills, estates, and probate courts use *decedent* precisely because it is clinical where \"the deceased\" carries more feeling. *Cedere* is the same root behind *precede*, *concede*, and *recede*, all built on the idea of yielding ground or moving away.",
+      "example": "The will named three beneficiaries, none of whom the **decedent** had spoken to in over a decade.",
+      "synonyms": [
+        "deceased",
+        "departed"
+      ],
+      "antonyms": [
+        "(none natural)"
+      ],
+      "memoryHook": "*De-* (away) + *cedere* (to go) → a **decedent** has \"gone away\" for good — the same *cedere* that lets you *concede* or *recede*.",
+      "related": [
+        "senescent — the process this word's subject has finished: senescent describes the decline, decedent the endpoint."
+      ],
+      "tags": [
+        "latin-origin",
+        "person"
+      ],
+      "added": "2026-09-19"
+    },
+    {
+      "id": "flocculent",
+      "word": "flocculent",
+      "title": "Flocculent",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(FLAH-kyuh-luhnt)",
+      "definition": "Resembling wool, especially in loose fluffy organization; consisting of loosely aggregated particles or soft flakes.",
+      "etymology": "From Latin **floccus** (a tuft of wool) + the English suffix *-ulent* (full of, abounding in). First documented use: 1800. *Floccus* also gives English *flock* in its \"tuft of wool for stuffing\" sense (unrelated to the bird sense), and the dismissive Latin phrase *flocci non facere*, \"not to care a whit\" — literally \"not to make of a tuft of wool\" — which is the root of the mock-Latin superlative *floccinaucinihilipilification*, one of English's longest words, meaning the habit of estimating something as worthless.",
+      "example": "A **flocculent** precipitate formed at the bottom of the flask, drifting in loose white tufts.",
+      "synonyms": [
+        "fluffy",
+        "woolly",
+        "downy",
+        "fleecy"
+      ],
+      "antonyms": [
+        "(none natural)"
+      ],
+      "memoryHook": "*Floccus* = a tuft of wool → something **flocculent** clumps into soft, woolly flakes.",
+      "related": [
+        "nubilous — a cloud called flocculent and a sky called nubilous are describing the same woolly texture, from two different Latin roots."
+      ],
+      "tags": [
+        "latin-origin",
+        "appearance"
+      ],
+      "added": "2026-09-19"
+    },
+    {
       "id": "maculate",
       "word": "maculate",
       "title": "Maculate",
@@ -2869,6 +2928,37 @@
       "tags": [
         "algonquian-origin",
         "person"
+      ],
+      "added": "2026-09-19"
+    },
+    {
+      "id": "nobby",
+      "word": "nobby",
+      "title": "Nobby",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(NAH-bee)",
+      "definition": "Of the first quality or style; excellent, smart, stylish.",
+      "etymology": "From the noun **nob**, 18th-century British slang for a person of wealth or high social standing — possibly a shortened form of \"nobility,\" though etymologists aren't certain, and some tie it instead to an older slang sense of \"nob\" for \"head.\" First documented use: 1788. The adjective spread from describing people of quality to the things and places associated with them — a nobby address, a nobby coat — the same drift \"swanky\" and \"posh\" later followed.",
+      "example": "He'd shown up to the reunion in a **nobby** new suit that made the rest of us feel underdressed.",
+      "synonyms": [
+        "stylish",
+        "smart",
+        "swanky",
+        "posh",
+        "dapper"
+      ],
+      "antonyms": [
+        "shabby",
+        "dowdy",
+        "tawdry"
+      ],
+      "memoryHook": "A **nob** is a swell; something **nobby** is fit for one.",
+      "related": [
+        "brummagem — the opposite end of the same British class vocabulary: nobby is the real quality brummagem only imitates."
+      ],
+      "tags": [
+        "english-origin",
+        "appearance"
       ],
       "added": "2026-09-19"
     },
@@ -2932,6 +3022,36 @@
       "tags": [
         "french-origin",
         "behavior"
+      ],
+      "added": "2026-09-19"
+    },
+    {
+      "id": "velocious",
+      "word": "velocious",
+      "title": "Velocious",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(vuh-LOH-shuhs)",
+      "definition": "Speedy, fast.",
+      "etymology": "From Latin **velox, veloc-** (swift, quick, rapid) + the English adjectival suffix *-ious*. Merriam-Webster carries an entry but publishes no First Known Use — a sign of how rare the word has always been. *Velox* did far better business feeding English *velocity* (1550s) than in producing a common adjective of its own, so *velocious* has stayed a curiosity, occasionally revived for comic or old-fashioned effect. It's a genuine word, not a coinage, but reach for *swift* or *rapid* first if you want to be understood.",
+      "example": "The kids came tearing down the hill on their bikes at a thoroughly **velocious**, thoroughly reckless clip.",
+      "synonyms": [
+        "swift",
+        "speedy",
+        "rapid",
+        "fleet"
+      ],
+      "antonyms": [
+        "slow",
+        "sluggish",
+        "languid"
+      ],
+      "memoryHook": "**Velocious** shares its Latin root with **velocity** — anything velocious has velocity to spare.",
+      "related": [
+        "celerity — the far more common noun for exactly the same idea, from a different Latin word for swift."
+      ],
+      "tags": [
+        "latin-origin",
+        "motion"
       ],
       "added": "2026-09-19"
     }
