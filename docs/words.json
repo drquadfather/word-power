@@ -1,5 +1,5 @@
 {
-  "count": 100,
+  "count": 104,
   "words": [
     {
       "id": "celerity",
@@ -680,7 +680,8 @@
         "veracious — the direct opposite, from *verus* (true)",
         "fabulist — a teller of fables, in the pejorative sense",
         "perfidious — deceit aimed at betraying trust",
-        "cully — the person a mendacious one goes looking for"
+        "cully — the person a mendacious one goes looking for",
+        "specious — the plausible-sounding argument a mendacious person builds"
       ],
       "tags": [
         "latin-origin",
@@ -980,7 +981,8 @@
       "memoryHook": "Latin *rupes* (rock) wearing the *-estrian* ending of **equestrian** and **pedestrian** → **rupestrian** = of the rock.",
       "related": [
         "pluvial — another Latin adjective for the physical landscape",
-        "boscage — thicket rather than rock; the folder's other terrain noun"
+        "boscage — thicket rather than rock; the folder's other terrain noun",
+        "quaquaversal — the same geologist's Latin, for how the rock lies rather than what it's made of"
       ],
       "tags": [
         "latin-origin",
@@ -2321,7 +2323,8 @@
       "memoryHook": "*Stupere* = to be stunned → **stuporous** is what stunned looks like an hour later. Same root as *stupendous*: one stops you in wonder, the other just stops you.",
       "related": [
         "corybantic — the far end of the same dial: frenzy where this is torpor",
-        "indefatigable — its opposite in stamina rather than in speed"
+        "indefatigable — its opposite in stamina rather than in speed",
+        "soporiferous — the sleepy influence that produces this state"
       ],
       "tags": [
         "latin-origin",
@@ -3054,6 +3057,125 @@
         "motion"
       ],
       "added": "2026-09-19"
+    },
+    {
+      "id": "anserine",
+      "word": "anserine",
+      "title": "Anserine",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(an-SER-in)",
+      "definition": "Relating to or resembling a goose; also, stupid or silly.",
+      "etymology": "From Latin **anserinus**, from *anser* (goose) + *-inus* (-ine, \"resembling, characterized by\"). First documented use: 1719. The figurative sense — foolish, easily flustered — follows the same logic as calling someone \"a silly goose,\" an association old enough that English didn't need to import it separately. (A different *anserine* — unrelated, borrowed from German *Anserin* — names a biochemical compound found in bird muscle; it shares only the goose and the spelling, not the derivation.)",
+      "example": "Bickering over the seating chart felt utterly **anserine** next to the real decisions still unmade.",
+      "synonyms": [
+        "silly",
+        "foolish",
+        "goose-like",
+        "inane"
+      ],
+      "antonyms": [
+        "sensible",
+        "astute",
+        "shrewd"
+      ],
+      "memoryHook": "Latin *anser* = goose → **anserine** behavior is \"goosy\" — flustered and silly, the way a goose seems.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "latin-origin",
+        "behavior"
+      ],
+      "added": "2026-09-22"
+    },
+    {
+      "id": "quaquaversal",
+      "word": "quaquaversal",
+      "title": "Quaquaversal",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(kwah-kwuh-VUR-suhl)",
+      "definition": "Going off in all directions from a central point; of rock strata, dipping outward from a center in every direction.",
+      "etymology": "From Latin **quaqua versus** — literally \"wheresoever turned\" — combining *quaqua* (in every direction, from the ablative of *quisquis*, \"whoever, whatever\") with *versus*, the past participle of *vertere* (to turn), plus the English adjectival suffix *-al*. Merriam-Webster carries no First Known Use; Random House's Unabridged dates it to roughly 1690–1710. It survives almost entirely as a geologist's word, for a dome or volcanic plug whose rock layers slope away from the summit in every direction, like the ribs of an umbrella.",
+      "example": "The volcanic dome's strata were classically **quaquaversal**, sloping away from the summit in every direction.",
+      "synonyms": [
+        "omnidirectional",
+        "radiating",
+        "outward-sloping"
+      ],
+      "antonyms": [
+        "centroclinal",
+        "unidirectional"
+      ],
+      "memoryHook": "Latin *quaqua* (in every direction) + *versus* (turned) → **quaquaversal** rock turns every which way from the center, like a dome shedding rain.",
+      "related": [
+        "rupestrian — another Latin adjective from the same geologist's vocabulary, for the rock itself rather than its lay"
+      ],
+      "tags": [
+        "latin-origin",
+        "nature"
+      ],
+      "added": "2026-09-22"
+    },
+    {
+      "id": "soporiferous",
+      "word": "soporiferous",
+      "title": "Soporiferous",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(sop-uh-RIF-uhr-uhs)",
+      "definition": "Inducing sleep; sleep-inducing.",
+      "etymology": "From Latin **sopor** (deep sleep) + *-fer* (bearing, carrying). Earliest documented use: 1583. The more common cousin is *soporific* (1665), probably by way of French *soporifique*, from the same *sopor* — both ultimately kin to Latin *somnus* (sleep), the root behind *insomnia* and *somnolent*. *Soporiferous* is the older and clumsier of the pair, which is likely why *soporific* won out in everyday use.",
+      "example": "The **soporiferous** hum of the ceiling fan had the whole lecture hall nodding off by the second slide.",
+      "synonyms": [
+        "soporific",
+        "sleep-inducing",
+        "somniferous",
+        "hypnotic"
+      ],
+      "antonyms": [
+        "invigorating",
+        "stimulating",
+        "exhilarating"
+      ],
+      "memoryHook": "Latin *sopor* (deep sleep) + *-fer* (bearing) → something **soporiferous** literally \"carries sleep\" along with it.",
+      "related": [
+        "stuporous — the state a soporiferous voice eventually produces"
+      ],
+      "tags": [
+        "latin-origin",
+        "biology"
+      ],
+      "added": "2026-09-22"
+    },
+    {
+      "id": "specious",
+      "word": "specious",
+      "title": "Specious",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(SPEE-shuhs)",
+      "definition": "Having a false look of truth or genuineness; superficially plausible but actually wrong.",
+      "etymology": "Middle English, originally meaning simply \"visually pleasing,\" from Latin **speciosus** (beautiful, plausible), from *species* (appearance, kind, outward look). First documented use: 1513. The drift is the whole story: a word that once meant nothing worse than \"good-looking\" curdled over the centuries into \"attractive in a way that's hiding something,\" and the old neutral sense — \"showy\" — is now obsolete. *Species* is also the direct ancestor of the biological term, so *specious* and *species* are, etymologically, the same word wearing two very different coats.",
+      "example": "His **specious** argument sounded airtight until you noticed it never addressed the actual evidence.",
+      "synonyms": [
+        "fallacious",
+        "sophistic",
+        "deceptive",
+        "misleading",
+        "plausible-sounding"
+      ],
+      "antonyms": [
+        "sound",
+        "valid",
+        "genuine"
+      ],
+      "memoryHook": "Latin *species* = appearance → something **specious** has the *appearance* of truth, with none of the substance behind it.",
+      "related": [
+        "mendacious — the character trait; specious describes the argument a mendacious person builds"
+      ],
+      "tags": [
+        "latin-origin",
+        "truth"
+      ],
+      "added": "2026-09-22"
     }
   ]
 }
