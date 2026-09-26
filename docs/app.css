@@ -127,6 +127,11 @@ button {
 .btn-primary:active { transform: scale(0.97); }
 .btn-primary[disabled] { opacity: 0.4; }
 
+.session-stepper { justify-content: center; gap: 22px; }
+.session-stepper .due-count { min-width: 2.2ch; }
+.stepper button[disabled] { opacity: 0.35; }
+.btn-link { display: block; margin: 14px auto 0; color: var(--ink-soft); font-size: 0.9rem; }
+
 .all-done {
   font-size: 1.05rem;
   color: var(--ink-soft);
@@ -259,14 +264,13 @@ button {
 .grades { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
 .grade {
   border-radius: var(--radius);
-  padding: 10px 2px 8px;
+  padding: 16px 2px;
   text-align: center;
   color: #fff;
   font-weight: 700;
   box-shadow: var(--shadow);
 }
 .grade:active { transform: scale(0.96); }
-.grade small { display: block; font-weight: 500; font-size: 0.7rem; opacity: 0.85; font-variant-numeric: tabular-nums; }
 .grade.again { background: var(--again); }
 .grade.hard { background: var(--hard); }
 .grade.good { background: var(--good); }

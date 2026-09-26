@@ -1,7 +1,7 @@
 # Word Power
 
 Personal vocabulary trainer. Words come from an Obsidian vault
-(`PJJ PKM/Word Power`); the app is a PWA with FSRS spaced repetition,
+(`PJJ PKM/Word Power`); the app is a PWA with frequency-weighted review,
 hosted on GitHub Pages. Review progress is stored locally per device.
 
 ## Layout
@@ -18,8 +18,17 @@ Just add notes to the vault as usual, then run:
 ./update.sh
 ```
 
-New words enter the review rotation a few per day (configurable in the
-app's settings).
+Each review session mixes in a few new words (configurable in the app's
+settings) until every word has been introduced.
+
+## How words are chosen
+
+Pick a session size on the home screen (steps of 5, default 10). Words are
+drawn at random, weighted by your last rating — Again 8, Hard 4, Good 2,
+Easy 1 — and each word's weight grows the longer it goes unseen, so nothing
+disappears for months. Words seen in the last hour are discounted, so a
+second session in one sitting brings up different words. A word missed in
+the quiz is guaranteed a slot in the next session.
 
 ## Automatic sync
 

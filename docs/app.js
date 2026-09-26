@@ -1,133 +1,96 @@
-/* Word Power — vocabulary trainer with FSRS spaced repetition.
+/* Word Power — vocabulary trainer with frequency-weighted review.
    All progress is stored locally on this device (localStorage). */
 "use strict";
 
-/* ================= FSRS-4.5 scheduler ================= */
+/* ================= Weighted scheduler =================
+   There are no due dates. Each session draws words at random, weighted by the
+   last rating: harder words come up more often. A word's weight also grows the
+   longer it goes unseen, so even Easy words keep coming back instead of
+   disappearing for months. */
 
-const FSRS_W = [
-  0.4872, 1.4003, 3.7145, 13.8206, 5.1618, 1.2298, 0.8975, 0.031, 1.6474,
-  0.1367, 1.0461, 2.1072, 0.0793, 0.3246, 1.587, 0.2272, 2.8755,
-];
-const DECAY = -0.5;
-const FACTOR = 19 / 81;
-const RETENTION = 0.9;
-const MAX_INTERVAL_DAYS = 365 * 2;
-// First intervals (days) for a card's early grades. All scheduling is
-// day-based: sessions are short and infrequent, so sub-day steps make no sense.
-const FIRST_INTERVALS = { 1: 1, 2: 2, 3: 4, 4: 7 };
 const DAY = 24 * 60 * 60 * 1000;
+const HOUR = 60 * 60 * 1000;
+
+// Relative odds by last rating (1=Again 2=Hard 3=Good 4=Easy).
+const RATING_WEIGHT = { 1: 8, 2: 4, 3: 2, 4: 1 };
+// Every RAMP_DAYS unseen adds the base weight again (a week → 2×, a month → ~5×).
+const RAMP_DAYS = 7;
+// Words seen within the last hour are heavily discounted, so a second session
+// in the same sitting brings up different words.
+const COOLDOWN_FACTOR = 0.1;
+
+const RATING_LABEL = { 1: "Again", 2: "Hard", 3: "Good", 4: "Easy" };
+
+const SESSION_STEP = 5;
+const SESSION_MIN = 5;
+const SESSION_MAX = 50;
 
 const clamp = (x, lo, hi) => Math.min(hi, Math.max(lo, x));
 
-function retrievability(elapsedDays, stability) {
-  return Math.pow(1 + (FACTOR * elapsedDays) / stability, DECAY);
-}
-function intervalFor(stability) {
-  const days = (stability / FACTOR) * (Math.pow(RETENTION, 1 / DECAY) - 1);
-  return clamp(Math.round(days), 1, MAX_INTERVAL_DAYS);
-}
-function initDifficulty(grade) {
-  return clamp(FSRS_W[4] - Math.exp(FSRS_W[5] * (grade - 1)) + 1, 1, 10);
-}
-function nextDifficulty(d, grade) {
-  const delta = -FSRS_W[6] * (grade - 3);
-  const meanReverted = FSRS_W[7] * initDifficulty(4) + (1 - FSRS_W[7]) * (d + delta);
-  return clamp(meanReverted, 1, 10);
-}
-function stabilityOnSuccess(d, s, r, grade) {
-  const hardPenalty = grade === 2 ? FSRS_W[15] : 1;
-  const easyBonus = grade === 4 ? FSRS_W[16] : 1;
-  return (
-    s *
-    (1 +
-      Math.exp(FSRS_W[8]) *
-        (11 - d) *
-        Math.pow(s, -FSRS_W[9]) *
-        (Math.exp(FSRS_W[10] * (1 - r)) - 1) *
-        hardPenalty *
-        easyBonus)
-  );
-}
-function stabilityOnLapse(d, s, r) {
-  const sf =
-    FSRS_W[11] *
-    Math.pow(d, -FSRS_W[12]) *
-    (Math.pow(s + 1, FSRS_W[13]) - 1) *
-    Math.exp(FSRS_W[14] * (1 - r));
-  return clamp(sf, 0.1, s);
-}
-
 /* Card state shape:
-   { state: 'new'|'learning'|'review',
-     s: stability (days), d: difficulty,
-     due: epoch ms, last: epoch ms, reps: n, lapses: n }
-   ('learning' = missed while new; graduates to FSRS on any passing grade.
-    Legacy 'relearning' cards from the old scheduler are treated as learning.) */
+   { state: 'new'|'seen', rating: 1-4, last: epoch ms, reps: n, lapses: n,
+     boost?: true }
+   (boost = missed in a quiz; guaranteed a slot in the next review session.) */
 
 function newCardState() {
-  return { state: "new", s: 0, d: 0, due: 0, last: 0, reps: 0, lapses: 0 };
+  return { state: "new", rating: 0, last: 0, reps: 0, lapses: 0 };
 }
 
-// Apply a grade (1=Again 2=Hard 3=Good 4=Easy) and return the updated state.
 function applyGrade(card, grade, now) {
-  const c = { ...card };
-  c.reps += 1;
-
-  if (c.state !== "review") {
-    // First exposures use the fixed day ladder; stability is seeded to the
-    // chosen interval so FSRS growth continues smoothly from there.
-    const days = FIRST_INTERVALS[grade];
-    c.s = days;
-    c.d = initDifficulty(grade);
-    c.state = grade === 1 ? "learning" : "review";
-    c.due = now + days * DAY;
-  } else {
-    const elapsed = Math.max((now - c.last) / DAY, 0.25);
-    const r = retrievability(elapsed, c.s);
-    if (grade === 1) {
-      // Lapse: stability takes the FSRS hit, and the word comes back tomorrow.
-      c.lapses += 1;
-      c.d = nextDifficulty(c.d, 1);
-      c.s = stabilityOnLapse(c.d, c.s, r);
-      c.due = now + DAY;
-    } else {
-      c.d = nextDifficulty(c.d, grade);
-      c.s = stabilityOnSuccess(c.d, c.s, r, grade);
-      let iv = intervalFor(c.s);
-      if (grade === 2) iv = clamp(Math.round(elapsed * 1.2) || 1, 1, iv);
-      c.due = now + iv * DAY;
-    }
-  }
-
-  c.last = now;
+  const c = { ...card, state: "seen", rating: grade, last: now, reps: card.reps + 1 };
+  if (grade === 1 && card.state !== "new") c.lapses += 1;
+  delete c.boost;
   return c;
 }
 
-// Human-readable preview of what each grade would do (for the buttons).
-function previewIntervals(card, now) {
-  const out = {};
-  for (const g of [1, 2, 3, 4]) {
-    const next = applyGrade(card, g, now);
-    const days = Math.max(1, Math.round((next.due - now) / DAY));
-    out[g] = days < 30
-      ? `${days}d`
-      : days < 365
-        ? `${(days / 30.44).toFixed(1).replace(/\.0$/, "")}mo`
-        : `${(days / 365).toFixed(1).replace(/\.0$/, "")}y`;
+function reviewWeight(c, now) {
+  const since = Math.max(now - c.last, 0);
+  const w = RATING_WEIGHT[c.rating] * (1 + since / DAY / RAMP_DAYS);
+  return since < HOUR ? w * COOLDOWN_FACTOR : w;
+}
+
+// Weighted sample without replacement.
+function weightedPick(ids, n, weight) {
+  const rest = ids.map((id) => ({ id, w: weight(id) }));
+  const out = [];
+  while (out.length < n && rest.length) {
+    let t = Math.random() * rest.reduce((sum, x) => sum + x.w, 0);
+    let i = 0;
+    while (i < rest.length - 1 && (t -= rest[i].w) > 0) i++;
+    out.push(rest.splice(i, 1)[0].id);
   }
   return out;
+}
+
+// Estimate a last rating for cards saved by the old FSRS scheduler. Its last
+// interval (due − last) reflects how the word was graded: a lapse or a quiz
+// miss meant ~1 day or less, a first Hard 2 days, Good 4, Easy 7, growing
+// from there with each success.
+function migrateCard(c) {
+  if (c.rating || c.state === "new") return c;
+  const days = (c.due - c.last) / DAY;
+  const rating = c.state !== "review" || days <= 1.5 ? 1 : days <= 3 ? 2 : days <= 21 ? 3 : 4;
+  return { state: "seen", rating, last: c.last, reps: c.reps || 0, lapses: c.lapses || 0 };
 }
 
 /* ================= Persistence ================= */
 
 const STORE_KEY = "wordpower-v1";
+const DEFAULT_SETTINGS = { sessionSize: 10, newPerSession: 2 };
 
 function loadStore() {
+  let st = null;
   try {
     const raw = localStorage.getItem(STORE_KEY);
-    if (raw) return JSON.parse(raw);
+    if (raw) st = JSON.parse(raw);
   } catch (e) { /* corrupted → start fresh */ }
-  return { cards: {}, settings: { newPerDay: 5 }, dayLog: {} };
+  if (!st) st = { cards: {} };
+  st.cards = st.cards || {};
+  for (const id in st.cards) st.cards[id] = migrateCard(st.cards[id]);
+  const { newPerDay, ...settings } = st.settings || {};
+  st.settings = { ...DEFAULT_SETTINGS, ...settings };
+  delete st.dayLog;
+  return st;
 }
 function saveStore() {
   localStorage.setItem(STORE_KEY, JSON.stringify(store));
@@ -139,42 +102,53 @@ let wordById = {};
 
 /* ================= Queue building ================= */
 
-function todayKey(now) {
-  const d = new Date(now);
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
-}
-
 function getCard(id) {
   return store.cards[id] || newCardState();
 }
 
-function buildQueue(now) {
-  const due = [];
-  const news = [];
-  const introducedToday = store.dayLog[todayKey(now)] || 0;
-  let newBudget = Math.max(0, store.settings.newPerDay - introducedToday);
+function unseenIds() {
+  return WORDS.filter((w) => getCard(w.id).state === "new").map((w) => w.id);
+}
+function seenIds() {
+  return WORDS.filter((w) => getCard(w.id).state !== "new").map((w) => w.id);
+}
 
-  for (const w of WORDS) {
-    const c = getCard(w.id);
-    if (c.state === "new") {
-      if (newBudget > 0) { news.push(w.id); newBudget--; }
-    } else if (c.due <= now) {
-      due.push(w.id);
-    }
-  }
-  // Order: due reviews first (oldest due first), then new words.
-  due.sort((a, b) => getCard(a).due - getCard(b).due);
-  return { due, news };
+// A session holds `size` words: quiz misses first, then the configured number
+// of new words (in vault order), then a weighted draw from everything seen.
+// If either pool runs short, the other fills the gap.
+function buildQueue(now, size) {
+  const seen = seenIds();
+  const unseen = unseenIds();
+  const boosted = shuffle(seen.filter((id) => getCard(id).boost)).slice(0, size);
+  const rest = seen.filter((id) => !boosted.includes(id));
+  const room = size - boosted.length;
+
+  const nNew = Math.min(unseen.length, Math.max(room - rest.length, Math.min(store.settings.newPerSession, room)));
+  const news = unseen.slice(0, nNew);
+  const reviews = weightedPick(rest, room - nNew, (id) => reviewWeight(getCard(id), now));
+  // New words are spread through the session rather than bunched at the end.
+  return { reviews: [...boosted, ...reviews], news, queue: shuffle([...boosted, ...reviews, ...news]) };
 }
 
 /* ================= Session ================= */
 
-let session = null; // { queue: [ids], idx-less: shift from front; revealed: bool }
+let session = null; // { queue: [ids], shifted from the front; revealed: bool }
+
+function sessionSize() {
+  return Math.min(store.settings.sessionSize, WORDS.length);
+}
+
+function bumpSession(delta) {
+  store.settings.sessionSize = clamp(store.settings.sessionSize + delta * SESSION_STEP, SESSION_MIN, SESSION_MAX);
+  saveStore();
+  render(home());
+}
 
 function startSession() {
-  const q = buildQueue(Date.now());
-  session = { queue: [...q.due, ...q.news], revealed: false };
+  const q = buildQueue(Date.now(), sessionSize());
+  session = { queue: q.queue, revealed: false };
   if (session.queue.length === 0) { session = null; render(home()); return; }
+  window.scrollTo(0, 0);
   render(reviewScreen());
 }
 
@@ -186,13 +160,7 @@ function grade(g) {
   const id = currentCardId();
   if (!id) return;
   const now = Date.now();
-  const before = getCard(id);
-  if (before.state === "new") {
-    const k = todayKey(now);
-    store.dayLog[k] = (store.dayLog[k] || 0) + 1;
-  }
-  const after = applyGrade(before, g, now);
-  store.cards[id] = after;
+  store.cards[id] = applyGrade(getCard(id), g, now);
   saveStore();
 
   session.queue.shift();
@@ -240,34 +208,30 @@ function topbar(active) {
 }
 
 function home() {
-  const now = Date.now();
-  const q = buildQueue(now);
-  const total = q.due.length + q.news.length;
-  const learned = WORDS.filter((w) => {
-    const c = getCard(w.id);
-    return c.state === "review" && c.s >= 21;
-  }).length;
-  const seen = WORDS.filter((w) => getCard(w.id).state !== "new").length;
+  const q = buildQueue(Date.now(), sessionSize());
+  const seen = seenIds().length;
+  const known = WORDS.filter((w) => getCard(w.id).rating >= 3).length;
 
   return `${topbar("home")}
   <div class="hero">
-    ${total > 0
-      ? `<div class="due-count">${total}</div>
-         <div class="due-label">word${total === 1 ? "" : "s"} to review</div>
-         <div class="breakdown">
-           <span><b>${q.due.length}</b> due</span>
-           <span><b>${q.news.length}</b> new</span>
-         </div>
-         <button class="btn-primary" onclick="startSession()">Start review</button>`
-      : `<div class="due-count">✓</div>
-         <div class="all-done">All caught up. Nothing due right now — your next reviews will appear here.</div>`}
+    <div class="stepper session-stepper">
+      <button onclick="bumpSession(-1)" aria-label="Fewer words"${store.settings.sessionSize <= SESSION_MIN ? " disabled" : ""}>−</button>
+      <div class="due-count">${q.queue.length}</div>
+      <button onclick="bumpSession(1)" aria-label="More words"${store.settings.sessionSize >= SESSION_MAX ? " disabled" : ""}>+</button>
+    </div>
+    <div class="due-label">words this session</div>
+    <div class="breakdown">
+      <span><b>${q.reviews.length}</b> review</span>
+      <span><b>${q.news.length}</b> new</span>
+    </div>
+    <button class="btn-primary" onclick="startSession()">Start review</button>
   </div>
   <div class="stats-row">
     <div class="stat"><b>${WORDS.length}</b><span>in vault</span></div>
     <div class="stat"><b>${seen}</b><span>learning</span></div>
-    <div class="stat"><b>${learned}</b><span>known*</span></div>
+    <div class="stat"><b>${known}</b><span>known*</span></div>
   </div>
-  <div class="home-foot">*stability ≥ 3 weeks · progress is stored on this device</div>`;
+  <div class="home-foot">*last rated Good or Easy · progress is stored on this device</div>`;
 }
 
 function cardFront(w, c) {
@@ -298,19 +262,17 @@ function reviewScreen() {
   const id = currentCardId();
   const w = wordById[id];
   const c = getCard(id);
-  const now = Date.now();
   const remaining = session.queue.length;
 
   let actions;
   if (!session.revealed) {
     actions = `<button class="btn-reveal" onclick="reveal()">Show answer</button>`;
   } else {
-    const p = previewIntervals(c, now);
     actions = `<div class="grades">
-      <button class="grade again" onclick="grade(1)">Again<small>${p[1]}</small></button>
-      <button class="grade hard" onclick="grade(2)">Hard<small>${p[2]}</small></button>
-      <button class="grade good" onclick="grade(3)">Good<small>${p[3]}</small></button>
-      <button class="grade easy" onclick="grade(4)">Easy<small>${p[4]}</small></button>
+      <button class="grade again" onclick="grade(1)">Again</button>
+      <button class="grade hard" onclick="grade(2)">Hard</button>
+      <button class="grade good" onclick="grade(3)">Good</button>
+      <button class="grade easy" onclick="grade(4)">Easy</button>
     </div>`;
   }
 
@@ -331,8 +293,9 @@ function doneScreen() {
   <div class="card"><div class="done-wrap">
     <div class="big">🎉</div>
     <h2>Session complete</h2>
-    <p>Every card graded. Come back when more are due.</p>
-    <button class="btn-primary" onclick="go('home')">Back to home</button>
+    <p>Harder words will come up more often next time.</p>
+    <button class="btn-primary" onclick="startSession()">Review ${sessionSize()} more</button>
+    <button class="btn-link" onclick="go('home')">Back to home</button>
   </div></div>`;
 }
 
@@ -375,11 +338,10 @@ function detail(id) {
   if (!w) return browse();
   const c = getCard(id);
   let sched = "Not started yet — will appear as a new card.";
-  if (c.state === "review") {
-    const days = Math.max(0, Math.round((c.due - Date.now()) / DAY));
-    sched = `Reviewed ${c.reps}×${c.lapses ? `, ${c.lapses} lapse${c.lapses === 1 ? "" : "s"}` : ""} · next in ${days === 0 ? "less than a day" : days + " day" + (days === 1 ? "" : "s")}.`;
-  } else if (c.state !== "new") {
-    sched = "Still learning — due again tomorrow.";
+  if (c.state !== "new") {
+    const days = Math.floor((Date.now() - c.last) / DAY);
+    const ago = days === 0 ? "today" : days === 1 ? "yesterday" : `${days} days ago`;
+    sched = `Last rated ${RATING_LABEL[c.rating]} · reviewed ${c.reps}×${c.lapses ? `, ${c.lapses} lapse${c.lapses === 1 ? "" : "s"}` : ""} · last seen ${ago}.`;
   }
   return `${topbar("browse")}
   <button class="detail-back" onclick="go('browse')">← All words</button>
@@ -396,11 +358,11 @@ function detail(id) {
 function settings() {
   return `${topbar("settings")}
   <div class="settings-card">
-    <h3>New words per day</h3>
-    <p>How many unseen vault words enter the rotation each day.</p>
+    <h3>New words per session</h3>
+    <p>How many unseen vault words are mixed into each review session, until all have been introduced.</p>
     <div class="stepper">
       <button onclick="bumpNew(-1)">−</button>
-      <b>${store.settings.newPerDay}</b>
+      <b>${store.settings.newPerSession}</b>
       <button onclick="bumpNew(1)">+</button>
     </div>
   </div>
@@ -413,14 +375,14 @@ function settings() {
 }
 
 function bumpNew(delta) {
-  store.settings.newPerDay = clamp(store.settings.newPerDay + delta, 0, 50);
+  store.settings.newPerSession = clamp(store.settings.newPerSession + delta, 0, SESSION_MAX);
   saveStore();
   render(settings());
 }
 
 function resetProgress() {
   if (confirm("Erase all review progress on this device? The word list itself is unaffected.")) {
-    store = { cards: {}, settings: store.settings, dayLog: {} };
+    store = { cards: {}, settings: store.settings };
     saveStore();
     render(settings());
   }
@@ -457,23 +419,10 @@ function quizPool() {
   return WORDS.filter((w) => w.definition && getCard(w.id).state !== "new").map((w) => w.id);
 }
 
-// Weighted sample without replacement: words closest to being forgotten come up
-// most often, with enough slack that the same handful doesn't repeat every time.
+// Same weighting as review sessions: harder and longer-unseen words come up
+// most often, with enough randomness that the same handful doesn't repeat.
 function pickQuizWords(pool, n, now) {
-  const weight = (id) => {
-    const c = getCard(id);
-    const r = c.s > 0 ? retrievability(Math.max((now - c.last) / DAY, 0), c.s) : 0.5;
-    return 1 - r + 0.15;
-  };
-  const rest = [...pool];
-  const out = [];
-  while (out.length < n && rest.length) {
-    let t = Math.random() * rest.reduce((sum, id) => sum + weight(id), 0);
-    let i = 0;
-    while (i < rest.length - 1 && (t -= weight(rest[i])) > 0) i++;
-    out.push(rest.splice(i, 1)[0]);
-  }
-  return out;
+  return weightedPick(pool, n, (id) => reviewWeight(getCard(id), now));
 }
 
 // Decoys come from words used nowhere else in this quiz, preferring the round's
@@ -544,14 +493,13 @@ function quizPlace(defId) {
 }
 
 // Asymmetric scoring. A miss is strong evidence the word has slipped, so it is
-// pulled forward into the next review — but stability and difficulty are left
-// alone. A hit is weak evidence: recognition among five is far easier than
-// recall, so it changes nothing about the schedule.
+// guaranteed a slot in the next review — but its rating is left alone. A hit is
+// weak evidence: recognition among five is far easier than recall, so it
+// changes nothing.
 function quizMiss(id) {
   const c = store.cards[id];
   if (!c || c.state === "new") return;
-  const now = Date.now();
-  if (c.due > now) store.cards[id] = { ...c, due: now };
+  store.cards[id] = { ...c, boost: true };
 }
 
 function quizCheck() {
@@ -696,7 +644,7 @@ function reveal() {
 function endSession() { session = null; render(home()); }
 
 // expose handlers used in inline attributes
-Object.assign(window, { go, reveal, grade, startSession, endSession, bumpNew, resetProgress, refreshBrowseList });
+Object.assign(window, { go, reveal, grade, startSession, endSession, bumpSession, bumpNew, resetProgress, refreshBrowseList });
 Object.assign(window, { startQuiz, quizPick, quizPlace, quizCheck, quizNext, endQuiz });
 Object.defineProperty(window, "browseFilter", {
   get: () => browseFilter,
