@@ -1,5 +1,5 @@
 {
-  "count": 104,
+  "count": 111,
   "words": [
     {
       "id": "celerity",
@@ -82,7 +82,8 @@
       "memoryHook": "*Allo-* (other) + *patra* (fatherland) → **allopatric** = dwelling in a different land.",
       "related": [
         "furcate — both terms about natural division and branching",
-        "cultivar — the other side of the same question: difference made by gardener rather than geography"
+        "cultivar — the other side of the same question: difference made by gardener rather than geography",
+        "autochthonous — the other Greek word about where a living thing belongs: native to this land rather than another"
       ],
       "tags": [
         "greek-origin",
@@ -110,7 +111,8 @@
       ],
       "memoryHook": "*A merci* = \"at the mercy.\" To be **amerced** is to be fined whatever the court's mercy decides — the same *merci* as the French for thank you, and as *mercy* itself.",
       "related": [
-        "villein — the man who stood at the lord's mercy for the sum"
+        "villein — the man who stood at the lord's mercy for the sum",
+        "clemency — the mercy the amerced offender stood waiting on"
       ],
       "tags": [
         "french-origin",
@@ -170,7 +172,8 @@
       "memoryHook": "*Bombus* = the Latin for a buzz, and the genus of bumblebees → to **bombinate** is to buzz like a bee.",
       "related": [
         "cachinnate — another Latin verb built from the sound it names",
-        "obganiate — from *gannire*, a dog's yelp; imitative in the same way"
+        "obganiate — from *gannire*, a dog's yelp; imitative in the same way",
+        "soniferous — the Latin adjective for anything that carries a sound like this"
       ],
       "tags": [
         "latin-origin",
@@ -830,7 +833,8 @@
       "memoryHook": "Greek *nous* = mind. Someone who \"hasn't got the **nous**\" for a job hasn't got the *mind* for it.",
       "related": [
         "cumberworld — a useless person is precisely one with no nous",
-        "ipseity — the self the mind belongs to"
+        "ipseity — the self the mind belongs to",
+        "obtuse — the dullness that is nous's absence"
       ],
       "tags": [
         "greek-origin",
@@ -1983,7 +1987,8 @@
       "related": [
         "imbroglio — the other Italian noun English took whole rather than translate",
         "subfusc — the dark half of the same palette, in Latin instead of Italian",
-        "bricolage — another borrowed term of art English took whole rather than translate"
+        "bricolage — another borrowed term of art English took whole rather than translate",
+        "agathokakological — the moral version: good and evil in the same frame"
       ],
       "tags": [
         "italian-origin",
@@ -2045,7 +2050,8 @@
       "memoryHook": "A **cully** is the one being had — or, in the other sense, the mate having a drink with you. The word never quite decided which.",
       "related": [
         "mendacious — the other side of the transaction: someone has to be lying for a cully to exist",
-        "cumberworld — another blunt old English word for a person you would not want to be"
+        "cumberworld — another blunt old English word for a person you would not want to be",
+        "kidology — the bluffing a cully falls for"
       ],
       "tags": [
         "unknown-origin",
@@ -3138,7 +3144,8 @@
       ],
       "memoryHook": "Latin *sopor* (deep sleep) + *-fer* (bearing) → something **soporiferous** literally \"carries sleep\" along with it.",
       "related": [
-        "stuporous — the state a soporiferous voice eventually produces"
+        "stuporous — the state a soporiferous voice eventually produces",
+        "soniferous — same Latin *-fer* (bearing) construction: one carries sleep, the other sound"
       ],
       "tags": [
         "latin-origin",
@@ -3176,6 +3183,224 @@
         "truth"
       ],
       "added": "2026-09-22"
+    },
+    {
+      "id": "agathokakological",
+      "word": "agathokakological",
+      "title": "Agathokakological",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(ag-uh-thoh-kak-uh-LAH-ji-kuhl)",
+      "definition": "Composed of both good and evil.",
+      "etymology": "From Greek **agathos** (good) + **kakos** (bad), with *-logical* (from *logos*, word, reason) tacked on as a mock-learned adjective ending. First documented use: 1834, in Robert Southey's rambling miscellany *The Doctor*: \"upon the agathokakological globe there are opposite qualities always to be found.\" Southey, Poet Laureate and a compulsive coiner, is credited with hundreds of words in the OED, most of them as unwieldy as this one and about as widely used. *Agathos* survives in the name *Agatha* (the good one); *kakos* in *cacophony* and *cacography*.",
+      "example": "Every honest biography turns out **agathokakological**: the saint had a temper, and the scoundrel was kind to his mother.",
+      "synonyms": [
+        "mixed",
+        "ambivalent",
+        "morally ambiguous",
+        "two-sided"
+      ],
+      "antonyms": [
+        "unalloyed",
+        "unmixed"
+      ],
+      "memoryHook": "*Agatha* (good) + *kako-* (bad, as in *cacophony*) → **agathokakological** = good and bad bolted together, with a *-logical* on the end to make it sound like science.",
+      "related": [
+        "chiaroscuro — the painter's version: light and dark held in the same frame, or the same person"
+      ],
+      "tags": [
+        "greek-origin",
+        "morality"
+      ],
+      "added": "2026-09-27"
+    },
+    {
+      "id": "autochthonous",
+      "word": "autochthonous",
+      "title": "Autochthonous",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(aw-TOK-thuh-nuhs)",
+      "definition": "Indigenous, native; formed or originating in the place where found.",
+      "etymology": "From Greek **autochthōn** (sprung from the land itself), from *autos* (self) + *chthōn* (earth, ground). First documented use: 1803. The Athenians called themselves *autochthones*, claiming their ancestors had grown straight out of Attic soil rather than migrating in — a founding myth and a boast about who belonged. *Chthōn* also gives *chthonic*, the gods of the underworld. Geology, biology, and medicine all kept the word for its second sense; its opposite in those fields is *allochthonous*, formed somewhere else and carried in.",
+      "example": "The rangers pulled out the Russian olive and replanted the creek with **autochthonous** willows.",
+      "synonyms": [
+        "indigenous",
+        "native",
+        "aboriginal",
+        "endemic"
+      ],
+      "antonyms": [
+        "introduced",
+        "exotic",
+        "foreign",
+        "allochthonous"
+      ],
+      "memoryHook": "*Autos* (self) + *chthōn* (earth) → **autochthonous** = sprung from this very earth, like the Athenians claimed to be.",
+      "related": [
+        "allopatric — the other Greek word about where a living thing belongs: *autochthonous* is from this land, *allopatric* from another fatherland"
+      ],
+      "tags": [
+        "greek-origin",
+        "nature"
+      ],
+      "added": "2026-09-27"
+    },
+    {
+      "id": "clemency",
+      "word": "clemency",
+      "title": "Clemency",
+      "partOfSpeech": "noun",
+      "pronunciation": "(KLEM-uhn-see)",
+      "definition": "Disposition to mercy, especially in moderating punishment; an act of leniency; mildness of weather.",
+      "etymology": "From Latin **clementia** (calmness, mildness, mercy), from *clemens* (calm, mild, gentle), perhaps related to *clinare* (to lean) — mercy as an inclining toward someone — though that link is disputed. First documented use: 15th century. The weather sense is the sibling that mostly survives in the negative: nobody says the weather is *clement*, but everyone knows *inclement*. In American usage the noun has hardened into a term of art — *executive clemency*, the umbrella for pardons and commutations.",
+      "example": "The governor's **clemency** arrived two days before the scheduled execution, and it came with conditions.",
+      "synonyms": [
+        "mercy",
+        "leniency",
+        "forbearance",
+        "compassion",
+        "mildness"
+      ],
+      "antonyms": [
+        "severity",
+        "harshness",
+        "rigor",
+        "vindictiveness"
+      ],
+      "memoryHook": "*Clemens* = mild → **clemency** is mildness, whether from a judge or the sky; the weather you remember it by is its opposite, *inclement*.",
+      "related": [
+        "draconian — its direct opposite: punishment with no mildness in it at all",
+        "amerce — the medieval fine that left the offender \"at the mercy\" of the court, waiting on clemency"
+      ],
+      "tags": [
+        "latin-origin",
+        "law"
+      ],
+      "added": "2026-09-27"
+    },
+    {
+      "id": "draconian",
+      "word": "draconian",
+      "title": "Draconian",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(dray-KOH-nee-uhn)",
+      "definition": "Of or relating to Draco's severe code of laws; cruel, severe.",
+      "etymology": "From Latin **Draco**, from Greek **Drakōn**, the Athenian lawgiver who around 621 BC produced Athens' first written code. First documented use: 1752. Plutarch reports that the code prescribed death for nearly everything, including stealing fruit or vegetables, and that the orator Demades quipped it was written in blood rather than ink; Solon repealed all of it a generation later except the homicide laws. The name itself means \"serpent\" or \"dragon\" (*drakōn*), which has done the word's reputation no favors. Merriam-Webster also accepts *druh-KOH-nee-uhn*.",
+      "example": "The new parking policy was **draconian**: one minute past the meter and the car was on a tow truck.",
+      "synonyms": [
+        "harsh",
+        "severe",
+        "punitive",
+        "oppressive",
+        "rigorous"
+      ],
+      "antonyms": [
+        "lenient",
+        "clement",
+        "merciful",
+        "lax"
+      ],
+      "memoryHook": "**Draco** the lawgiver, whose name means *dragon* → **draconian** laws breathe fire over the smallest offense, written, as they said, in blood.",
+      "related": [
+        "clemency — its direct opposite: the mercy Draco's code left no room for"
+      ],
+      "tags": [
+        "greek-origin",
+        "law"
+      ],
+      "added": "2026-09-27"
+    },
+    {
+      "id": "kidology",
+      "word": "kidology",
+      "title": "Kidology",
+      "partOfSpeech": "noun",
+      "pronunciation": "(kid-AHL-uh-jee)",
+      "definition": "The art or practice of bluffing or deceiving.",
+      "etymology": "From English **kid** (to tease, to hoax) + *-ology* (from Greek *logia*, study of), the suffix used facetiously, as if bluffing were an academic discipline. First documented use: 1964. The verb *kid* is early-19th-century slang, most likely from treating someone as a child — and *kid* the child is itself from Old Norse *kith*, a young goat. Irish English built the same joke earlier with *codology*, from *cod* (to hoax).",
+      "example": "Half of the old man's success at the poker table was pure **kidology**: the sigh, the shrug, the chips pushed in a beat too slowly.",
+      "synonyms": [
+        "bluffing",
+        "gamesmanship",
+        "psyching out",
+        "leg-pulling"
+      ],
+      "antonyms": [
+        "candor",
+        "straightforwardness",
+        "plain dealing"
+      ],
+      "memoryHook": "**Kid** someone, then make a science of it → **kidology**, the *-ology* of kidding.",
+      "related": [
+        "cully — the mark kidology is practised on"
+      ],
+      "tags": [
+        "english-origin",
+        "truth"
+      ],
+      "added": "2026-09-27"
+    },
+    {
+      "id": "obtuse",
+      "word": "obtuse",
+      "title": "Obtuse",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(uhb-TOOS/TYOOS)",
+      "definition": "Slow to understand; dull or indistinct; blunt; of an angle, between 90 and 180 degrees.",
+      "etymology": "From Latin **obtusus** (blunt, dull), past participle of *obtundere* (to beat against, to blunt), from *ob-* (against) + *tundere* (to beat). First documented use: 15th century (A.Word.A.Day pins it to 1425), in the physical and geometric sense — the mental sense is the metaphor of a blade beaten dull. *Tundere* also gives *contuse* and, by way of Old French, *pierce*; and it gives *obtund*, which lives on in clinical charting — an *obtunded* patient has blunted alertness. The opposite pair is built into geometry: *acute* is from *acutus*, sharpened.",
+      "example": "He wasn't being **obtuse** on purpose; he genuinely could not see why the room had gone quiet.",
+      "synonyms": [
+        "dense",
+        "slow",
+        "dull",
+        "blunt",
+        "imperceptive"
+      ],
+      "antonyms": [
+        "acute",
+        "perceptive",
+        "sharp",
+        "astute"
+      ],
+      "memoryHook": "*Ob-* (against) + *tundere* (to beat) → a blade beaten against the anvil until it's dull → an **obtuse** mind won't cut through anything. *Acute* is the sharp one.",
+      "related": [
+        "nous — the practical wit the obtuse are missing"
+      ],
+      "tags": [
+        "latin-origin",
+        "intellect"
+      ],
+      "added": "2026-09-27"
+    },
+    {
+      "id": "soniferous",
+      "word": "soniferous",
+      "title": "Soniferous",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(suh-NIF-uh-ruhs)",
+      "definition": "Producing or conducting sound.",
+      "etymology": "From Latin **sonus** (sound) + *-fer* (bearing, carrying, from *ferre*, to carry) + *-ous*. First documented use: early 18th century. *Sonus* is the root of *sonic*, *sonorous*, *unison*, and *sonnet* (a \"little sound\"); *-fer* is the same carrying suffix in *coniferous* and *soporiferous*. Merriam-Webster gives *soh-NIF-* as an alternative first syllable.",
+      "example": "In the old house the ductwork was **soniferous**, carrying every word from the kitchen straight up to the bedrooms.",
+      "synonyms": [
+        "sonorous",
+        "resonant",
+        "sound-bearing",
+        "sounding"
+      ],
+      "antonyms": [
+        "silent",
+        "soundless",
+        "anechoic"
+      ],
+      "memoryHook": "*Sonus* (sound) + *ferre* (to carry) → **soniferous** = sound-carrying. Swap *sonus* for *sopor* (sleep) and you get its neighbor, *soporiferous*.",
+      "related": [
+        "soporiferous — same Latin *-fer* (bearing) construction: one carries sound, the other sleep",
+        "bombinate — the kind of sound a soniferous thing might carry"
+      ],
+      "tags": [
+        "latin-origin",
+        "sound"
+      ],
+      "added": "2026-09-27"
     }
   ]
 }
