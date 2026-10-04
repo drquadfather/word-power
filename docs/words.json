@@ -1,5 +1,5 @@
 {
-  "count": 111,
+  "count": 117,
   "words": [
     {
       "id": "celerity",
@@ -3401,6 +3401,182 @@
         "sound"
       ],
       "added": "2026-09-27"
+    },
+    {
+      "id": "apotropaic",
+      "word": "apotropaic",
+      "title": "Apotropaic",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(ap-uh-troh-PAY-ik)",
+      "definition": "Designed to avert evil.",
+      "etymology": "From Greek **apotropaios** (averting evil), from *apotrepein* (to turn away, to avert), from *apo-* (away) + *trepein* (to turn), + English *-ic*. First documented use: 1883. The Gorgon faces the Greeks carved on shields and doorways, and charms worn against the evil eye, are the textbook cases. *Trepein* also gives *trope* (a turn of phrase) and *tropic* (where the sun turns back).",
+      "example": "She hung a horseshoe over the barn door, an **apotropaic** habit inherited from her grandmother and one she had never quite dared to drop.",
+      "synonyms": [
+        "protective",
+        "talismanic",
+        "amuletic"
+      ],
+      "antonyms": [
+        "(none natural)"
+      ],
+      "memoryHook": "*Apo-* (away) + *trepein* (to turn) → **apotropaic** = turning evil away. A horseshoe, a gargoyle, a knock on wood: all turn-away magic.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "greek-origin",
+        "religion"
+      ],
+      "added": "2026-10-04"
+    },
+    {
+      "id": "descry",
+      "word": "descry",
+      "title": "Descry",
+      "partOfSpeech": "verb",
+      "pronunciation": "(di-SKRY)",
+      "definition": "To catch sight of; to find out or discover.",
+      "etymology": "From Middle English **descrien**, from Anglo-French *descrier* / *descrire* (to describe), from Latin *describere* (to write down, to represent). First documented use: 14th century. It is a doublet of *describe*: both descend from *describere*, but *descry* drifted from \"mark out\" to \"make out.\" Along the way it tangled with a second, now-obsolete *descry* meaning \"to proclaim,\" from the Old French verb (*descrier*, to cry out) that later gave *decry* — the unrelated word it is still confused with.",
+      "example": "From the ridge she could just **descry** a thread of smoke rising beyond the far tree line.",
+      "synonyms": [
+        "espy",
+        "spot",
+        "discern",
+        "glimpse"
+      ],
+      "antonyms": [
+        "overlook",
+        "miss"
+      ],
+      "memoryHook": "**Descry** is *describe* without the closing *b* — and to describe a thing you first have to make it out. Don't swap it with *decry*, which condemns rather than spots.",
+      "related": [
+        "indite — another Anglo-French form that survives beside its Latinate twin: *indite* / *indict*, **descry** / *describe*"
+      ],
+      "tags": [
+        "french-origin",
+        "action"
+      ],
+      "added": "2026-10-04"
+    },
+    {
+      "id": "dryasdust",
+      "word": "dryasdust",
+      "title": "Dryasdust",
+      "partOfSpeech": "noun / adjective",
+      "pronunciation": "(DRY-uhz-duhst)",
+      "definition": "A boring, pedantic speaker or writer; dull and boring.",
+      "etymology": "From **Dr. Jonas Dryasdust**, a fictitious antiquary invented by Sir Walter Scott, who addressed the dedicatory epistle of *Ivanhoe* (1819) to him and kept him on in the prefaces of later novels as the supposed source of their dry historical detail. The name is simply *dry as dust* run together. Thomas Carlyle turned the man into a type, opening *Oliver Cromwell's Letters and Speeches* (1845) with a chapter titled \"Anti-Dryasdust.\" First documented use: circa 1872 for the adjective; the noun is older, going back to Scott's own pages.",
+      "example": "The committee handed the anniversary history to a **dryasdust**, who delivered three hundred pages of land deeds and not one living person.",
+      "synonyms": [
+        "pedant",
+        "bore",
+        "tedious",
+        "arid"
+      ],
+      "antonyms": [
+        "raconteur",
+        "lively",
+        "engaging"
+      ],
+      "memoryHook": "Run the three words together: *dry as dust* → **dryasdust**. Scott made the phrase a person; Carlyle made the person a type.",
+      "related": [
+        "pickwickian — another word minted from a character in a 19th-century British novel",
+        "alician — the same trick again: a fictional name turned into an ordinary word"
+      ],
+      "tags": [
+        "english-origin",
+        "person"
+      ],
+      "added": "2026-10-04"
+    },
+    {
+      "id": "katabasis",
+      "word": "katabasis",
+      "title": "Katabasis",
+      "partOfSpeech": "noun",
+      "pronunciation": "(kuh-TAB-uh-sis)",
+      "definition": "A going or marching down or back; a retreat; a descent into the underworld.",
+      "etymology": "From Greek **katabasis** (descent), from *katabainein* (to go down), from *kata-* (down) + *bainein* (to go). First documented use: 1837, when De Quincey wrote of \"the Russian anabasis and katabasis of Napoleon.\" The pairing comes from Xenophon, whose *Anabasis* recounts the march of the Ten Thousand \"up-country\" into Persia; the long fight back down to the sea is the katabasis. Meteorology keeps the root in *katabatic* winds, which flow downslope.",
+      "example": "Every epic hero gets a **katabasis** sooner or later — Orpheus for his wife, Aeneas for his father — and comes back up changed.",
+      "synonyms": [
+        "descent",
+        "retreat",
+        "withdrawal"
+      ],
+      "antonyms": [
+        "anabasis",
+        "ascent",
+        "advance"
+      ],
+      "memoryHook": "*Kata-* (down) + *bainein* (to go) → **katabasis** = a going down. *Anabasis* is the march up; **katabasis** is the way back down — or all the way down, to Hades.",
+      "related": [
+        "psychagogic — in its literal sense, escorting the souls of the dead below; a katabasis is the living making the same trip"
+      ],
+      "tags": [
+        "greek-origin",
+        "motion"
+      ],
+      "added": "2026-10-04"
+    },
+    {
+      "id": "veridical",
+      "word": "veridical",
+      "title": "Veridical",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(vuh-RID-i-kuhl)",
+      "definition": "Truthful; coinciding with reality, not illusory.",
+      "etymology": "From Latin **veridicus** (truth-telling), from *verus* (true) + *dicere* (to say), + English *-al*. First documented use: 1653. *Verdict* is built from the same two roots — literally a \"true saying\" — and *verus* also gives *verify* and *very*.",
+      "example": "Her account of the crash turned out to be **veridical** in every detail the cameras could check.",
+      "synonyms": [
+        "truthful",
+        "veracious",
+        "accurate",
+        "genuine"
+      ],
+      "antonyms": [
+        "illusory",
+        "false",
+        "mendacious"
+      ],
+      "memoryHook": "*Verus* (true) + *dicere* (to say) → **veridical** = truth-saying. A *verdict* is the same pair, delivered by a jury.",
+      "related": [
+        "veracious — the nearer sibling from *verus*; it describes the teller, where veridical more often describes the perception",
+        "verity — the noun from the same root",
+        "indite — shares the other half, *dicere* (to say)"
+      ],
+      "tags": [
+        "latin-origin",
+        "truth"
+      ],
+      "added": "2026-10-04"
+    },
+    {
+      "id": "volute",
+      "word": "volute",
+      "title": "Volute",
+      "partOfSpeech": "noun / adjective",
+      "pronunciation": "(vuh-LOOT)",
+      "definition": "A spiral or scroll-shaped form, especially the scroll of an Ionic capital; spiral, rolled up.",
+      "etymology": "From Latin **voluta** (a spiral scroll), feminine past participle of *volvere* (to roll), by way of Italian and French. First documented use: circa 1696. *Volvere* is the root of *revolve*, *evolve*, *involve*, *convoluted*, and *volume* — originally a rolled scroll.",
+      "example": "The staircase ended in a carved **volute**, the handrail curling in on itself like the head of a fiddle.",
+      "synonyms": [
+        "spiral",
+        "scroll",
+        "whorl",
+        "helix"
+      ],
+      "antonyms": [
+        "(none natural)"
+      ],
+      "memoryHook": "*Volvere* (to roll) → **volute** = something rolled up. A *volume* was once a rolled scroll; a **volute** is the roll itself, carved in stone on top of an Ionic column.",
+      "related": [
+        "welter — a distant cousin: Germanic *welteren* (to roll) and Latin *volvere* go back to the same Indo-European root for rolling"
+      ],
+      "tags": [
+        "latin-origin",
+        "art"
+      ],
+      "added": "2026-10-04"
     }
   ]
 }
