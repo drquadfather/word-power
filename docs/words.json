@@ -1,5 +1,5 @@
 {
-  "count": 117,
+  "count": 122,
   "words": [
     {
       "id": "celerity",
@@ -203,7 +203,8 @@
       "memoryHook": "Latin *cachinnare* is onomatopoeia — *kah-kah-kah*, the laugh itself. Same trick as **bombinate**, where *bombus* is the buzz.",
       "related": [
         "bombinate — another Latin verb built from the sound it names",
-        "obganiate — from *gannire*, a dog's yelp; imitative in the same way"
+        "obganiate — from *gannire*, a dog's yelp; imitative in the same way",
+        "gelastic — the Greek adjective for laughter itself"
       ],
       "tags": [
         "latin-origin",
@@ -1435,7 +1436,8 @@
         "cavil — its opposite in spirit: objection that risks nothing",
         "vaunt — its opposite: speech that claims everything and risks nothing",
         "paraenesis — its Greek sibling in rhetoric: paraenesis steadies the willing, parrhesia risks the hard truth",
-        "psychagogic — the other Greek term for what words do to a listener, by attraction rather than by risk"
+        "psychagogic — the other Greek term for what words do to a listener, by attraction rather than by risk",
+        "epistrophe — another Greek figure from the Elizabethan rhetoric handbooks"
       ],
       "tags": [
         "greek-origin",
@@ -2027,7 +2029,8 @@
       "related": [
         "timorous — the same fear, in Latin dress",
         "cumberworld — another blunt English compound aimed at a person",
-        "pusillanimous — the Latin verdict on what this word describes"
+        "pusillanimous — the Latin verdict on what this word describes",
+        "doughty — its opposite, also a blunt native English word"
       ],
       "tags": [
         "english-origin",
@@ -2275,7 +2278,8 @@
       "related": [
         "timorous — the same fear without the verdict attached",
         "cowhearted — the homely English compound for what this Latin one condemns",
-        "surmount — the thing the pusillanimous decline to attempt"
+        "surmount — the thing the pusillanimous decline to attempt",
+        "doughty — the courage this word finds missing"
       ],
       "tags": [
         "latin-origin",
@@ -3429,7 +3433,7 @@
       ],
       "memoryHook": "*Apo-* (away) + *trepein* (to turn) → **apotropaic** = turning evil away. A horseshoe, a gargoyle, a knock on wood: all turn-away magic.",
       "related": [
-        "(none in folder)"
+        "forfend — the same warding-off, by command rather than charm"
       ],
       "tags": [
         "greek-origin",
@@ -3585,6 +3589,151 @@
         "art"
       ],
       "added": "2026-10-04"
+    },
+    {
+      "id": "calque",
+      "word": "calque",
+      "title": "Calque",
+      "partOfSpeech": "noun",
+      "pronunciation": "(KALK)",
+      "definition": "A word or expression formed by translating the components of a term from another language; a loan translation.",
+      "etymology": "From French **calque** (a copy, a tracing), from *calquer* (to trace), from Italian *calcare* (to press, to tread, to trace), from Latin *calcare* (to tread on), from *calx* (heel). First documented use: 1926. The image is a tracing pressed through onto the page beneath. The same Latin heel gives *recalcitrant*, from *recalcitrare* (to kick back with the heels). Familiar calques: *skyscraper* → French *gratte-ciel*; German *Übermensch* → *superman*; Latin *paeninsula* → German *Halbinsel*.",
+      "example": "*Flea market* is a **calque** of the French *marché aux puces*, carried over word for word.",
+      "synonyms": [
+        "loan translation",
+        "borrowing"
+      ],
+      "antonyms": [
+        "(none natural)"
+      ],
+      "memoryHook": "*Calx* (heel) → *calcare* (tread) → a **calque** is a word traced by pressing another language's word through, part by part. Same heel as the *recalcitrant* mule that kicks back.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "french-origin",
+        "writing"
+      ],
+      "added": "2026-10-08"
+    },
+    {
+      "id": "doughty",
+      "word": "doughty",
+      "title": "Doughty",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(DOW-tee)",
+      "definition": "Marked by fearless resolution; brave and persistent.",
+      "etymology": "From Old English **dohtig** (competent, good, valiant), from *dugan* (to be fit, to be of use). First documented use: before the 12th century. The root is Germanic *duhtiz-* (fitness, ability), the same source as German *tüchtig* (capable) and *Tugend* (virtue) — courage understood as being fit for the task. The word went rare after the 1600s and has lived mostly in deliberately archaic or mock-heroic writing since about 1800, which is why it now often carries a faint smile.",
+      "example": "The **doughty** volunteer kept bailing the flooded basement long after the pumps gave out.",
+      "synonyms": [
+        "valiant",
+        "intrepid",
+        "stalwart",
+        "undaunted",
+        "resolute"
+      ],
+      "antonyms": [
+        "cowardly",
+        "timid",
+        "fainthearted"
+      ],
+      "memoryHook": "Not *dough*-ty but *DOW*-ty: from *dugan*, to be fit → a **doughty** person is fit for the fight and doesn't fold.",
+      "related": [
+        "cowhearted — its direct opposite, also a blunt native English word",
+        "pusillanimous — the Latin verdict on the courage doughty has"
+      ],
+      "tags": [
+        "english-origin",
+        "emotion"
+      ],
+      "added": "2026-10-08"
+    },
+    {
+      "id": "epistrophe",
+      "word": "epistrophe",
+      "title": "Epistrophe",
+      "partOfSpeech": "noun",
+      "pronunciation": "(i-PIS-truh-fee)",
+      "definition": "Repetition of a word or expression at the end of successive phrases, clauses, or verses for rhetorical or poetic effect.",
+      "etymology": "From Greek **epistrophe** (a turning about, a return), from *epi-* (upon) + *strophe* (turning), from *strephein* (to turn). First documented use: circa 1584. The sentence keeps turning back to the same word at its close. *Strophe* is the same turn behind *catastrophe* (a turning down) and *apostrophe* (a turning away to address someone). Its mirror figure is *anaphora*, which repeats at the beginning; Lincoln's \"of the people, by the people, for the people\" is the textbook epistrophe.",
+      "example": "The speech built to its close on an **epistrophe** — \"we did not wait, we did not waver, we did not stop\" — and the room was on its feet.",
+      "synonyms": [
+        "epiphora",
+        "antistrophe",
+        "refrain"
+      ],
+      "antonyms": [
+        "anaphora"
+      ],
+      "memoryHook": "*Epi-* (upon) + *strophe* (turning) → **epistrophe** = every line turns back home to the same last word. *Anaphora* knocks at the front door; epistrophe at the back.",
+      "related": [
+        "parrhesia — another Greek figure from the Elizabethan rhetoric handbooks"
+      ],
+      "tags": [
+        "greek-origin",
+        "writing"
+      ],
+      "added": "2026-10-08"
+    },
+    {
+      "id": "forfend",
+      "word": "forfend",
+      "title": "Forfend",
+      "partOfSpeech": "verb",
+      "pronunciation": "(for-FEND)",
+      "definition": "Archaic: to forbid; to ward off or prevent; to protect or preserve.",
+      "etymology": "From Middle English **forfenden**, from *for-* (away, utterly — the same prefix in *forbid* and *forgo*) + *fenden* (to defend), a shortening of *defenden*, from Latin *defendere* (to ward off). First documented use: 14th century. The word was built in English from an English prefix and a clipped Latin verb, which is why it carries the English tag. *Heaven forfend* is the patterned counterpart of *God forbid*.",
+      "example": "We should postpone the launch until the vendor fixes it — or, heaven **forfend**, ship it as is and spend the weekend apologizing.",
+      "synonyms": [
+        "forbid",
+        "avert",
+        "prevent",
+        "ward off",
+        "safeguard"
+      ],
+      "antonyms": [
+        "permit",
+        "allow",
+        "invite"
+      ],
+      "memoryHook": "*For-* (away) + *fend* (defend) → **forfend** = fend it all the way off. It's *forbid* with a shield in its hand.",
+      "related": [
+        "apotropaic — the same warding-off, done by charm rather than command"
+      ],
+      "tags": [
+        "english-origin",
+        "action"
+      ],
+      "added": "2026-10-08"
+    },
+    {
+      "id": "gelastic",
+      "word": "gelastic",
+      "title": "Gelastic",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(juh-LAS-tik)",
+      "definition": "Pertaining to laughter; risible.",
+      "etymology": "From Greek **gelastikos** (able to laugh), from *gelastos* (laughable), from *gelan* (to laugh), from *gelos* (laughter). Merriam-Webster carries the word but publishes no First Known Use, and no source consulted here dates it. The same root gives *gelotology*, the study of laughter (1970s), and *agelast*, a person who never laughs. Medicine adopted it for *gelastic epilepsy*, coined in 1957 — seizures, classically from a hypothalamic hamartoma, whose outward sign is laughter without mirth.",
+      "example": "The toast had a **gelastic** effect on the whole table, even on the uncle who never laughed at anything.",
+      "synonyms": [
+        "risible",
+        "laughing",
+        "mirthful"
+      ],
+      "antonyms": [
+        "agelastic",
+        "mirthless",
+        "dour"
+      ],
+      "memoryHook": "*Gelos* (laughter) → **gelastic** = all about the laugh. An *agelast* is the guy who isn't.",
+      "related": [
+        "cachinnate — what a gelastic fit sounds like out loud, from the Latin side"
+      ],
+      "tags": [
+        "greek-origin",
+        "behavior"
+      ],
+      "added": "2026-10-08"
     }
   ]
 }
