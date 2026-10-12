@@ -1,5 +1,5 @@
 {
-  "count": 122,
+  "count": 131,
   "words": [
     {
       "id": "celerity",
@@ -380,7 +380,8 @@
       "related": [
         "froideur — another French noun taken into English untranslated, and its social opposite: chill rather than dazzle",
         "vaunt — the boast that goes fishing for éclat",
-        "brummagem — the counterfeit of éclat: glitter without brilliance"
+        "brummagem — the counterfeit of éclat: glitter without brilliance",
+        "metier — another French noun taken whole; the work that earns the éclat"
       ],
       "tags": [
         "french-origin",
@@ -1052,7 +1053,8 @@
       "memoryHook": "*Sur-* (over) + *faire* (to do) → to **surfeit** is to do or consume past the point of want.",
       "related": [
         "macilent — the opposite condition: too little where surfeit has too much",
-        "fulsome — the adjective for the same excess, and a far trickier word to use"
+        "fulsome — the adjective for the same excess, and a far trickier word to use",
+        "voracity — the appetite that leads to surfeit"
       ],
       "tags": [
         "french-origin",
@@ -1150,7 +1152,8 @@
         "fabulist — a teller of fables; in its second sense, the opposite",
         "mendacious — the direct opposite, already listed in its antonyms",
         "parrhesia — truth-telling as a public act, and a risky one",
-        "veridical — truth-saying: the same *verus*, joined to *dicere* (to say)"
+        "veridical — truth-saying: the same *verus*, joined to *dicere* (to say)",
+        "voracity — one vowel away: *vorare* (devour) rather than *verus* (true)"
       ],
       "tags": [
         "latin-origin",
@@ -1401,7 +1404,8 @@
         "nidorous — the other end of the same complaint: burnt rather than musty",
         "macilent — the folder's other unkind adjective for how a person looks",
         "frowsty — the youngest of the family, altered from this word",
-        "maculate — this word's own antonym, *immaculate*, is maculate's negated cousin"
+        "maculate — this word's own antonym, *immaculate*, is maculate's negated cousin",
+        "tatterdemalion — the person who looks this way, in a grander-sounding word"
       ],
       "tags": [
         "unknown-origin",
@@ -1748,7 +1752,8 @@
         "pluvial — its counterpart in the same Latin weather vocabulary: rain to its cloud",
         "empyrean — the opposite sky: fire and light above the clouds",
         "apricity — the sun this cloud is blocking",
-        "flocculent — the same woolly texture, described from a different Latin root"
+        "flocculent — the same woolly texture, described from a different Latin root",
+        "tenebrific — what enough cloud makes the sky"
       ],
       "tags": [
         "latin-origin",
@@ -1997,7 +2002,8 @@
         "imbroglio — the other Italian noun English took whole rather than translate",
         "subfusc — the dark half of the same palette, in Latin instead of Italian",
         "bricolage — another borrowed term of art English took whole rather than translate",
-        "agathokakological — the moral version: good and evil in the same frame"
+        "agathokakological — the moral version: good and evil in the same frame",
+        "tenebrific — same *tenebrae* as *tenebrism*, chiaroscuro at its darkest"
       ],
       "tags": [
         "italian-origin",
@@ -2182,7 +2188,8 @@
       "memoryHook": "*Sub-* (somewhat) + *fuscus* (dark) → **subfusc** = not black, just dimmed. The same *fusc-* that lets you *obfuscate*.",
       "related": [
         "chiaroscuro — the dark half of the same palette, in Italian instead of Latin",
-        "gloaming — the hour that is subfusc by definition"
+        "gloaming — the hour that is subfusc by definition",
+        "tenebrific — the darkness-making that leaves things subfusc"
       ],
       "tags": [
         "latin-origin",
@@ -2460,7 +2467,8 @@
       "memoryHook": "Latin *ipse* = self, as in *ipso facto*, \"by the fact itself\" → **ipseity** = the fact of being oneself.",
       "related": [
         "nous — the mind that does the thinking; ipseity is the self it belongs to",
-        "diachronic — identity across time is the standing problem about ipseity"
+        "diachronic — identity across time is the standing problem about ipseity",
+        "omphaloskepsis — the self, contemplated to excess"
       ],
       "tags": [
         "latin-origin",
@@ -2614,7 +2622,8 @@
       "related": [
         "surfeit — the noun for what fulsome describes: past the point of enough",
         "vaunt — the same excess aimed at oneself rather than at a guest of honor",
-        "exiguity — its opposite pole: short of enough rather than past it"
+        "exiguity — its opposite pole: short of enough rather than past it",
+        "claque — the hired crowd that supplies fulsome praise"
       ],
       "tags": [
         "english-origin",
@@ -3248,7 +3257,8 @@
       ],
       "memoryHook": "*Autos* (self) + *chthōn* (earth) → **autochthonous** = sprung from this very earth, like the Athenians claimed to be.",
       "related": [
-        "allopatric — the other Greek word about where a living thing belongs: *autochthonous* is from this land, *allopatric* from another fatherland"
+        "allopatric — the other Greek word about where a living thing belongs: *autochthonous* is from this land, *allopatric* from another fatherland",
+        "adventitious — its opposite: arrived from outside rather than sprung from the place"
       ],
       "tags": [
         "greek-origin",
@@ -3734,6 +3744,286 @@
         "behavior"
       ],
       "added": "2026-10-08"
+    },
+    {
+      "id": "adventitious",
+      "word": "adventitious",
+      "title": "Adventitious",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(ad-ven-TISH-uhs)",
+      "definition": "Coming from another source and not inherent; arising sporadically or in an unusual location.",
+      "etymology": "From Latin **adventicius** (coming from outside, foreign), from *adventus*, past participle of *advenire* (to arrive), from *ad-* (to) + *venire* (to come). First documented use: 1603. Same family as *advent* and *adventure*. The second sense lives on in technical vocabularies: botany's *adventitious roots* sprout from stems or leaves, and medicine's *adventitious breath sounds* (crackles, wheezes) are the ones that shouldn't be there.",
+      "example": "Strip away the **adventitious** additions of the last century and the farmhouse is pure 1850s.",
+      "synonyms": [
+        "extrinsic",
+        "extraneous",
+        "incidental",
+        "accidental",
+        "foreign"
+      ],
+      "antonyms": [
+        "inherent",
+        "innate",
+        "intrinsic",
+        "autochthonous"
+      ],
+      "memoryHook": "*Ad-* (to) + *venire* (come) → **adventitious** = something that came to you, not something that was always there. An *advent* arrives; an adventitious root arrives where no root should be.",
+      "related": [
+        "autochthonous — its opposite: sprung from the place itself rather than arrived from outside"
+      ],
+      "tags": [
+        "latin-origin",
+        "nature"
+      ],
+      "added": "2026-10-12"
+    },
+    {
+      "id": "claque",
+      "word": "claque",
+      "title": "Claque",
+      "partOfSpeech": "noun",
+      "pronunciation": "(KLAK)",
+      "definition": "A group hired to applaud at a performance; a group of sycophants.",
+      "etymology": "From French **claque**, from *claquer* (to clap), imitative of the sound. First documented use: 1848. In 19th-century Paris the hired claque was an organized trade, run by a *chef de claque* and divided into specialists: *rieurs* who laughed on cue, *pleureuses* who wept, and *bisseurs* who shouted for encores.",
+      "example": "Every idea the CEO floated was met by the same murmuring **claque** at the end of the conference table.",
+      "synonyms": [
+        "sycophants",
+        "toadies",
+        "yes-men",
+        "hangers-on",
+        "cheerleaders"
+      ],
+      "antonyms": [
+        "critics",
+        "detractors",
+        "hecklers"
+      ],
+      "memoryHook": "*Claquer* sounds like what it means: **claque**, claque, claque — the sound of applause someone paid for.",
+      "related": [
+        "fulsome — the kind of praise a claque is paid to deliver"
+      ],
+      "tags": [
+        "french-origin",
+        "person"
+      ],
+      "added": "2026-10-12"
+    },
+    {
+      "id": "metier",
+      "word": "metier",
+      "title": "Métier",
+      "partOfSpeech": "noun",
+      "pronunciation": "(MEH-tyay)",
+      "definition": "A vocation or trade; an activity in which one excels, a forte.",
+      "etymology": "From French **métier**, from Old French *mestier* (service, function, craft), from Latin *ministerium* (service, office), from *minister* (servant). First documented use: 1792. So *métier* is a worn-down French cousin of *ministry*. *Minister* itself is built on *minus* (less), the servant as the lesser party, just as *magister* (master) is built on *magis* (more).",
+      "example": "He tried management for two years, but the operating room was always his **métier**.",
+      "synonyms": [
+        "vocation",
+        "calling",
+        "forte",
+        "specialty",
+        "strong suit"
+      ],
+      "antonyms": [
+        "weakness",
+        "weak suit"
+      ],
+      "memoryHook": "*Ministerium* (service) → *mestier* → **métier**: the work you serve, and the work you're best at serving.",
+      "related": [
+        "eclat — another French noun taken whole, and what mastery of a métier eventually earns"
+      ],
+      "tags": [
+        "french-origin",
+        "achievement"
+      ],
+      "added": "2026-10-12"
+    },
+    {
+      "id": "omphaloskepsis",
+      "word": "omphaloskepsis",
+      "title": "Omphaloskepsis",
+      "partOfSpeech": "noun",
+      "pronunciation": "(om-fuh-loh-SKEP-sis)",
+      "definition": "Contemplation of one's navel as an aid to meditation; navel-gazing, self-absorbed introspection.",
+      "etymology": "From Greek **omphalos** (navel) + *skepsis* (examination, inquiry), from *skeptesthai* (to look at, consider). First documented use: 1925. *Skepsis* is the same root as *skeptic*, originally one who examines rather than one who doubts. *Omphalos* was also the name of the sacred stone at Delphi said to mark the navel, the center, of the world.",
+      "example": "The retreat was billed as strategic planning, but by the second afternoon it had dissolved into pure **omphaloskepsis**.",
+      "synonyms": [
+        "navel-gazing",
+        "introspection",
+        "self-absorption",
+        "rumination"
+      ],
+      "antonyms": [
+        "extroversion",
+        "engagement",
+        "action"
+      ],
+      "memoryHook": "*Omphalos* (navel) + *skepsis* (looking closely) → **omphaloskepsis** = a skeptic's close inspection of his own belly button.",
+      "related": [
+        "ipseity — the self that omphaloskepsis keeps staring at"
+      ],
+      "tags": [
+        "greek-origin",
+        "behavior"
+      ],
+      "added": "2026-10-12"
+    },
+    {
+      "id": "sanative",
+      "word": "sanative",
+      "title": "Sanative",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(SAN-uh-tiv)",
+      "definition": "Having the power to cure or heal; curative, restorative.",
+      "etymology": "From Middle English *sanatif*, borrowed from Anglo-French and Late Latin **sanativus**, from Latin *sanare* (to heal), from *sanus* (healthy). First documented use: 15th century. The same *sanus* gives *sane* (healthy in mind), *sanitary*, and *sanatorium*; *sanatory* is a near-synonym from the same verb.",
+      "example": "After a month of night call, a week of mountain air and early nights proved more **sanative** than anything in the pharmacy.",
+      "synonyms": [
+        "curative",
+        "restorative",
+        "healing",
+        "therapeutic",
+        "salubrious"
+      ],
+      "antonyms": [
+        "harmful",
+        "noxious",
+        "deleterious"
+      ],
+      "memoryHook": "*Sanus* (healthy) → *sanare* (to heal) → **sanative** = making sane and sound again. A *sanatorium* is where sanative things happen.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "latin-origin",
+        "biology"
+      ],
+      "added": "2026-10-12"
+    },
+    {
+      "id": "tatterdemalion",
+      "word": "tatterdemalion",
+      "title": "Tatterdemalion",
+      "partOfSpeech": "noun / adjective",
+      "pronunciation": "(tat-er-di-MAYL-yuhn)",
+      "definition": "A person dressed in ragged clothing; ragged or dilapidated in appearance.",
+      "etymology": "Origin unknown. The first half is almost certainly **tatter** (a torn shred of cloth, from Old Norse *tǫturr*, rag); the *-demalion* ending has never been explained and looks like a mock-grand flourish tacked on for comic effect. First documented use: 1608 as a noun; the adjective follows in 1614.",
+      "example": "A **tatterdemalion** band of volunteers, still in their muddy work clothes, showed up to sandbag the levee.",
+      "synonyms": [
+        "ragamuffin",
+        "scarecrow",
+        "vagabond",
+        "ragged",
+        "shabby"
+      ],
+      "antonyms": [
+        "dandy",
+        "fop",
+        "dapper"
+      ],
+      "memoryHook": "*Tatter* + a pompous Latin-sounding tail → **tatterdemalion**: a man in tatters dressed up in a grand-sounding name he can't afford.",
+      "related": [
+        "frowzy — the same unknown-origin vocabulary of the unkempt, applied to a look rather than a person"
+      ],
+      "tags": [
+        "unknown-origin",
+        "appearance"
+      ],
+      "added": "2026-10-12"
+    },
+    {
+      "id": "tenebrific",
+      "word": "tenebrific",
+      "title": "Tenebrific",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(ten-uh-BRIF-ik)",
+      "definition": "Gloomy; causing gloom or darkness.",
+      "etymology": "From Latin **tenebrae** (darkness) + *-ficus* (making, causing), from *facere* (to make). First documented use: 1785. The same *tenebrae* names the Holy Week service of Tenebrae, in which candles are put out one by one until the church is dark, and gives *tenebrous* (dark, obscure) and *tenebrism*, the painters' term for chiaroscuro pushed to its most violent extreme, as in Caravaggio.",
+      "example": "By four o'clock the sky over the valley had turned **tenebrific**, and the streetlights came on an hour early.",
+      "synonyms": [
+        "gloomy",
+        "tenebrous",
+        "murky",
+        "somber",
+        "stygian"
+      ],
+      "antonyms": [
+        "bright",
+        "luminous",
+        "cheerful"
+      ],
+      "memoryHook": "*Tenebrae* (darkness) + *-fic* (making) → **tenebrific** = darkness-making. Picture the Tenebrae candles going out one at a time.",
+      "related": [
+        "subfusc — dusky and drab: the light a tenebrific sky leaves behind",
+        "chiaroscuro — *tenebrism*, from the same *tenebrae*, is chiaroscuro at its darkest",
+        "nubilous — the cloud cover that does the darkening"
+      ],
+      "tags": [
+        "latin-origin",
+        "emotion"
+      ],
+      "added": "2026-10-12"
+    },
+    {
+      "id": "venust",
+      "word": "venust",
+      "title": "Venust",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(vuh-NUHST)",
+      "definition": "Archaic. Beautiful, graceful, elegant.",
+      "etymology": "From Latin **venustus** (charming, beautiful), from *venus* (love, charm), the common noun behind Venus, the Roman goddess of love and beauty. First documented use: 1513. The same root gives *venerate* (originally to regard with love and reverence) and *venereal*, and *venom* is probably a cousin too, from *venenum*, first a love potion before it was a poison.",
+      "example": "Even in the cramped program notes, the critic found room to praise the soprano's **venust** phrasing.",
+      "synonyms": [
+        "beautiful",
+        "comely",
+        "graceful",
+        "elegant"
+      ],
+      "antonyms": [
+        "ugly",
+        "inelegant",
+        "graceless"
+      ],
+      "memoryHook": "**Venust** is *Venus* with a stray *t* — and the goddess of beauty is exactly what it means.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "latin-origin",
+        "appearance"
+      ],
+      "added": "2026-10-12"
+    },
+    {
+      "id": "voracity",
+      "word": "voracity",
+      "title": "Voracity",
+      "partOfSpeech": "noun",
+      "pronunciation": "(vuh/vo-RAS-i-tee)",
+      "definition": "An excessive desire to eat or consume something; the quality of being voracious.",
+      "etymology": "From Middle French *voracité*, from Latin **voracitas**, from *vorax* (greedy), from *vorare* (to devour). First documented use: 1526. *Vorare* also gives *devour* and every *-vore*: carnivore, herbivore, omnivore. One vowel separates it from *veracity*, from *verus* (true), which asks \"Is it true?\" where voracity asks \"Is there more?\"",
+      "example": "She read with a **voracity** that left the town library scrambling to keep her supplied.",
+      "synonyms": [
+        "greed",
+        "gluttony",
+        "rapacity",
+        "avidity",
+        "insatiability"
+      ],
+      "antonyms": [
+        "satiety",
+        "moderation",
+        "abstemiousness"
+      ],
+      "memoryHook": "*Vorare* (to devour) → **voracity** = the urge to devour. Every *-vore* has some.",
+      "related": [
+        "surfeit — where voracity ends up",
+        "veracious — one vowel away: *verus* (true) rather than *vorare* (devour)"
+      ],
+      "tags": [
+        "french-origin",
+        "excess"
+      ],
+      "added": "2026-10-12"
     }
   ]
 }
