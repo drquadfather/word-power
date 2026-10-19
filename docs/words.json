@@ -1,5 +1,5 @@
 {
-  "count": 131,
+  "count": 140,
   "words": [
     {
       "id": "celerity",
@@ -113,7 +113,8 @@
       "memoryHook": "*A merci* = \"at the mercy.\" To be **amerced** is to be fined whatever the court's mercy decides — the same *merci* as the French for thank you, and as *mercy* itself.",
       "related": [
         "villein — the man who stood at the lord's mercy for the sum",
-        "clemency — the mercy the amerced offender stood waiting on"
+        "clemency — the mercy the amerced offender stood waiting on",
+        "exute — the other half of the penalty in Southey's quotation: stripped of office, then fined"
       ],
       "tags": [
         "french-origin",
@@ -562,7 +563,8 @@
       "memoryHook": "*In-* (not) + *defatigare* (to tire) → **indefatigable** = cannot be fatigued.",
       "related": [
         "stuporous — its opposite in stamina rather than in speed",
-        "surmount — what indefatigable effort eventually does to an obstacle"
+        "surmount — what indefatigable effort eventually does to an obstacle",
+        "sedulous — the careful diligence that tireless energy makes possible"
       ],
       "tags": [
         "latin-origin",
@@ -717,7 +719,8 @@
       ],
       "memoryHook": "Think *mime* — a performer who copies — plus the -*etic* suffix → **mimetic** = mime-like imitation.",
       "related": [
-        "zugunruhe — another word about inherited behavior"
+        "zugunruhe — another word about inherited behavior",
+        "simulacrum — the Latin noun for the copy that imitation produces"
       ],
       "tags": [
         "greek-origin",
@@ -1405,7 +1408,8 @@
         "macilent — the folder's other unkind adjective for how a person looks",
         "frowsty — the youngest of the family, altered from this word",
         "maculate — this word's own antonym, *immaculate*, is maculate's negated cousin",
-        "tatterdemalion — the person who looks this way, in a grander-sounding word"
+        "tatterdemalion — the person who looks this way, in a grander-sounding word",
+        "dandified — its opposite failure: too much concern for appearance rather than none"
       ],
       "tags": [
         "unknown-origin",
@@ -2684,7 +2688,8 @@
       "memoryHook": "*Nodus* = knot → the **nodus** of a plot is the knot; the *denouement* — literally an untying — is what undoes it.",
       "related": [
         "imbroglio — the tangle a nodus produces once other people are in it",
-        "welter — confusion by mass rather than by knot"
+        "welter — confusion by mass rather than by knot",
+        "quisquous — the adjective for a matter tied in this kind of knot"
       ],
       "tags": [
         "latin-origin",
@@ -2745,7 +2750,8 @@
       "related": [
         "eclat — real brilliance, against which brummagem is the glitter that isn't",
         "vaunt — the verbal version of the same emptiness: show without substance",
-        "nobby — the genuine quality brummagem only imitates"
+        "nobby — the genuine quality brummagem only imitates",
+        "simulacrum — the noun for the counterfeit thing itself"
       ],
       "tags": [
         "english-origin",
@@ -2776,7 +2782,8 @@
       "memoryHook": "*Exigere* = to weigh out strictly → weigh it out precisely and you get **exact**; weigh it out too closely and you get **exiguity**, the state of barely enough.",
       "related": [
         "macilent — the adjective for a body or an argument in this condition",
-        "fulsome — its opposite pole: past enough rather than short of it"
+        "fulsome — its opposite pole: past enough rather than short of it",
+        "penurious — scarcity as a condition of life, or as a habit of spending"
       ],
       "tags": [
         "latin-origin",
@@ -2984,7 +2991,8 @@
       ],
       "memoryHook": "A **nob** is a swell; something **nobby** is fit for one.",
       "related": [
-        "brummagem — the opposite end of the same British class vocabulary: nobby is the real quality brummagem only imitates."
+        "brummagem — the opposite end of the same British class vocabulary: nobby is the real quality brummagem only imitates.",
+        "dandified — the same attention to style, pushed past good taste"
       ],
       "tags": [
         "english-origin",
@@ -3047,7 +3055,8 @@
       ],
       "memoryHook": "Latin *punctum* = a point → someone **punctilious** attends to every single point, however small.",
       "related": [
-        "cavil — the same obsession with fine points turned to a different purpose: one observes them scrupulously, the other manufactures objections out of them."
+        "cavil — the same obsession with fine points turned to a different purpose: one observes them scrupulously, the other manufactures objections out of them.",
+        "sedulous — care aimed at the work rather than at the rules"
       ],
       "tags": [
         "french-origin",
@@ -3135,7 +3144,8 @@
       ],
       "memoryHook": "Latin *quaqua* (in every direction) + *versus* (turned) → **quaquaversal** rock turns every which way from the center, like a dome shedding rain.",
       "related": [
-        "rupestrian — another Latin adjective from the same geologist's vocabulary, for the rock itself rather than its lay"
+        "rupestrian — another Latin adjective from the same geologist's vocabulary, for the rock itself rather than its lay",
+        "quisquous — another word built on Latin quisquis, the whoever-whatever pronoun"
       ],
       "tags": [
         "latin-origin",
@@ -4024,6 +4034,281 @@
         "excess"
       ],
       "added": "2026-10-12"
+    },
+    {
+      "id": "dandified",
+      "word": "dandified",
+      "title": "Dandified",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(DAN-di-fyd)",
+      "definition": "Excessively concerned with clothes or appearance; self-consciously elaborate.",
+      "etymology": "The past participle of **dandify** (to make like a dandy), from *dandy* + *-fy*. Merriam-Webster gives *dandified* no entry of its own; the verb is first documented in 1823. *Dandy* itself, from the late 18th century, is of uncertain origin — likely Scottish, possibly a shortening of *Jack-a-dandy* (a conceited fellow), with *Dandy* as a pet form of Andrew. The second sense carries the word from the wardrobe to the page: *dandified prose* is dressed up for its own sake.",
+      "example": "The **dandified** young associate wore a pocket square to the deposition and a different one to lunch.",
+      "synonyms": [
+        "foppish",
+        "dapper",
+        "overdressed",
+        "affected",
+        "precious"
+      ],
+      "antonyms": [
+        "slovenly",
+        "unkempt",
+        "plain"
+      ],
+      "memoryHook": "A *dandy* made over by *-fy* → **dandified**: turned into a dandy, whether it's a man or his sentences.",
+      "related": [
+        "nobby — smart and stylish without the excess that makes it dandified",
+        "frowzy — the opposite failure: no concern for appearance at all"
+      ],
+      "tags": [
+        "english-origin",
+        "appearance"
+      ],
+      "added": "2026-10-18"
+    },
+    {
+      "id": "exute",
+      "word": "exute",
+      "title": "Exute",
+      "partOfSpeech": "verb",
+      "pronunciation": "(ig-ZOOT/ZYOOT)",
+      "definition": "Archaic. To strip or deprive of something.",
+      "etymology": "From Latin **exutus**, past participle of *exuere* (to remove, strip off, divest oneself of). First documented use: 1535. The same verb gives *exuviae*, the shed skins and shells that insects and crustaceans leave behind, and *exuviate*, to molt. A.Word.A.Day ran it in a week of words that look like misspellings, with the note that *exute* is *execute* exuted of its \"ec.\"",
+      "example": "After the scandal the bishop was **exuted** of his offices and left with nothing but the title on his letterhead.",
+      "synonyms": [
+        "strip",
+        "divest",
+        "deprive",
+        "dispossess"
+      ],
+      "antonyms": [
+        "invest",
+        "endow",
+        "confer"
+      ],
+      "memoryHook": "**Exute** is *execute* stripped of its *ec* — the spelling does exactly what the word means.",
+      "related": [
+        "amerce — the other half of the penalty in Southey's quotation: exuted of preferments, then fined"
+      ],
+      "tags": [
+        "latin-origin",
+        "action"
+      ],
+      "added": "2026-10-18"
+    },
+    {
+      "id": "irrupt",
+      "word": "irrupt",
+      "title": "Irrupt",
+      "partOfSpeech": "verb",
+      "pronunciation": "(i-RUHPT)",
+      "definition": "To burst or break in; of a population, to increase suddenly in number.",
+      "etymology": "From Latin **irruptus**, past participle of *irrumpere*, from *in-* (into) + *rumpere* (to break) — the root of *rupture*, *erupt*, *disrupt*, and *interrupt*. First documented use: 1886, though A.Word.A.Day dates it to 1855. The prefix is the whole distinction: to irrupt is to burst *in*, to erupt is to burst *out*, though the two have bled into each other. Birders use the noun for an *irruption* year, when snowy owls or crossbills turn up far south of their usual range.",
+      "example": "When the feeder ran out, the jays **irrupted** into the yard as if someone had rung a dinner bell.",
+      "synonyms": [
+        "burst in",
+        "intrude",
+        "invade",
+        "storm"
+      ],
+      "antonyms": [
+        "withdraw",
+        "retreat"
+      ],
+      "memoryHook": "*In-* + *rumpere* (to break) → to **irrupt** is to break *in*; *erupt* breaks *out*. Watch the first letter.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "latin-origin",
+        "motion"
+      ],
+      "added": "2026-10-18"
+    },
+    {
+      "id": "nictate",
+      "word": "nictate",
+      "title": "Nictate",
+      "partOfSpeech": "verb",
+      "pronunciation": "(NIK-tayt)",
+      "definition": "To wink or blink.",
+      "etymology": "From Latin **nictatus**, past participle of *nictare* (to wink, blink). First documented use: 1755. The frequentative variant *nictitate* survives mainly in anatomy, in the *nictitating membrane* — the translucent third eyelid that cats, owls, and sharks draw across the eye, and that humans keep only as a vestige, the small pink fold in the inner corner of the eye.",
+      "example": "The defendant **nictated** rapidly through the whole of the cross-examination, which the jury noticed even if the lawyers did not.",
+      "synonyms": [
+        "wink",
+        "blink",
+        "flicker"
+      ],
+      "antonyms": [
+        "stare",
+        "gaze"
+      ],
+      "memoryHook": "*Nictare* = to wink → **nictate** is what the *nictitating membrane* does for a cat: a quick wipe across the eye.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "latin-origin",
+        "action"
+      ],
+      "added": "2026-10-18"
+    },
+    {
+      "id": "penurious",
+      "word": "penurious",
+      "title": "Penurious",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(puh-NOOR-ee-uhs)",
+      "definition": "Extremely poor, poverty-stricken; unwilling to spend money, stingy.",
+      "etymology": "From Medieval Latin **penuriosus**, from Latin *penuria* (need, scarcity) — the source of *penury* — possibly akin to Greek *peina* (hunger). First documented use: 1590, in the poverty sense; Oxford agrees on the late 16th century. The word runs in two directions that are easy to blur: sense 1 is having too little, sense 2 is acting as though you do. Britons say puh-NYOOR-ee-uhs.",
+      "example": "Years of **penurious** graduate stipends had left him unable to throw away a takeout container.",
+      "synonyms": [
+        "impoverished",
+        "destitute",
+        "indigent",
+        "stingy",
+        "miserly"
+      ],
+      "antonyms": [
+        "affluent",
+        "wealthy",
+        "generous",
+        "lavish"
+      ],
+      "memoryHook": "*Penuria* = scarcity → **penurious** is the condition of *penury*, or the habit of a man who still behaves as if he lived in it.",
+      "related": [
+        "exiguity — the same scarcity, measured rather than suffered"
+      ],
+      "tags": [
+        "latin-origin",
+        "money"
+      ],
+      "added": "2026-10-18"
+    },
+    {
+      "id": "quisquous",
+      "word": "quisquous",
+      "title": "Quisquous",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(KWIS-kwuhs)",
+      "definition": "Scottish, rare. Hard to deal with, perplexing, dubious; of a person, hard to read.",
+      "etymology": "From Older Scots **quisquous**, probably from Latin *quisquis* (whoever, whatever) — the pronoun of the undefined, which makes a quisquous matter one you can't quite pin down. First documented use: 1678, with the related *quisquis* recorded in Scots a few years earlier. The Scottish National Dictionary has it in the historian Robert Wodrow on \"quisquose and difficult matters\" (1720) and in John Galt's fiction; it never really left Scotland.",
+      "example": "The board found the new candidate **quisquous** — charming in the interview, impossible to place from her references.",
+      "synonyms": [
+        "perplexing",
+        "dubious",
+        "knotty",
+        "inscrutable"
+      ],
+      "antonyms": [
+        "straightforward",
+        "transparent",
+        "plain"
+      ],
+      "memoryHook": "*Quisquis* = whoever, whatever → a **quisquous** person is a *who-knows-what*: you can't tell what you're dealing with.",
+      "related": [
+        "quaquaversal — built on the same Latin quisquis, by way of quaqua",
+        "nodus — the knotty difficulty a quisquous matter presents"
+      ],
+      "tags": [
+        "latin-origin",
+        "chaos"
+      ],
+      "added": "2026-10-18"
+    },
+    {
+      "id": "sedulous",
+      "word": "sedulous",
+      "title": "Sedulous",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(SEJ-uh-luhs)",
+      "definition": "Showing dedication and diligence; accomplished with careful perseverance.",
+      "etymology": "From Latin **sedulus** (attentive, zealous), from *sedulo* (sincerely, diligently), from *se dolo* — literally \"without guile,\" *se-* (without) + *dolus* (deception), a cousin of Greek *dolos* (a ruse). First documented use: 1540. The best-known use is Robert Louis Stevenson's confession that he learned to write by playing \"the sedulous ape\" to Hazlitt, Lamb, and Wordsworth. Britons say SED-yoo-luhs.",
+      "example": "Her **sedulous** notes from residency still sit in a binder, every margin annotated in three colors.",
+      "synonyms": [
+        "diligent",
+        "assiduous",
+        "painstaking",
+        "industrious"
+      ],
+      "antonyms": [
+        "careless",
+        "negligent",
+        "slapdash"
+      ],
+      "memoryHook": "*Se dolo* = without guile → the **sedulous** worker has no trick, no shortcut, just the honest grind.",
+      "related": [
+        "indefatigable — the stamina that sedulous effort depends on",
+        "punctilious — care aimed at the rules, where sedulous care is aimed at the work"
+      ],
+      "tags": [
+        "latin-origin",
+        "behavior"
+      ],
+      "added": "2026-10-18"
+    },
+    {
+      "id": "simulacrum",
+      "word": "simulacrum",
+      "title": "Simulacrum",
+      "partOfSpeech": "noun",
+      "pronunciation": "(sim-yuh-LAK-ruhm)",
+      "definition": "An image or representation; an unsatisfactory imitation or substitute.",
+      "etymology": "From Latin **simulacrum** (likeness, image), from *simulare* (to imitate, pretend) — the verb behind *simulate*, *dissimulate*, and *simulation*, and ultimately *similis* (like). First documented use: 15th century, in the neutral sense of an image. The pejorative sense — a copy that stands in for, and falls short of, the real thing — is the one Jean Baudrillard made famous in *Simulacra and Simulation* (1981). Plural *simulacra*, though *simulacrums* is accepted; the stressed syllable can also be LAY.",
+      "example": "The chain's 'Irish pub' was a **simulacrum** of one, complete with factory-distressed shillelaghs bolted to the wall.",
+      "synonyms": [
+        "imitation",
+        "likeness",
+        "semblance",
+        "facsimile",
+        "sham"
+      ],
+      "antonyms": [
+        "original",
+        "the genuine article"
+      ],
+      "memoryHook": "*Simulare* = to imitate → a **simulacrum** is a *simulation* you can hang on a wall — and often a poor one.",
+      "related": [
+        "mimetic — the Greek word for imitation, where simulacrum is the Latin product of it",
+        "brummagem — the cheap counterfeit that sense 2 describes"
+      ],
+      "tags": [
+        "latin-origin",
+        "truth"
+      ],
+      "added": "2026-10-18"
+    },
+    {
+      "id": "splenetic",
+      "word": "splenetic",
+      "title": "Splenetic",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(spli-NET-ik)",
+      "definition": "Bad-tempered, spiteful; archaically, given to melancholy.",
+      "etymology": "From Late Latin **spleneticus**, from Latin *splen*, from Greek *splēn* (spleen). Humoral medicine made the spleen the seat of black bile, and so of melancholy and ill temper — the same reasoning behind *venting one's spleen*. First documented use: 1697, though Oxford traces the word to late Middle English as a noun for a person with a diseased spleen: the anatomy came first and the mood followed. Merriam-Webster also records an archaic stress on the first syllable, SPLEN-uh-tik.",
+      "example": "His **splenetic** reply-all ran to four paragraphs and did not once address the scheduling question.",
+      "synonyms": [
+        "irritable",
+        "peevish",
+        "spiteful",
+        "choleric",
+        "testy"
+      ],
+      "antonyms": [
+        "genial",
+        "good-natured",
+        "equable"
+      ],
+      "memoryHook": "The *spleen* was where the old physicians kept bad temper → a **splenetic** rant is one vented straight from the spleen.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "greek-origin",
+        "emotion"
+      ],
+      "added": "2026-10-18"
     }
   ]
 }
