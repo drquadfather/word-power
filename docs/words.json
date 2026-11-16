@@ -1,5 +1,5 @@
 {
-  "count": 154,
+  "count": 167,
   "words": [
     {
       "id": "celerity",
@@ -265,7 +265,9 @@
         "stickybeak — another blunt English compound naming a kind of person",
         "cully — one easily tricked, as blunt a label as this one",
         "fugleman — the opposite kind of man: the one held up as the model",
-        "cowhearted — another blunt English compound aimed at a person"
+        "cowhearted — another blunt English compound aimed at a person",
+        "clodpate — another blunt English compound aimed at a person",
+        "rakeshame — another blunt English compound aimed at a person"
       ],
       "tags": [
         "english-origin",
@@ -444,7 +446,8 @@
         "veracious — the truthfulness a fabulist lacks",
         "indite — another word for the act of composing",
         "mendacious — the adjective for what a fabulist does in sense 2",
-        "herodotean — named for the historian his critics called the Father of Lies"
+        "herodotean — named for the historian his critics called the Father of Lies",
+        "pseudologue — the Greek-built, less forgiving name for a habitual liar"
       ],
       "tags": [
         "french-origin",
@@ -694,7 +697,8 @@
         "perfidious — deceit aimed at betraying trust",
         "cully — the person a mendacious one goes looking for",
         "specious — the plausible-sounding argument a mendacious person builds",
-        "tergiversate — the evasion that stops just short of the lie"
+        "tergiversate — the evasion that stops just short of the lie",
+        "pseudologue — a person who makes mendacity a habit"
       ],
       "tags": [
         "latin-origin",
@@ -753,7 +757,8 @@
       "memoryHook": "*Minae* = threats in Latin → **minacious** = threat-heavy. Same root as *menace* and *mountain*.",
       "related": [
         "timorous — the fearful response to a threat",
-        "portentous — the omen before the threat declares itself"
+        "portentous — the omen before the threat declares itself",
+        "truculent — the belligerence behind the threat"
       ],
       "tags": [
         "latin-origin",
@@ -1064,7 +1069,8 @@
         "macilent — the opposite condition: too little where surfeit has too much",
         "fulsome — the adjective for the same excess, and a far trickier word to use",
         "voracity — the appetite that leads to surfeit",
-        "epicurean — the refined appetite that, unchecked, ends in surfeit"
+        "epicurean — the refined appetite that, unchecked, ends in surfeit",
+        "supererogatory — more than duty required, the excess as a deed"
       ],
       "tags": [
         "french-origin",
@@ -1128,7 +1134,8 @@
         "nefandous — unspeakable wickedness",
         "chumocracy — the institutional form it often takes",
         "anomie — depravity breaks the standard; anomie is having none to break",
-        "villein — where this moral category started: a word for a farm worker"
+        "villein — where this moral category started: a word for a farm worker",
+        "rakeshame — the person who embodies it"
       ],
       "tags": [
         "latin-origin",
@@ -1765,7 +1772,8 @@
         "empyrean — the opposite sky: fire and light above the clouds",
         "apricity — the sun this cloud is blocking",
         "flocculent — the same woolly texture, described from a different Latin root",
-        "tenebrific — what enough cloud makes the sky"
+        "tenebrific — what enough cloud makes the sky",
+        "obnubilate — the verb from the same *nubes*: to cloud over"
       ],
       "tags": [
         "latin-origin",
@@ -2015,7 +2023,8 @@
         "subfusc — the dark half of the same palette, in Latin instead of Italian",
         "bricolage — another borrowed term of art English took whole rather than translate",
         "agathokakological — the moral version: good and evil in the same frame",
-        "tenebrific — same *tenebrae* as *tenebrism*, chiaroscuro at its darkest"
+        "tenebrific — same *tenebrae* as *tenebrism*, chiaroscuro at its darkest",
+        "adumbrate — from *umbra*: to sketch in the shadows first"
       ],
       "tags": [
         "italian-origin",
@@ -2267,7 +2276,8 @@
         "parrhesia — its Greek sibling in rhetoric: parrhesia risks the hard truth, paraenesis steadies the willing",
         "prolegomenon — another Greek name for a kind of composition rather than a subject",
         "psychagogic — the quality of speech that makes paraenesis work",
-        "apothegm — the pithy sayings an exhortation is built from"
+        "apothegm — the pithy sayings an exhortation is built from",
+        "panegyric — another Greek oration type: praise where this is exhortation"
       ],
       "tags": [
         "greek-origin",
@@ -2639,7 +2649,8 @@
         "surfeit — the noun for what fulsome describes: past the point of enough",
         "vaunt — the same excess aimed at oneself rather than at a guest of honor",
         "exiguity — its opposite pole: short of enough rather than past it",
-        "claque — the hired crowd that supplies fulsome praise"
+        "claque — the hired crowd that supplies fulsome praise",
+        "panegyric — the formal speech where fulsome praise lives"
       ],
       "tags": [
         "english-origin",
@@ -3410,7 +3421,8 @@
       ],
       "memoryHook": "*Ob-* (against) + *tundere* (to beat) → a blade beaten against the anvil until it's dull → an **obtuse** mind won't cut through anything. *Acute* is the sharp one.",
       "related": [
-        "nous — the practical wit the obtuse are missing"
+        "nous — the practical wit the obtuse are missing",
+        "clodpate — the old English noun for someone this obtuse"
       ],
       "tags": [
         "latin-origin",
@@ -3468,7 +3480,8 @@
       ],
       "memoryHook": "*Apo-* (away) + *trepein* (to turn) → **apotropaic** = turning evil away. A horseshoe, a gargoyle, a knock on wood: all turn-away magic.",
       "related": [
-        "forfend — the same warding-off, by command rather than charm"
+        "forfend — the same warding-off, by command rather than charm",
+        "deasil — the sunwise circuit walked to keep misfortune off"
       ],
       "tags": [
         "greek-origin",
@@ -3797,7 +3810,8 @@
       ],
       "memoryHook": "*Ad-* (to) + *venire* (come) → **adventitious** = something that came to you, not something that was always there. An *advent* arrives; an adventitious root arrives where no root should be.",
       "related": [
-        "autochthonous — its opposite: sprung from the place itself rather than arrived from outside"
+        "autochthonous — its opposite: sprung from the place itself rather than arrived from outside",
+        "aleatory — another Latin word for what comes by chance"
       ],
       "tags": [
         "latin-origin",
@@ -3828,7 +3842,8 @@
       ],
       "memoryHook": "*Claquer* sounds like what it means: **claque**, claque, claque — the sound of applause someone paid for.",
       "related": [
-        "fulsome — the kind of praise a claque is paid to deliver"
+        "fulsome — the kind of praise a claque is paid to deliver",
+        "panegyric — the speech a claque is paid to cheer"
       ],
       "tags": [
         "french-origin",
@@ -3983,7 +3998,8 @@
       "related": [
         "subfusc — dusky and drab: the light a tenebrific sky leaves behind",
         "chiaroscuro — *tenebrism*, from the same *tenebrae*, is chiaroscuro at its darkest",
-        "nubilous — the cloud cover that does the darkening"
+        "nubilous — the cloud cover that does the darkening",
+        "obnubilate — the clouding over that brings the gloom"
       ],
       "tags": [
         "latin-origin",
@@ -4321,7 +4337,7 @@
       ],
       "memoryHook": "The *spleen* was where the old physicians kept bad temper → a **splenetic** rant is one vented straight from the spleen.",
       "related": [
-        "(none in folder)"
+        "truculent — where bad temper goes once provoked"
       ],
       "tags": [
         "greek-origin",
@@ -4766,6 +4782,406 @@
         "truth"
       ],
       "added": "2026-11-01"
+    },
+    {
+      "id": "adumbrate",
+      "word": "adumbrate",
+      "title": "Adumbrate",
+      "partOfSpeech": "verb",
+      "pronunciation": "(AD-uhm-brayt)",
+      "definition": "To outline in part; to foreshadow; to overshadow or obscure.",
+      "etymology": "From Latin **adumbrare** (to shade in, sketch in outline), from *ad-* (to, as an intensifier) + *umbrare* (to cast a shadow), from *umbra* (shade). First documented use: 1537. The picture is a painter's: blocking in shadows before the detail arrives — which is how the word comes to mean both a rough outline and a hint of what's coming. *Umbra* also gives *umbrella* (a little shade) and *umbrage* (offense, originally shadow). Also pronounced (uh-DUM-brayt).",
+      "example": "The first chapter **adumbrates** the betrayal so lightly that most readers only notice it on a second read.",
+      "synonyms": [
+        "outline",
+        "sketch",
+        "foreshadow",
+        "presage",
+        "obscure"
+      ],
+      "antonyms": [
+        "detail",
+        "elaborate",
+        "illuminate"
+      ],
+      "memoryHook": "*Ad-* + *umbra* (shadow) → to **adumbrate** is to give something its shadow before its substance — an outline, a hint, a foreshadowing.",
+      "related": [
+        "obnubilate — its cloud-cousin: *nubes* where this has *umbra*",
+        "chiaroscuro — the painter's light and shade that adumbration starts from"
+      ],
+      "tags": [
+        "latin-origin",
+        "writing"
+      ],
+      "added": "2026-11-16"
+    },
+    {
+      "id": "aleatory",
+      "word": "aleatory",
+      "title": "Aleatory",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(AY-lee-uh-tor-ee)",
+      "definition": "Depending on chance or an uncertain event; random.",
+      "etymology": "From Latin **aleatorius** (of gamblers), from *aleator* (dice player, gambler), from *alea* (a die; a game of chance), of obscure origin. First documented use: 1693. *Alea* is the word in Caesar's *alea iacta est* at the Rubicon — \"the die is cast.\" The musical sense, and the variant *aleatoric*, came in the 1950s with composers like John Cage. Look Up's card shows the British pronunciation of *aleatoric* (al-ee-uh-TOR-ik); for *aleatory* itself the British say (AY-lee-uh-tuh-ree).",
+      "example": "The seating chart was purely **aleatory** — names drawn from a hat — and somehow it was the best dinner of the year.",
+      "synonyms": [
+        "random",
+        "chance",
+        "fortuitous",
+        "haphazard",
+        "contingent"
+      ],
+      "antonyms": [
+        "determined",
+        "planned",
+        "deliberate",
+        "certain"
+      ],
+      "memoryHook": "*Alea* (a die) → **aleatory** means rolled, not chosen — Caesar's *alea iacta est* in a single adjective.",
+      "related": [
+        "adventitious — another Latin word for what arrives by accident rather than design"
+      ],
+      "tags": [
+        "latin-origin",
+        "chaos"
+      ],
+      "added": "2026-11-16"
+    },
+    {
+      "id": "clodpate",
+      "word": "clodpate",
+      "title": "Clodpate",
+      "partOfSpeech": "noun",
+      "pronunciation": "(KLOD-payt)",
+      "definition": "A stupid person.",
+      "etymology": "From **clod** (lump of earth) + *pate* (head, crown of the head). First documented use: before 1635. One of a crowd of near-twins — *clodpoll*, *clotpoll*, *clod-head*, *clod-skull* — all built on the same picture of a skull packed with dirt; Shakespeare's Sir Toby Belch uses *clodpole*.",
+      "example": "Only a **clodpate** would rewire the panel without switching off the breaker first.",
+      "synonyms": [
+        "blockhead",
+        "dolt",
+        "dunce",
+        "nitwit",
+        "numbskull"
+      ],
+      "antonyms": [
+        "sage",
+        "savant",
+        "genius"
+      ],
+      "memoryHook": "*Clod* (lump of earth) + *pate* (head) → a **clodpate** has dirt where the brains should be — still waiting for an idea to sprout.",
+      "related": [
+        "obtuse — the adjective for a clodpate's condition",
+        "cumberworld — another blunt English compound for a person nobody needs",
+        "rakeshame — another old English compound insult, built the same way"
+      ],
+      "tags": [
+        "english-origin",
+        "person"
+      ],
+      "added": "2026-11-16"
+    },
+    {
+      "id": "deasil",
+      "word": "deasil",
+      "title": "Deasil",
+      "partOfSpeech": "adverb",
+      "pronunciation": "(DEE-zuhl)",
+      "definition": "Clockwise; sunwise, in the direction of the sun.",
+      "etymology": "From Scottish Gaelic **deiseil**, from Middle Irish *dessel*, from Old Irish *dess* (right; south) + *sel* (turn). First documented use: 1771. *Dess* is cognate with Latin *dexter* (right hand); one word served for \"right\" and \"south\" because a person facing the sunrise has the south on the right. Highland custom walked deasil around a person, house, or well for luck and protection — going the other way, widdershins, invited misfortune.",
+      "example": "Before the wedding the old women walked **deasil** three times around the couple, as their grandmothers had.",
+      "synonyms": [
+        "clockwise",
+        "sunwise",
+        "righthandwise"
+      ],
+      "antonyms": [
+        "widdershins",
+        "counterclockwise",
+        "withershins"
+      ],
+      "memoryHook": "*Dess* (right, like *dexter*) + *sel* (turn) → **deasil** is the right-hand turn: the way the sun goes and a clock follows.",
+      "related": [
+        "apotropaic — the luck-keeping, harm-averting purpose of a deasil circuit"
+      ],
+      "tags": [
+        "gaelic-origin",
+        "motion"
+      ],
+      "added": "2026-11-16"
+    },
+    {
+      "id": "desideratum",
+      "word": "desideratum",
+      "title": "Desideratum",
+      "partOfSpeech": "noun",
+      "pronunciation": "(di-sid-uh-RAH-tuhm)",
+      "definition": "Something that is needed or wanted.",
+      "etymology": "From Latin **desideratum** (a thing longed for), neuter past participle of *desiderare* (to long for, miss), the same verb behind *desire*. First documented use: 1652. *Desiderare* is usually traced to *de-* + *sidus* (star) — perhaps \"to await what the stars bring\" — which would make it a sibling of *consider*, though the star connection is a long-standing guess rather than settled.",
+      "example": "Quiet was the chief **desideratum**; a view of the mountains was a pleasant extra.",
+      "synonyms": [
+        "requirement",
+        "essential",
+        "must-have",
+        "requisite"
+      ],
+      "antonyms": [
+        "(none natural)"
+      ],
+      "memoryHook": "Latin *desiderare* → *desire*: a **desideratum** is the thing on the desire list, and *desiderata* is the whole list.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "latin-origin",
+        "desire"
+      ],
+      "added": "2026-11-16"
+    },
+    {
+      "id": "funicular",
+      "word": "funicular",
+      "title": "Funicular",
+      "partOfSpeech": "noun / adjective",
+      "pronunciation": "(fyoo-NIK-yuh-ler)",
+      "definition": "A cable railway with counterbalanced cars; relating to a rope or its tension.",
+      "etymology": "From Latin **funiculus** (small rope), diminutive of *funis* (rope, cord). First documented use: 1823 for the adjective; 1888 for the noun, which was shaped by French *funiculaire* as cable railways spread through the Alps. The anatomical *funiculus* (the spermatic cord, a nerve-fibre bundle) and the botanical one (the stalk tying a seed to its pod) are the same little rope.",
+      "example": "We skipped the switchbacks and rode the **funicular**, watching the down car glide past us at the midpoint.",
+      "synonyms": [
+        "cable railway",
+        "incline railway",
+        "cliff railway"
+      ],
+      "antonyms": [
+        "(none natural)"
+      ],
+      "memoryHook": "*Funis* (rope) → a **funicular** hangs everything on the rope: one car up, one car down, the cable doing the balancing.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "latin-origin",
+        "motion"
+      ],
+      "added": "2026-11-16"
+    },
+    {
+      "id": "obnubilate",
+      "word": "obnubilate",
+      "title": "Obnubilate",
+      "partOfSpeech": "verb",
+      "pronunciation": "(ob-NOO-buh-layt)",
+      "definition": "To darken, dim, or obscure as if with a cloud.",
+      "etymology": "From Latin **obnubilare** (to cloud over; also to darken the mind), from *ob-* (over, facing) + *nubilare* (to become cloudy), from *nubes* (cloud). First documented use: 1583. Latin already used it figuratively for a clouded mind, and English mostly does the same — it is rare of actual weather. The same *nubes* gives *nubilous*; the noun is *obnubilation*.",
+      "example": "Twenty minutes of jargon managed to **obnubilate** what had been a perfectly simple proposal.",
+      "synonyms": [
+        "obscure",
+        "befog",
+        "becloud",
+        "muddy"
+      ],
+      "antonyms": [
+        "clarify",
+        "illuminate",
+        "elucidate"
+      ],
+      "memoryHook": "*Ob-* (over) + *nubes* (cloud) → to **obnubilate** is to pull a cloud over something — a sky or an argument.",
+      "related": [
+        "nubilous — the same Latin *nubes*: the cloud this verb draws across",
+        "tenebrific — the gloom that results",
+        "adumbrate — its shadow-cousin: *umbra* where this has *nubes*"
+      ],
+      "tags": [
+        "latin-origin",
+        "weather"
+      ],
+      "added": "2026-11-16"
+    },
+    {
+      "id": "panegyric",
+      "word": "panegyric",
+      "title": "Panegyric",
+      "partOfSpeech": "noun",
+      "pronunciation": "(pan-uh-JIR-ik)",
+      "definition": "A public speech or text in praise of someone or something.",
+      "etymology": "From Latin **panegyricus**, from Greek *panegyrikos* (fit for a public festival), from *panegyris* (a general assembly), from *pan-* (all) + *agyris* (assembly), related to *ageirein* (to gather). First documented use: 1603. The original panegyrics were orations delivered to the whole gathered crowd at festivals like the Olympic games; Pliny's speech praising the emperor Trajan made the form a byword for ceremonial flattery.",
+      "example": "The retirement dinner turned into a forty-minute **panegyric**, and the honoree looked like he wanted to hide under the table.",
+      "synonyms": [
+        "encomium",
+        "eulogy",
+        "tribute",
+        "paean",
+        "accolade"
+      ],
+      "antonyms": [
+        "diatribe",
+        "philippic",
+        "tirade",
+        "denunciation"
+      ],
+      "memoryHook": "*Pan* (all) + *agyris* (assembly) → a **panegyric** is praise delivered to everybody at once — the whole festival crowd.",
+      "related": [
+        "fulsome — the excess a panegyric easily tips into",
+        "claque — the hired crowd that applauds when it ends",
+        "paraenesis — another Greek name for a kind of oration: exhortation where this is praise"
+      ],
+      "tags": [
+        "greek-origin",
+        "writing"
+      ],
+      "added": "2026-11-16"
+    },
+    {
+      "id": "pseudologue",
+      "word": "pseudologue",
+      "title": "Pseudologue",
+      "partOfSpeech": "noun",
+      "pronunciation": "(SOO/SYOO-duh-log)",
+      "definition": "A habitual liar.",
+      "etymology": "From Greek **pseudologos** (speaking falsely), from *pseudes* (false) + *logos* (word, speech), probably by way of French. First documented use: 1949. It sits beside the psychiatric term *pseudologia fantastica*, the compulsive, elaborate lying that the word originally named; *logos* is the same root that ends *apologue*, *prologue*, and *dialogue*.",
+      "example": "By the third retelling the fish had grown a foot, and the family quietly agreed Uncle Ray was a **pseudologue** of long standing.",
+      "synonyms": [
+        "liar",
+        "fabricator",
+        "fabulist",
+        "prevaricator"
+      ],
+      "antonyms": [
+        "truth-teller",
+        "straight shooter"
+      ],
+      "memoryHook": "*Pseudo-* (false) + *logos* (word) → a **pseudologue** deals only in false words — a whole *prologue* of them.",
+      "related": [
+        "mendacious — the adjective for what a pseudologue is by habit",
+        "fabulist — the gentler, storytelling name for the same habit"
+      ],
+      "tags": [
+        "greek-origin",
+        "person"
+      ],
+      "added": "2026-11-16"
+    },
+    {
+      "id": "rakeshame",
+      "word": "rakeshame",
+      "title": "Rakeshame",
+      "partOfSpeech": "noun",
+      "pronunciation": "(RAYK-shaym)",
+      "definition": "Archaic. A disreputable person.",
+      "etymology": "From **rake** (Old English *raca*, the tool, from a root meaning to gather) + *shame* (Old English *sceamu*, disgrace). First documented use: 1598. The idea is one who rakes up shame — and, unlike the muckraker who rakes up other people's scandals, a rakeshame gathers his own. Its near-twin *rakehell* is related; the *rake* of a dissolute man is a clipped form of *rakehell*.",
+      "example": "His family settled his debts twice before admitting that the boy was simply a **rakeshame**.",
+      "synonyms": [
+        "scoundrel",
+        "rakehell",
+        "reprobate",
+        "wastrel",
+        "cad"
+      ],
+      "antonyms": [
+        "paragon",
+        "gentleman"
+      ],
+      "memoryHook": "**Rake** + **shame** → a **rakeshame** gathers up disgrace like leaves — and it's all his own pile.",
+      "related": [
+        "turpitude — the baseness a rakeshame embodies",
+        "cumberworld — another blunt English compound for a person nobody wants",
+        "clodpate — another old English compound insult, built the same way"
+      ],
+      "tags": [
+        "english-origin",
+        "person"
+      ],
+      "added": "2026-11-16"
+    },
+    {
+      "id": "residuum",
+      "word": "residuum",
+      "title": "Residuum",
+      "partOfSpeech": "noun",
+      "pronunciation": "(ri-ZIJ-oo-uhm)",
+      "definition": "Something residual, such as residue or a leftover product of distillation.",
+      "etymology": "From Latin **residuum** (that which remains), neuter of *residuus* (remaining), from *residere* (to remain behind), from *re-* (back) + *sedere* (to sit). First documented use: 1672. Literally what is left sitting behind — the same *sedere* in *reside*, *sediment*, and *residue*, which is the everyday form of the same word. Plural *residua*. Victorian writers also used it of the poorest class of society, a usage now rightly dead.",
+      "example": "After the estate's debts were paid, the **residuum** came to a few hundred dollars and a box of fishing tackle.",
+      "synonyms": [
+        "residue",
+        "remainder",
+        "remnant",
+        "dregs",
+        "leftover"
+      ],
+      "antonyms": [
+        "(none natural)"
+      ],
+      "memoryHook": "*Re-* (back) + *sedere* (to sit) → the **residuum** is what stays sitting at the bottom of the still after everything useful has boiled off.",
+      "related": [
+        "(none in folder)"
+      ],
+      "tags": [
+        "latin-origin",
+        "measure"
+      ],
+      "added": "2026-11-16"
+    },
+    {
+      "id": "supererogatory",
+      "word": "supererogatory",
+      "title": "Supererogatory",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(soo-per-i-ROG-uh-tor-ee)",
+      "definition": "Done beyond what duty requires; superfluous.",
+      "etymology": "From Medieval Latin **supererogatorius**, from Late Latin *supererogare* (to pay out in addition), from *super-* (over, beyond) + *erogare* (to pay out), itself from *ex-* (out) + *rogare* (to ask). First documented use: 1549. It entered English through theology — the Catholic doctrine of \"works of supererogation,\" good deeds beyond what salvation requires — and *rogare* is the same root as *interrogate* and *prerogative*.",
+      "example": "Her thank-you note was kind; the follow-up gift basket felt a little **supererogatory**.",
+      "synonyms": [
+        "superfluous",
+        "gratuitous",
+        "above and beyond",
+        "unnecessary"
+      ],
+      "antonyms": [
+        "obligatory",
+        "required",
+        "mandatory"
+      ],
+      "memoryHook": "*Super* (beyond) + *erogare* (to pay out) → **supererogatory** is paying out more than the bill asked for.",
+      "related": [
+        "surfeit — the excess sense 2 drifts toward: more than anyone needed"
+      ],
+      "tags": [
+        "latin-origin",
+        "excess"
+      ],
+      "added": "2026-11-16"
+    },
+    {
+      "id": "truculent",
+      "word": "truculent",
+      "title": "Truculent",
+      "partOfSpeech": "adjective",
+      "pronunciation": "(TRUHK-yuh-luhnt)",
+      "definition": "Aggressively self-assertive; belligerent; scathingly harsh; fierce.",
+      "etymology": "From Latin **truculentus** (savage, ferocious), from *trux* (*truc-*, savage, wild), possibly related to Middle Irish *trú* (doomed person). First documented use: circa 1540, in the \"fierce, savage\" sense; the modern everyday sense, combative and quick to quarrel, is a softening of that original ferocity.",
+      "example": "Asked for a receipt, the contractor turned **truculent** and started listing everything he'd done for free.",
+      "synonyms": [
+        "belligerent",
+        "combative",
+        "pugnacious",
+        "defiant",
+        "scathing"
+      ],
+      "antonyms": [
+        "amiable",
+        "conciliatory",
+        "docile"
+      ],
+      "memoryHook": "*Trux* (savage) → a **truculent** person brings a savage's temper to an ordinary disagreement — a truck-load of fight.",
+      "related": [
+        "minacious — the threat a truculent person makes, before the fight",
+        "splenetic — the bad temper that turns truculent once it's provoked"
+      ],
+      "tags": [
+        "latin-origin",
+        "behavior"
+      ],
+      "added": "2026-11-16"
     }
   ]
 }
